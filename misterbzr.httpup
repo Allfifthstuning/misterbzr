@@ -1,0 +1,6 @@
+#
+# /etc/ports/misterbzr.httpup: Hans Bezemer's port collection
+#
+
+ROOT_DIR=/usr/ports/misterbzr
+URL=https://raw.githubusercontent.com/allfifthstuning/misterbzr/master/
