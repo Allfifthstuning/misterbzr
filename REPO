@@ -1,5 +1,9 @@
 d:ecasound
+d:tuneit
 f:1022e3f34ff03d04304d184c84ea4755:misterbzr.httpup
 f:f4c910ce68634b7b558afb593d1d9534:ecasound/.md5sum
 f:d44ebd0e7e3a7c2b9f5ab68a84807708:ecasound/.footprint
 f:42196e09317fa2bc9f5a4adcf1e6f2c3:ecasound/Pkgfile
+f:2259dd9089d3225562e6b8473c458a3f:tuneit/.md5sum
+f:a561930cedbd7b9f8b714fd6f9e8d1cd:tuneit/.footprint
+f:530b3bbfb1a9c1cffd406f9570e065db:tuneit/Pkgfile
