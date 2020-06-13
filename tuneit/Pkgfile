@@ -1,0 +1,17 @@
+# Description: A simple command-line instrument tuner
+# URL: https://delysid.org/
+# Maintainer: Hans Bezemer hbezemer at kliksafe dot nl
+# Depends on: fftw jack
+
+name=tuneit
+version=0.3
+release=1
+source=(https://delysid.org/${name}-${version}.tar.gz)
+build() {
+  cd $name-$version
+  sed -i '/man_MANS=tuneit.1/aAM_LDFLAGS=-lm' ./src/Makefile.am
+  autoreconf -i
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
+}
