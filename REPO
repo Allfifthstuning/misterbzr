@@ -1,6 +1,12 @@
+d:umoria
 d:ecasound
 d:tuneit
 f:1022e3f34ff03d04304d184c84ea4755:misterbzr.httpup
+f:3666289065bd7b6e554d84af85587ac4:umoria/umoria.patch
+f:6a9c974596162ccb5ae4776c69daef6b:umoria/.md5sum
+f:fb5043c9cb8c944162fd52a71983fbc8:umoria/post-install
+f:ad85b0328cb3af0a75c2dda16cdf6b1f:umoria/.footprint
+f:dcc6a6c77089d25eaf69a1735db8b9f1:umoria/Pkgfile
 f:f4c910ce68634b7b558afb593d1d9534:ecasound/.md5sum
 f:d44ebd0e7e3a7c2b9f5ab68a84807708:ecasound/.footprint
 f:42196e09317fa2bc9f5a4adcf1e6f2c3:ecasound/Pkgfile
