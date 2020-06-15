@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "Creating group"
+getent group games || groupadd -f games
+chgrp -R games /usr/share/umoria
+chmod -R g+rw /usr/share/umoria
