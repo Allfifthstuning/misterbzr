@@ -1,16 +1,6 @@
-d:lilypond
-d:guile
 d:umoria
 d:ecasound
 d:tuneit
-f:3a9f3b76e16f3a673d385756207b9549:lilypond/.md5sum
-f:d35d72111c8ced83b2471746d0363e03:lilypond/.footprint
-f:853eaae753ef459fa8017e3997217d97:lilypond/Pkgfile
-f:55ab4f5e3dc686e579a42e7d4182b009:guile/.nostrip
-f:35a4e2d1a23a5cfdc7c2bb4dbe3adca3:guile/.md5sum
-f:c8ef9b7a5250e9d10edfcbad40b82788:guile/.footprint
-f:f80a3eecb66f628292bea52e80373906:guile/Pkgfile
-f:8941255461ad4566c3182143baf68126:guile/guile-3.0.2.tar.xz
 f:1022e3f34ff03d04304d184c84ea4755:misterbzr.httpup
 f:3666289065bd7b6e554d84af85587ac4:umoria/umoria.patch
 f:6a9c974596162ccb5ae4776c69daef6b:umoria/.md5sum
