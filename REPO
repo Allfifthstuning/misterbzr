@@ -1,5 +1,6 @@
 d:umoria
 d:ecasound
+d:calcurse
 d:tuneit
 f:1022e3f34ff03d04304d184c84ea4755:misterbzr.httpup
 f:3666289065bd7b6e554d84af85587ac4:umoria/umoria.patch
@@ -10,6 +11,9 @@ f:dcc6a6c77089d25eaf69a1735db8b9f1:umoria/Pkgfile
 f:f4c910ce68634b7b558afb593d1d9534:ecasound/.md5sum
 f:d78d080812d7c61040927e9cbd594914:ecasound/.footprint
 f:b85aa5d171fd1cce403ff297f479e7e0:ecasound/Pkgfile
+f:f6f7321ba894753839da630443d4a1aa:calcurse/.md5sum
+f:46aecb0ad614def5060237b473e34987:calcurse/.footprint
+f:7632f645f4727a741580c39ea13690cb:calcurse/Pkgfile
 f:2259dd9089d3225562e6b8473c458a3f:tuneit/.md5sum
 f:a561930cedbd7b9f8b714fd6f9e8d1cd:tuneit/.footprint
 f:530b3bbfb1a9c1cffd406f9570e065db:tuneit/Pkgfile
