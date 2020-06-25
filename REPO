@@ -1,7 +1,11 @@
+d:mbsync
 d:umoria
 d:ecasound
 d:calcurse
 d:tuneit
+f:1fc8843e0279bb2c7e35869d1c7090aa:mbsync/.md5sum
+f:2902cad2d62ba0e58dff895295e13fd7:mbsync/.footprint
+f:003d9897779c098aca456ccf790a0f64:mbsync/Pkgfile
 f:1022e3f34ff03d04304d184c84ea4755:misterbzr.httpup
 f:3666289065bd7b6e554d84af85587ac4:umoria/umoria.patch
 f:6a9c974596162ccb5ae4776c69daef6b:umoria/.md5sum

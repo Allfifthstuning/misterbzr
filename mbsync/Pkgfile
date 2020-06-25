@@ -1,0 +1,26 @@
+# Description: Mailbox synchronizer
+# URL:         http://isync.sourceforge.net/
+# Maintainer:  Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:
+name=mbsync
+version=1.3.1
+release=1
+source=(http://downloads.sourceforge.net/project/isync/isync/${version}/isync-${version}.tar.gz)
+
+build() {
+  cd isync-${version}
+
+  ./configure \
+    --prefix=/usr \
+    --mandir=/usr/man \
+    --disable-compat \
+    --with-ssl \
+    --with-sasl \
+    --with-zlib
+
+  make
+  make DESTDIR=${PKG} install
+
+  rm -rf ${PKG}/usr/share/doc
+}
+

@@ -1,0 +1,24 @@
+# Description: Calendar and scheduling application for the command line.
+# URL:         https://calcurse.org
+# Maintainer:  Hans Bezemer, hbezemer at kliksafe dot nl
+
+name=calcurse
+version=4.6.0
+release=1
+source=(https://calcurse.org/files/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--docdir=/usr/share/$name \
+		--disable-nls
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc/$name/{de,es,fr,pt_BR,ru}
+	mv $PKG/usr/share/doc/$name $PKG/usr/share/
+	rm -rf $PKG/usr/share/doc
+}
