@@ -1,0 +1,17 @@
+# Description:  A retro multiplayer shooter
+# URL:  https://www.teeworlds.com/
+# Maintainer:  Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:  mesa3d freetype alsa-lib glu wavpack libsdl2
+
+name=teeworlds
+version=0.7.5
+release=1
+source=(http://downloads.teeworlds.com/$name-$version-src.tar.gz)
+
+build() {
+    cd "$name-$version-src"
+    mkdir build
+    cd build
+    cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+    make DESTDIR=$PKG install
+    }

@@ -1,5 +1,6 @@
 d:mbsync
 d:umoria
+d:teeworlds
 d:ecasound
 d:calcurse
 d:tuneit
@@ -12,6 +13,9 @@ f:6a9c974596162ccb5ae4776c69daef6b:umoria/.md5sum
 f:fb5043c9cb8c944162fd52a71983fbc8:umoria/post-install
 f:ad85b0328cb3af0a75c2dda16cdf6b1f:umoria/.footprint
 f:dcc6a6c77089d25eaf69a1735db8b9f1:umoria/Pkgfile
+f:9c5ae7a06367a826aa02b075cf8f048e:teeworlds/.md5sum
+f:6a3f5653f22dfd4c159cb44a7ad63566:teeworlds/.footprint
+f:a86847445af6a457c83eaceb8d8fb2a8:teeworlds/Pkgfile
 f:f4c910ce68634b7b558afb593d1d9534:ecasound/.md5sum
 f:d78d080812d7c61040927e9cbd594914:ecasound/.footprint
 f:b85aa5d171fd1cce403ff297f479e7e0:ecasound/Pkgfile
