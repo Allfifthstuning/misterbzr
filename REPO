@@ -1,5 +1,6 @@
 d:mbsync
 d:umoria
+d:xboxdrv
 d:teeworlds
 d:ecasound
 d:calcurse
@@ -14,6 +15,9 @@ f:6a9c974596162ccb5ae4776c69daef6b:umoria/.md5sum
 f:fb5043c9cb8c944162fd52a71983fbc8:umoria/post-install
 f:ad85b0328cb3af0a75c2dda16cdf6b1f:umoria/.footprint
 f:dcc6a6c77089d25eaf69a1735db8b9f1:umoria/Pkgfile
+f:cd8c0bbce3b841c2f1d4deaa8416d805:xboxdrv/.md5sum
+f:f69926e98824143ed5be74cd26650f74:xboxdrv/.footprint
+f:52eaa88e20167d5cc1a5f0c10758d709:xboxdrv/Pkgfile
 f:9c5ae7a06367a826aa02b075cf8f048e:teeworlds/.md5sum
 f:6a3f5653f22dfd4c159cb44a7ad63566:teeworlds/.footprint
 f:a86847445af6a457c83eaceb8d8fb2a8:teeworlds/Pkgfile

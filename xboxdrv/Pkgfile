@@ -1,0 +1,16 @@
+# Description: 
+# URL: 
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: scons 
+
+name=xboxdrv
+version=0.8.8
+release=1
+source=(https://${name}.gitlab.io/${name}-linux-${version}.tar.bz2)
+
+build() {
+	cd ${name}-linux-${version}
+	scons
+	make install DESTDIR=$PKG PREFIX=/usr
+	}
+
