@@ -3,6 +3,7 @@ d:umoria
 d:teeworlds
 d:ecasound
 d:calcurse
+d:busybox
 d:tuneit
 f:1fc8843e0279bb2c7e35869d1c7090aa:mbsync/.md5sum
 f:2902cad2d62ba0e58dff895295e13fd7:mbsync/.footprint
@@ -22,6 +23,9 @@ f:b85aa5d171fd1cce403ff297f479e7e0:ecasound/Pkgfile
 f:f6f7321ba894753839da630443d4a1aa:calcurse/.md5sum
 f:46aecb0ad614def5060237b473e34987:calcurse/.footprint
 f:7632f645f4727a741580c39ea13690cb:calcurse/Pkgfile
+f:aeb94579b3db5e7b9010942fc9694829:busybox/.md5sum
+f:4ce31a04084c9c176680533ec774ab15:busybox/.footprint
+f:ee3643916942e526c2878e9eb29871c2:busybox/Pkgfile
 f:2259dd9089d3225562e6b8473c458a3f:tuneit/.md5sum
 f:a561930cedbd7b9f8b714fd6f9e8d1cd:tuneit/.footprint
 f:530b3bbfb1a9c1cffd406f9570e065db:tuneit/Pkgfile
