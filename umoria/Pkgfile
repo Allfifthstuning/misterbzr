@@ -21,4 +21,5 @@ build() {
 	mkdir -pv $PKG/usr/share
 	mv ./umoria/umoria $PKG/usr/bin
 	cp -r ./umoria $PKG/usr/share
+	rm -rf $PKG/usr/share/umoria/AUTHORS
 }
