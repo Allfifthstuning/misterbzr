@@ -1,6 +1,6 @@
 # Description: A simple command-line instrument tuner
 # URL: https://delysid.org/
-# Maintainer: Hans Bezemer hbezemer at kliksafe dot nl
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
 # Depends on: fftw jack
 
 name=tuneit
