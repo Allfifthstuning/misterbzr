@@ -1,0 +1,17 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/boobstrap/
+-rw-r--r--	root/root	etc/boobstrap/boobstrap.conf
+-rw-r--r--	root/root	etc/boobstrap/init
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/boobstrap
+lrwxrwxrwx	root/root	usr/bin/exportroot -> boobstrap
+lrwxrwxrwx	root/root	usr/bin/importroot -> boobstrap
+lrwxrwxrwx	root/root	usr/bin/mkbootisofs -> boobstrap
+lrwxrwxrwx	root/root	usr/bin/mkbootstrap -> boobstrap
+lrwxrwxrwx	root/root	usr/bin/mkinitramfs -> boobstrap
+lrwxrwxrwx	root/root	usr/bin/mkoverlayfs -> boobstrap
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/boobstrap/
+-rw-r--r--	root/root	usr/share/boobstrap/boobstrap.conf.default
+-rw-r--r--	root/root	usr/share/boobstrap/init.default

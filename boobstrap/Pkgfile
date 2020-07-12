@@ -1,0 +1,15 @@
+# Description: 
+# URL: https://github.com/sp00f1ng/boobstrap
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: 
+
+name=boobstrap
+version=1.0.1
+release=1
+source=(https://github.com/sp00f1ng/${name}/archive/${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+	make DESTDIR=$PKG install
+	}
+
