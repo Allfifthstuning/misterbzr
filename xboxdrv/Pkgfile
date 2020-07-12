@@ -1,5 +1,5 @@
-# Description: 
-# URL: 
+# Description: Xboxdrv is a Xbox/Xbox360 gamepad driver for Linux that works in userspace.
+# URL: https://xboxdrv.gitlab.io/
 # Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
 # Depends on: scons 
 
