@@ -1,10 +1,10 @@
-# Description: Boobstrap is a scripts complex for creating bootable GNU/Linux images
-# URL: https://github.com/sp00f1ng/boobstrap
+# Description: Utility to install "chroots" with CRUX GNU/Linux distro.
+# URL: https://github.com/sp00f1ng/cruxstrap
 # Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
-# Depends on: cdrkit 
+# Depends on: 
 
-name=boobstrap
-version=1.0.1
+name=cruxstrap
+version=1.0
 release=1
 source=(https://github.com/sp00f1ng/${name}/archive/${version}.tar.gz)
 

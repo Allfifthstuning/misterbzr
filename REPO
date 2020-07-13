@@ -1,4 +1,5 @@
 d:mbsync
+d:cruxstrap
 d:boobstrap
 d:umoria
 d:xboxdrv
@@ -10,10 +11,13 @@ d:tuneit
 f:1fc8843e0279bb2c7e35869d1c7090aa:mbsync/.md5sum
 f:65c02298fc4ae602c34bbebd21aeb997:mbsync/.footprint
 f:49327c9c731b0d6a3920a6af3f242c96:mbsync/Pkgfile
+f:bc915eaf3d420028665dd21ead17854a:cruxstrap/.md5sum
+f:f934a013a63984738f5d7c5eecb93f7d:cruxstrap/.footprint
+f:d721b36bd1beda6960134c6a39a58ccb:cruxstrap/Pkgfile
 f:1022e3f34ff03d04304d184c84ea4755:misterbzr.httpup
 f:28a8eeb989443ab2f53d2672273ccea2:boobstrap/.md5sum
 f:8a8f1e957caf3fa605adab0ab24e37cf:boobstrap/.footprint
-f:90dee3837f7c4625eec8b7cffc5f31a2:boobstrap/Pkgfile
+f:67b9f7878c70a1d61a7fe533250a4860:boobstrap/Pkgfile
 f:3666289065bd7b6e554d84af85587ac4:umoria/umoria.patch
 f:6a9c974596162ccb5ae4776c69daef6b:umoria/.md5sum
 f:fb5043c9cb8c944162fd52a71983fbc8:umoria/post-install
