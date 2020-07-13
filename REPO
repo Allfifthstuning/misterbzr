@@ -10,6 +10,7 @@ d:ecasound
 d:calcurse
 d:busybox
 d:tuneit
+f:230c01b7e50928353cd4349a12c13ebd:jack/.md5sum
 f:9c4e9737a9bfe332a29aae7703231a39:jack/.footprint
 f:3319d49ada923137dfaf90649eb9db8d:jack/Pkgfile
 f:1fc8843e0279bb2c7e35869d1c7090aa:mbsync/.md5sum
