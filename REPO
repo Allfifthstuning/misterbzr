@@ -1,6 +1,8 @@
+d:jack
 d:mbsync
 d:cruxstrap
 d:boobstrap
+d:zita-resampler
 d:umoria
 d:xboxdrv
 d:teeworlds
@@ -8,6 +10,8 @@ d:ecasound
 d:calcurse
 d:busybox
 d:tuneit
+f:9c4e9737a9bfe332a29aae7703231a39:jack/.footprint
+f:3319d49ada923137dfaf90649eb9db8d:jack/Pkgfile
 f:1fc8843e0279bb2c7e35869d1c7090aa:mbsync/.md5sum
 f:65c02298fc4ae602c34bbebd21aeb997:mbsync/.footprint
 f:49327c9c731b0d6a3920a6af3f242c96:mbsync/Pkgfile
@@ -18,6 +22,9 @@ f:1022e3f34ff03d04304d184c84ea4755:misterbzr.httpup
 f:28a8eeb989443ab2f53d2672273ccea2:boobstrap/.md5sum
 f:8a8f1e957caf3fa605adab0ab24e37cf:boobstrap/.footprint
 f:67b9f7878c70a1d61a7fe533250a4860:boobstrap/Pkgfile
+f:040bfa38d323fc146fb0f9f10f042cce:zita-resampler/.md5sum
+f:d6220831bec77a77a6b4544027b31c69:zita-resampler/.footprint
+f:2b426fce02bbcb665d7c5c80d0060d6c:zita-resampler/Pkgfile
 f:3666289065bd7b6e554d84af85587ac4:umoria/umoria.patch
 f:6a9c974596162ccb5ae4776c69daef6b:umoria/.md5sum
 f:fb5043c9cb8c944162fd52a71983fbc8:umoria/post-install
