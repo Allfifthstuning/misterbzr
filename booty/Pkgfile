@@ -1,10 +1,10 @@
-# Description: Boobstrap is a scripts complex for creating bootable GNU/Linux images
+# Description: Booty is a scripts complex for creating bootable GNU/Linux images
 # URL: https://github.com/sp00f1ng/boobstrap
 # Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
 # Depends on: cdrkit 
 
-name=boobstrap
-version=1.2
+name=booty
+version=1.2.1
 release=1
 source=(https://github.com/sp00f1ng/${name}/archive/${version}.tar.gz)
 

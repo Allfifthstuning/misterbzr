@@ -1,0 +1,25 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/booty/
+-rw-r--r--	root/root	etc/booty/booty.conf
+-rw-r--r--	root/root	etc/booty/grub.conf
+-rw-r--r--	root/root	etc/booty/init
+-rw-r--r--	root/root	etc/booty/syslinux.conf
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/booty
+lrwxrwxrwx	root/root	usr/bin/exportroot -> booty
+lrwxrwxrwx	root/root	usr/bin/importroot -> booty
+lrwxrwxrwx	root/root	usr/bin/mkbootisofs -> booty
+lrwxrwxrwx	root/root	usr/bin/mkbootstrap -> booty
+lrwxrwxrwx	root/root	usr/bin/mkinitramfs -> booty
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/booty/
+drwxr-xr-x	root/root	usr/share/booty/templates/
+drwxr-xr-x	root/root	usr/share/booty/templates/crux_gnulinux-core/
+-rw-r--r--	root/root	usr/share/booty/templates/crux_gnulinux-core/crux_gnulinux-core
+drwxr-xr-x	root/root	usr/share/booty/templates/crux_gnulinux-default/
+-rw-r--r--	root/root	usr/share/booty/templates/crux_gnulinux-default/crux_gnulinux-default
+drwxr-xr-x	root/root	usr/share/booty/templates/crux_gnulinux-embedded/
+-rw-r--r--	root/root	usr/share/booty/templates/crux_gnulinux-embedded/crux_gnulinux-embedded
+drwxr-xr-x	root/root	usr/share/booty/templates/crux_gnulinux-initrd/
+-rw-r--r--	root/root	usr/share/booty/templates/crux_gnulinux-initrd/crux_gnulinux-initrd
