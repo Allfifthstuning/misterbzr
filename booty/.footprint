@@ -1,9 +1,7 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/booty/
 -rw-r--r--	root/root	etc/booty/booty.conf
--rw-r--r--	root/root	etc/booty/grub.conf
 -rw-r--r--	root/root	etc/booty/init
--rw-r--r--	root/root	etc/booty/syslinux.conf
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/booty
@@ -14,6 +12,11 @@ lrwxrwxrwx	root/root	usr/bin/mkbootstrap -> booty
 lrwxrwxrwx	root/root	usr/bin/mkinitramfs -> booty
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/booty/
+-rw-r--r--	root/root	usr/share/booty/firmware.bin
+drwxr-xr-x	root/root	usr/share/booty/grub/
+-rw-r--r--	root/root	usr/share/booty/grub/grub.cfg
+drwxr-xr-x	root/root	usr/share/booty/syslinux/
+-rw-r--r--	root/root	usr/share/booty/syslinux/syslinux.cfg
 drwxr-xr-x	root/root	usr/share/booty/templates/
 drwxr-xr-x	root/root	usr/share/booty/templates/crux_gnulinux-core/
 -rw-r--r--	root/root	usr/share/booty/templates/crux_gnulinux-core/crux_gnulinux-core
