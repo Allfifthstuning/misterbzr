@@ -1,10 +1,10 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/booty/
 -rw-r--r--	root/root	etc/booty/booty.conf
--rw-r--r--	root/root	etc/booty/init
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/booty
+-rwxr-xr-x	root/root	usr/bin/distmk
 lrwxrwxrwx	root/root	usr/bin/exportroot -> booty
 lrwxrwxrwx	root/root	usr/bin/importroot -> booty
 lrwxrwxrwx	root/root	usr/bin/mkbootisofs -> booty
@@ -12,17 +12,18 @@ lrwxrwxrwx	root/root	usr/bin/mkbootstrap -> booty
 lrwxrwxrwx	root/root	usr/bin/mkinitramfs -> booty
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/booty/
--rw-r--r--	root/root	usr/share/booty/firmware.bin
 drwxr-xr-x	root/root	usr/share/booty/grub/
 -rw-r--r--	root/root	usr/share/booty/grub/grub.cfg
+-rw-r--r--	root/root	usr/share/booty/init
 drwxr-xr-x	root/root	usr/share/booty/syslinux/
 -rw-r--r--	root/root	usr/share/booty/syslinux/syslinux.cfg
-drwxr-xr-x	root/root	usr/share/booty/templates/
-drwxr-xr-x	root/root	usr/share/booty/templates/crux_gnulinux-core/
--rw-r--r--	root/root	usr/share/booty/templates/crux_gnulinux-core/crux_gnulinux-core
-drwxr-xr-x	root/root	usr/share/booty/templates/crux_gnulinux-default/
--rw-r--r--	root/root	usr/share/booty/templates/crux_gnulinux-default/crux_gnulinux-default
-drwxr-xr-x	root/root	usr/share/booty/templates/crux_gnulinux-embedded/
--rw-r--r--	root/root	usr/share/booty/templates/crux_gnulinux-embedded/crux_gnulinux-embedded
-drwxr-xr-x	root/root	usr/share/booty/templates/crux_gnulinux-initrd/
--rw-r--r--	root/root	usr/share/booty/templates/crux_gnulinux-initrd/crux_gnulinux-initrd
+drwxr-xr-x	root/root	usr/systems/
+drwxr-xr-x	root/root	usr/systems/crux/
+drwxr-xr-x	root/root	usr/systems/crux/crux_gnulinux-core/
+-rw-r--r--	root/root	usr/systems/crux/crux_gnulinux-core/Distfile
+drwxr-xr-x	root/root	usr/systems/crux/crux_gnulinux-embedded/
+-rw-r--r--	root/root	usr/systems/crux/crux_gnulinux-embedded/Distfile
+drwxr-xr-x	root/root	usr/systems/crux/crux_gnulinux-staging/
+-rw-r--r--	root/root	usr/systems/crux/crux_gnulinux-staging/Distfile
+-rw-r--r--	root/root	usr/systems/crux/crux_gnulinux-staging/packages.opt
+-rw-r--r--	root/root	usr/systems/crux/crux_gnulinux-staging/packages.xorg
