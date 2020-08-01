@@ -1,0 +1,15 @@
+# Description: Lightning fast realtime 3D engine
+# Maintainer:  Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:  libjpeg-turbo libpng
+#
+name=irrlicht
+version=1.8.4
+release=1
+source=(https://downloads.sourceforge.net/irrlicht/${name}-${version}.zip)
+
+build() {
+  cd ${name}-${version}/source/Irrlicht
+
+  make NDEBUG=1 sharedlib
+  make INSTALL_DIR=${PKG}/usr/lib install
+}
