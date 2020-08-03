@@ -1,0 +1,15 @@
+# Description: klick is an advanced command-line based metronome for JACK. It allows you to define complex tempo maps for entire songs or performances.
+# URL: https://github.com/Allfifthstuning/klick
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: scons, jack, boost, libsamplerate, libsndfile, python, liblo, rubberband
+name=klick
+version=0.14.2
+release=1
+source=(https://github.com/Allfifthstuning/${name}/archive/${version}.tar.gz)
+build() {
+	cd ${name}-${version}
+	sed -i 's:/usr/local:/usr:g' SConstruct
+	scons
+	scons DESTDIR=$PKG install
+	}
+
