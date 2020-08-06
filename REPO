@@ -1,5 +1,6 @@
 d:irrlicht
 d:jack
+d:rtaudio
 d:mbsync
 d:cruxstrap
 d:klick
@@ -19,6 +20,7 @@ f:c42b0de5e4232ea075943fff5bff1362:irrlicht/Pkgfile
 f:230c01b7e50928353cd4349a12c13ebd:jack/.md5sum
 f:9c4e9737a9bfe332a29aae7703231a39:jack/.footprint
 f:3319d49ada923137dfaf90649eb9db8d:jack/Pkgfile
+f:74de39689fd81284595176deee875425:rtaudio/Pkgfile
 f:1fc8843e0279bb2c7e35869d1c7090aa:mbsync/.md5sum
 f:65c02298fc4ae602c34bbebd21aeb997:mbsync/.footprint
 f:49327c9c731b0d6a3920a6af3f242c96:mbsync/Pkgfile
