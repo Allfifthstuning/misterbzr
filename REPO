@@ -36,8 +36,8 @@ f:f13d86b7107d3f45454551048548dd20:booty/.md5sum
 f:0c4a4b6ccec3fab306fd062dae4accae:booty/.footprint
 f:225fc4989dc02540403036996f220b57:booty/Pkgfile
 f:308e808a2e681e7854e838ebe7af3a26:minetest/.md5sum
-f:1c7b9633eb2274f970826cd4db4b0f58:minetest/.footprint
-f:f81f55f8fcae4864085089d68eff253e:minetest/Pkgfile
+f:315a5324c8f58321521f6a1cf7f75f79:minetest/.footprint
+f:bd52da2f4ac72b40f881a134976b235b:minetest/Pkgfile
 f:3666289065bd7b6e554d84af85587ac4:umoria/umoria.patch
 f:6a9c974596162ccb5ae4776c69daef6b:umoria/.md5sum
 f:fb5043c9cb8c944162fd52a71983fbc8:umoria/post-install

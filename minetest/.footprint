@@ -6,7 +6,6 @@ drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/net.minetest.minetest.desktop
 drwxr-xr-x	root/root	usr/share/doc/
 drwxr-xr-x	root/root	usr/share/doc/minetest/
--rw-r--r--	root/root	usr/share/doc/minetest/README.md
 -rw-r--r--	root/root	usr/share/doc/minetest/client_lua_api.txt
 -rw-r--r--	root/root	usr/share/doc/minetest/lua_api.txt
 -rw-r--r--	root/root	usr/share/doc/minetest/menu_lua_api.txt
@@ -314,7 +313,6 @@ drwxr-xr-x	root/root	usr/share/minetest/fonts/
 drwxr-xr-x	root/root	usr/share/minetest/games/
 drwxr-xr-x	root/root	usr/share/minetest/games/devtest/
 -rw-r--r--	root/root	usr/share/minetest/games/devtest/LICENSE.txt
--rw-r--r--	root/root	usr/share/minetest/games/devtest/README.md
 -rw-r--r--	root/root	usr/share/minetest/games/devtest/game.conf
 drwxr-xr-x	root/root	usr/share/minetest/games/devtest/menu/
 -rw-r--r--	root/root	usr/share/minetest/games/devtest/menu/background.png
@@ -505,7 +503,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/devtest/mods/testformspec/textures
 -rw-r--r--	root/root	usr/share/minetest/games/devtest/mods/testformspec/textures/testformspec_node.png
 -rw-r--r--	root/root	usr/share/minetest/games/devtest/mods/testformspec/textures/testformspec_pressed.png
 drwxr-xr-x	root/root	usr/share/minetest/games/devtest/mods/testnodes/
--rw-r--r--	root/root	usr/share/minetest/games/devtest/mods/testnodes/README.md
 -rw-r--r--	root/root	usr/share/minetest/games/devtest/mods/testnodes/drawtypes.lua
 -rw-r--r--	root/root	usr/share/minetest/games/devtest/mods/testnodes/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/devtest/mods/testnodes/light.lua
@@ -669,7 +666,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/devtest/mods/testnodes/textures/
 -rw-r--r--	root/root	usr/share/minetest/games/devtest/mods/testnodes/textures/testnodes_torchlike_floor.png
 -rw-r--r--	root/root	usr/share/minetest/games/devtest/mods/testnodes/textures/testnodes_torchlike_wall.png
 drwxr-xr-x	root/root	usr/share/minetest/games/devtest/mods/testpathfinder/
--rw-r--r--	root/root	usr/share/minetest/games/devtest/mods/testpathfinder/README.md
 -rw-r--r--	root/root	usr/share/minetest/games/devtest/mods/testpathfinder/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/devtest/mods/testpathfinder/mod.conf
 drwxr-xr-x	root/root	usr/share/minetest/games/devtest/mods/testpathfinder/textures/
@@ -678,7 +674,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/devtest/mods/testpathfinder/textur
 -rw-r--r--	root/root	usr/share/minetest/games/devtest/mods/testpathfinder/textures/testpathfinder_waypoint_end.png
 -rw-r--r--	root/root	usr/share/minetest/games/devtest/mods/testpathfinder/textures/testpathfinder_waypoint_start.png
 drwxr-xr-x	root/root	usr/share/minetest/games/devtest/mods/testtools/
--rw-r--r--	root/root	usr/share/minetest/games/devtest/mods/testtools/README.md
 -rw-r--r--	root/root	usr/share/minetest/games/devtest/mods/testtools/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/devtest/mods/testtools/mod.conf
 drwxr-xr-x	root/root	usr/share/minetest/games/devtest/mods/testtools/textures/
@@ -722,7 +717,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/.luacheckrc
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/.travis.yml
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/LICENSE.txt
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/README.md
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/game.conf
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/game_api.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/menu/
@@ -732,7 +726,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/menu/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/minetest.conf.example
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/beds/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/beds/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/beds/api.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/beds/beds.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/beds/functions.lua
@@ -770,7 +763,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/beds/textures/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/beds/textures/beds_bed_under.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/beds/textures/beds_transparent.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/binoculars/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/binoculars/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/binoculars/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/binoculars/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/binoculars/locale/
@@ -789,7 +781,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/binoculars/loca
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/binoculars/textures/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/binoculars/textures/binoculars_binoculars.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/boats/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/boats/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/boats/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/boats/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/boats/locale/
@@ -811,7 +802,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/boats/textures/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/boats/textures/boats_inventory.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/boats/textures/boats_wield.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/bones/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/bones/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/bones/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/bones/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/bones/locale/
@@ -834,7 +824,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/bones/textures/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/bones/textures/bones_side.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/bones/textures/bones_top.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/bucket/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/bucket/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/bucket/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/bucket/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/bucket/locale/
@@ -856,7 +845,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/bucket/textures
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/bucket/textures/bucket_river_water.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/bucket/textures/bucket_water.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/butterflies/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/butterflies/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/butterflies/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/butterflies/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/butterflies/locale/
@@ -880,7 +868,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/butterflies/tex
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/butterflies/textures/butterflies_butterfly_white.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/butterflies/textures/butterflies_butterfly_white_animated.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/carts/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/carts/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/carts/cart_entity.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/carts/functions.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/carts/init.lua
@@ -924,7 +911,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/carts/textures/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/carts/textures/carts_rail_t_junction_brk.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/carts/textures/carts_rail_t_junction_pwr.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/creative/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/creative/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/creative/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/creative/inventory.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/creative/license.txt
@@ -948,7 +934,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/creative/textur
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/creative/textures/creative_search_icon.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/creative/textures/creative_trash_icon.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/default/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/default/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/default/aliases.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/default/chests.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/default/crafting.lua
@@ -1317,7 +1302,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/default/texture
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/default/torch.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/default/trees.lua
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/doors/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/doors/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/doors/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/doors/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/doors/locale/
@@ -1363,14 +1347,12 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/doors/textures/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/doors/textures/doors_trapdoor_steel.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/doors/textures/doors_trapdoor_steel_side.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/dungeon_loot/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/dungeon_loot/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/dungeon_loot/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/dungeon_loot/license.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/dungeon_loot/loot.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/dungeon_loot/mapgen.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/dungeon_loot/mod.conf
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/dye/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/dye/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/dye/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/dye/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/dye/locale/
@@ -1403,7 +1385,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/dye/textures/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/dye/textures/dye_white.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/dye/textures/dye_yellow.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/env_sounds/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/env_sounds/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/env_sounds/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/env_sounds/license.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/env_sounds/mod.conf
@@ -1413,7 +1394,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/env_sounds/soun
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/env_sounds/sounds/env_sounds_water.3.ogg
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/env_sounds/sounds/env_sounds_water.4.ogg
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/farming/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/farming/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/farming/api.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/farming/hoes.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/farming/init.lua
@@ -1471,7 +1451,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/farming/texture
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/farming/textures/farming_wheat_8.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/farming/textures/farming_wheat_seed.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/fire/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/fire/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/fire/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/fire/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/fire/locale/
@@ -1502,7 +1481,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/fire/textures/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/fire/textures/fire_basic_flame_animated.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/fire/textures/fire_flint_steel.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/fireflies/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/fireflies/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/fireflies/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/fireflies/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/fireflies/locale/
@@ -1525,7 +1503,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/fireflies/textu
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/fireflies/textures/fireflies_firefly.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/fireflies/textures/fireflies_firefly_animated.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/flowers/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/flowers/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/flowers/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/flowers/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/flowers/locale/
@@ -1556,7 +1533,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/flowers/texture
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/flowers/textures/flowers_waterlily.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/flowers/textures/flowers_waterlily_bottom.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/game_commands/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/game_commands/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/game_commands/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/game_commands/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/game_commands/locale/
@@ -1573,12 +1549,10 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/game_commands/l
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/game_commands/locale/template.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/game_commands/mod.conf
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/give_initial_stuff/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/give_initial_stuff/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/give_initial_stuff/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/give_initial_stuff/license.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/give_initial_stuff/mod.conf
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/map/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/map/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/map/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/map/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/map/locale/
@@ -1597,7 +1571,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/map/locale/
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/map/textures/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/map/textures/map_mapping_kit.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/player_api/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/player_api/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/player_api/api.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/player_api/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/player_api/license.txt
@@ -1610,7 +1583,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/player_api/text
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/player_api/textures/player.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/player_api/textures/player_back.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/screwdriver/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/screwdriver/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/screwdriver/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/screwdriver/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/screwdriver/locale/
@@ -1629,7 +1601,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/screwdriver/loc
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/screwdriver/textures/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/screwdriver/textures/screwdriver.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/sethome/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/sethome/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/sethome/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/sethome/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/sethome/locale/
@@ -1646,7 +1617,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/sethome/locale/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/sethome/locale/template.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/sethome/mod.conf
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/sfinv/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/sfinv/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/sfinv/api.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/sfinv/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/sfinv/license.txt
@@ -1666,12 +1636,10 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/sfinv/locale/
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/sfinv/textures/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/sfinv/textures/sfinv_crafting_arrow.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/spawn/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/spawn/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/spawn/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/spawn/license.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/spawn/mod.conf
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/stairs/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/stairs/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/stairs/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/stairs/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/stairs/locale/
@@ -1695,7 +1663,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/stairs/textures
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/stairs/textures/stairs_obsidian_glass_split.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/stairs/textures/stairs_obsidian_glass_stairside.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/tnt/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/tnt/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/tnt/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/tnt/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/tnt/locale/
@@ -1735,7 +1702,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/tnt/textures/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/tnt/textures/tnt_top_burning.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/tnt/textures/tnt_top_burning_animated.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/vessels/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/vessels/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/vessels/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/vessels/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/vessels/locale/
@@ -1760,7 +1726,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/vessels/texture
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/vessels/textures/vessels_shelf_slot.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/vessels/textures/vessels_steel_bottle.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/walls/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/walls/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/walls/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/walls/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/walls/locale/
@@ -1777,12 +1742,10 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/walls/locale/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/walls/locale/walls.zh_TW.tr
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/walls/mod.conf
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/weather/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/weather/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/weather/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/weather/license.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/weather/mod.conf
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/wool/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/wool/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/wool/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/wool/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/wool/locale/
@@ -1815,7 +1778,6 @@ drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/wool/textures/
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/wool/textures/wool_white.png
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/wool/textures/wool_yellow.png
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/xpanes/
--rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/xpanes/README.txt
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/xpanes/init.lua
 -rw-r--r--	root/root	usr/share/minetest/games/minetest_game/mods/xpanes/license.txt
 drwxr-xr-x	root/root	usr/share/minetest/games/minetest_game/mods/xpanes/locale/
