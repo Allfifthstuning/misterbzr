@@ -12,9 +12,11 @@ source=(http://www.music.mcgill.ca/~gary/$name/release/$name-$version.tar.gz)
 build() {
 
 	cd $name-$version
-	./configure --prefix=/usr
+	bash autogen.sh
+	./configure --prefix=/usr --with-jack
 
 	make
 	make DESTDIR=$PKG install
+	#ln -s /usr/lib/librtaudio.so.6 /lib64/
 
 }
