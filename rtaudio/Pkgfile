@@ -2,7 +2,7 @@
 # URL:		http://www.music.mcgill.ca/~gary/rtaudio/
 # Packager:	
 # Maintainer:	Hans Bezemer, hbezemer at kliksafe dot nl
-# Depends on:	alsa-lib
+# Depends on:	alsa-lib, jack, jack-audio-connection-kit
 
 name=rtaudio
 version=5.1.0
