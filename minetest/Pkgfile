@@ -25,4 +25,5 @@ build() {
     ${SRC}/minetest_game-${version} \
     ${PKG}/usr/share/minetest/games/minetest_game
   find $PKG -name "*README*" -delete
+  rm -vfr $PKG/usr/share/locale
 }
