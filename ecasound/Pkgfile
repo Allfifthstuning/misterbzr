@@ -1,8 +1,8 @@
 # Description:	A commandline DAW
 # URL:		http://nosignal.fi/ecasound/index.php
 # Maintainer:	Hans Bezemer, hbezemer at kliksafe dot nl
-# Depends on:	jack alsa-lib alsa-utils	
-# Optional:	ladspa 
+# Depends on:	jack, alsa-lib, alsa-utils, ladspa
+# Optional:	
 
 name=ecasound
 version=2.9.3
