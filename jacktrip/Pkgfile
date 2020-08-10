@@ -1,0 +1,17 @@
+# Description: JackTrip: A System for High-Quality Audio Network Performance over the Internet. 
+# URL: https://github.com/jacktrip/jacktrip/blob/master/INSTALL.txt
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: rtaudio, qt5, jack
+
+name=jacktrip
+version=1.2.1
+release=1
+source=(https://github.com/jacktrip/jacktrip/archive/v${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}/src
+	./build
+	cd ../builddir
+	mkdir -pv $PKG/usr/bin
+	install jacktrip $PKG/usr/bin/
+	}

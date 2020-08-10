@@ -1,0 +1,22 @@
+# Description:	Set of C++ classes that provide a common API for realtime audio input/output
+# URL:		http://www.music.mcgill.ca/~gary/rtaudio/
+# Packager:	
+# Maintainer:	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:	alsa-lib, jack 
+
+name=rtaudio
+version=5.1.0
+release=1
+source=(http://www.music.mcgill.ca/~gary/$name/release/$name-$version.tar.gz)
+
+build() {
+
+	cd $name-$version
+	bash autogen.sh
+	./configure --prefix=/usr --with-jack
+
+	make
+	make DESTDIR=$PKG install
+	#ln -s /usr/lib/librtaudio.so.6 /lib64/
+
+}

@@ -1,6 +1,8 @@
 d:irrlicht
+d:rtaudio
 d:cruxstrap
 d:klick
+d:jacktrip
 d:zita-resampler
 d:booty
 d:minetest
@@ -14,6 +16,9 @@ d:tuneit
 f:71ca4704c6b8ae765ce1a43f4a45456e:irrlicht/.md5sum
 f:7f4c86fe8cf895c390d2a58b0efac95e:irrlicht/.footprint
 f:c42b0de5e4232ea075943fff5bff1362:irrlicht/Pkgfile
+f:935e752d31ec55d4729c9a0ec1850b2a:rtaudio/.md5sum
+f:9bd28e266271d48653d9414576ca6c49:rtaudio/.footprint
+f:5cfddbce37793efd0d634ae371589200:rtaudio/Pkgfile
 f:bc915eaf3d420028665dd21ead17854a:cruxstrap/.md5sum
 f:f934a013a63984738f5d7c5eecb93f7d:cruxstrap/.footprint
 f:d721b36bd1beda6960134c6a39a58ccb:cruxstrap/Pkgfile
@@ -21,6 +26,9 @@ f:1022e3f34ff03d04304d184c84ea4755:misterbzr.httpup
 f:f00657651d78e0d3eb10906db8dbf77a:klick/.md5sum
 f:c18aeb3014c92c9d192ef06d2f5348a0:klick/.footprint
 f:d832c5ad0c1d4164ab7978265448ba4b:klick/Pkgfile
+f:f9e32c4c67263d91c4015bb37f94349b:jacktrip/.md5sum
+f:f66d35d4cafefac33bd06845563b7d23:jacktrip/.footprint
+f:0488ce1603f55b7d6e7d1056b08827c2:jacktrip/Pkgfile
 f:040bfa38d323fc146fb0f9f10f042cce:zita-resampler/.md5sum
 f:d6220831bec77a77a6b4544027b31c69:zita-resampler/.footprint
 f:2b426fce02bbcb665d7c5c80d0060d6c:zita-resampler/Pkgfile
