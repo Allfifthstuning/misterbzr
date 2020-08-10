@@ -1,7 +1,4 @@
 d:irrlicht
-d:jack
-d:rtaudio
-d:mbsync
 d:cruxstrap
 d:klick
 d:zita-resampler
@@ -17,13 +14,6 @@ d:tuneit
 f:71ca4704c6b8ae765ce1a43f4a45456e:irrlicht/.md5sum
 f:7f4c86fe8cf895c390d2a58b0efac95e:irrlicht/.footprint
 f:c42b0de5e4232ea075943fff5bff1362:irrlicht/Pkgfile
-f:230c01b7e50928353cd4349a12c13ebd:jack/.md5sum
-f:9c4e9737a9bfe332a29aae7703231a39:jack/.footprint
-f:3319d49ada923137dfaf90649eb9db8d:jack/Pkgfile
-f:74de39689fd81284595176deee875425:rtaudio/Pkgfile
-f:1fc8843e0279bb2c7e35869d1c7090aa:mbsync/.md5sum
-f:65c02298fc4ae602c34bbebd21aeb997:mbsync/.footprint
-f:49327c9c731b0d6a3920a6af3f242c96:mbsync/Pkgfile
 f:bc915eaf3d420028665dd21ead17854a:cruxstrap/.md5sum
 f:f934a013a63984738f5d7c5eecb93f7d:cruxstrap/.footprint
 f:d721b36bd1beda6960134c6a39a58ccb:cruxstrap/Pkgfile
@@ -38,8 +28,8 @@ f:f13d86b7107d3f45454551048548dd20:booty/.md5sum
 f:0c4a4b6ccec3fab306fd062dae4accae:booty/.footprint
 f:225fc4989dc02540403036996f220b57:booty/Pkgfile
 f:308e808a2e681e7854e838ebe7af3a26:minetest/.md5sum
-f:315a5324c8f58321521f6a1cf7f75f79:minetest/.footprint
-f:bd52da2f4ac72b40f881a134976b235b:minetest/Pkgfile
+f:d8b20944e7e4b8c8f9502fa748904711:minetest/.footprint
+f:da3dc3f92af5734c5179bd0269deb4e1:minetest/Pkgfile
 f:3666289065bd7b6e554d84af85587ac4:umoria/umoria.patch
 f:6a9c974596162ccb5ae4776c69daef6b:umoria/.md5sum
 f:fb5043c9cb8c944162fd52a71983fbc8:umoria/post-install
