@@ -1,0 +1,12 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/termkey.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/libtermkey.a
+-rwxr-xr-x	root/root	usr/lib/libtermkey.la
+lrwxrwxrwx	root/root	usr/lib/libtermkey.so -> libtermkey.so.1.14.0
+lrwxrwxrwx	root/root	usr/lib/libtermkey.so.1 -> libtermkey.so.1.14.0
+-rwxr-xr-x	root/root	usr/lib/libtermkey.so.1.14.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/termkey.pc
+drwxr-xr-x	root/root	usr/share/

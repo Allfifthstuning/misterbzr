@@ -1,0 +1,17 @@
+# Description: 
+# URL: https://github.com/neovim/libtermkey 
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: 
+
+name=libtermkey
+version=0.20
+release=1
+source=(https://github.com/neovim/libtermkey/archive/v${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+	make
+	make PREFIX=/usr DESTDIR=$PKG install
+	rm -rvf $PKG/usr/share/man
+	}
+
