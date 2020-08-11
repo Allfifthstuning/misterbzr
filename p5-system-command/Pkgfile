@@ -1,0 +1,23 @@
+# Description: System::Command is a class that launches external system commands and return an object representing them, allowing to interact with them through their STDIN, STDOUT and STDERR handles.
+# URL: https://metacpan.org/pod/System::Command
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:
+
+name=p5-system-command
+version=1.121
+release=1
+source=(https://cpan.metacpan.org/authors/id/B/BO/BOOK/System-Command-${version}.tar.gz)
+
+build() {
+  cd System-Command-$version
+  unset PERL5LIB PERL_MM_OPT PERL_MB_OPT PERL_LOCAL_LIB_ROOT
+  export PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--skipdeps
+  perl Makefile.PL
+  make
+  make install INSTALLDIRS=vendor DESTDIR=$PKG
+  find $PKG -name .packlist -o \
+    -name perllocal.pod -o \
+    -name README -o \
+    -name '*.bs' | xargs rm
+ rm -r $PKG/usr/share/man/
+}

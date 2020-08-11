@@ -1,0 +1,16 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/perl5/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/Module/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/Module/Build/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/Module/Build/Using/
+-r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Module/Build/Using/PkgConfig.pm
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/auto/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/auto/Module/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/auto/Module/Build/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/auto/Module/Build/Using/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/auto/Module/Build/Using/PkgConfig/
+drwxr-xr-x	root/root	usr/share/

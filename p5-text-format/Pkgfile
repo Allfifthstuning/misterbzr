@@ -1,0 +1,23 @@
+# Description: The format routine will format under all circumstances even if the width isn't enough to contain the longest words.
+# URL: https://metacpan.org/pod/Text::Format
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:
+
+name=p5-text-format
+version=0.61
+release=1
+source=(https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Text-Format-${version}.tar.gz)
+
+build() {
+  cd Text-Format-$version
+  unset PERL5LIB PERL_MM_OPT PERL_MB_OPT PERL_LOCAL_LIB_ROOT
+  export PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--skipdeps
+  perl Makefile.PL
+  make
+  make install INSTALLDIRS=vendor DESTDIR=$PKG
+  find $PKG -name .packlist -o \
+    -name perllocal.pod -o \
+    -name README -o \
+    -name '*.bs' | xargs rm
+ rm -r $PKG/usr/share/man/
+}

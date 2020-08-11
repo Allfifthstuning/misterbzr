@@ -1,0 +1,23 @@
+# Description: This CPAN distribution wraps the C library libtermkey in a wrapper suitable to drive CPAN and other Perl-related build infrastructure. 
+# URL: https://metacpan.org/pod/Alien::libtermkey
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: p5-module-build
+
+name=p5-alien-libtermkey
+version=0.22
+release=1
+source=(https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Alien-libtermkey-${version}.tar.gz)
+
+build() {
+  cd Alien-libtermkey-$version
+  unset PERL5LIB PERL_MM_OPT PERL_MB_OPT PERL_LOCAL_LIB_ROOT
+  export PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--skipdeps
+  perl ./Build.PL INSTALLDIRS=vendor
+  ./Build
+  ./Build install --destdir=$PKG
+  find $PKG -name .packlist -o \
+    -name perllocal.pod -o \
+    -name README -o \
+    -name '*.bs' | xargs rm
+ rm -r $PKG/usr/share/man/
+}

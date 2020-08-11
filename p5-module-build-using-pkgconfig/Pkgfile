@@ -1,0 +1,23 @@
+# Description: Module::Build::Using::PkgConfig - extend Module::Build to more easily use platform libraries provided by pkg-config 
+# URL: https://metacpan.org/pod/Module::Build::Using::PkgConfig
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: p5-module-build, p5-extutils-pkgconfig
+
+name=p5-module-build-using-pkgconfig
+version=0.03
+release=1
+source=(https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Module-Build-Using-PkgConfig-${version}.tar.gz)
+
+build() {
+  cd Module-Build-Using-PkgConfig-$version
+  unset PERL5LIB PERL_MM_OPT PERL_MB_OPT PERL_LOCAL_LIB_ROOT
+  export PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--skipdeps
+  perl Build.PL INSTALLDIRS=vendor
+  ./Build
+  ./Build install --destdir=${PKG}
+  find $PKG -name .packlist -o \
+    -name perllocal.pod -o \
+    -name README -o \
+    -name '*.bs' | xargs rm
+    rm -r $PKG/usr/share/man/
+}

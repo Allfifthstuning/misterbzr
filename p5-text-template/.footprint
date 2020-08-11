@@ -1,0 +1,16 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/perl5/
+drwxr-xr-x	root/root	usr/lib/perl5/5.28/
+drwxr-xr-x	root/root	usr/lib/perl5/5.28/linux-thread-multi/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/Text/
+-r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Text/Template.pm
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/Text/Template/
+-r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Text/Template/Preprocess.pm
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/auto/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/auto/Text/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/auto/Text/Template/
+drwxr-xr-x	root/root	usr/share/

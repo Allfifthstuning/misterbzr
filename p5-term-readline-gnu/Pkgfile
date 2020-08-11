@@ -1,0 +1,23 @@
+# Description: This is an implementation of Term::ReadLine using the GNU Readline/History Library.
+# URL: https://metacpan.org/pod/Term::ReadLine::Gnu#DESCRIPTION
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:
+
+name=p5-term-readline-gnu
+version=1.36
+release=1
+source=(https://cpan.metacpan.org/authors/id/H/HA/HAYASHI/Term-ReadLine-Gnu-1.36.tar.gz)
+
+build() {
+  cd Term-ReadLine-Gnu-$version
+  unset PERL5LIB PERL_MM_OPT PERL_MB_OPT PERL_LOCAL_LIB_ROOT
+  export PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--skipdeps
+  perl Makefile.PL
+  make
+  make install INSTALLDIRS=vendor DESTDIR=$PKG
+  find $PKG -name .packlist -o \
+    -name perllocal.pod -o \
+    -name README -o \
+    -name '*.bs' | xargs rm
+ rm -r $PKG/usr/share/man/
+}

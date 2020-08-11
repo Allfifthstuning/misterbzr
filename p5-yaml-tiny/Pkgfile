@@ -1,0 +1,23 @@
+# Description: YAML::Tiny is a perl class for reading and writing YAML-style files, written with as little code as possible, reducing load time and memory overhead.
+# URL: https://metacpan.org/pod/YAML::Tiny
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:
+
+name=p5-yaml-tiny
+version=1.73
+release=1
+source=(https://cpan.metacpan.org/authors/id/E/ET/ETHER/YAML-Tiny-${version}.tar.gz)
+
+build() {
+  cd YAML-Tiny-$version
+  unset PERL5LIB PERL_MM_OPT PERL_MB_OPT PERL_LOCAL_LIB_ROOT
+  export PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--skipdeps
+  perl Makefile.PL
+  make
+  make install INSTALLDIRS=vendor DESTDIR=$PKG
+  find $PKG -name .packlist -o \
+    -name perllocal.pod -o \
+    -name README -o \
+    -name '*.bs' | xargs rm
+ rm -r $PKG/usr/share/man/
+}

@@ -1,0 +1,23 @@
+# Description: This Perl module first checks whether the inc/.author directory exists, and removes the whole inc/ directory if it does, so the module author always get a fresh inc every time they run Makefile.PL.
+# URL: https://metacpan.org/pod/inc::Module::Install
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: p5-yaml-tiny
+
+name=p5-inc-module-install
+version=1.19
+release=1
+source=(https://cpan.metacpan.org/authors/id/E/ET/ETHER/Module-Install-1.19.tar.gz)
+
+build() {
+  cd Module-Install-$version
+  unset PERL5LIB PERL_MM_OPT PERL_MB_OPT PERL_LOCAL_LIB_ROOT
+  export PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--skipdeps
+  perl Makefile.PL
+  make
+  make install INSTALLDIRS=vendor DESTDIR=$PKG
+  find $PKG -name .packlist -o \
+    -name perllocal.pod -o \
+    -name README -o \
+    -name '*.bs' | xargs rm
+ rm -r $PKG/usr/share/man/
+}

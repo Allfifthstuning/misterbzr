@@ -1,0 +1,23 @@
+# Description: Git::Repository is a Perl interface to Git, for scripted interactions with repositories. It's a low-level interface that allows calling any Git command, whether porcelain or plumbing, including bidirectional commands such as git commit-tree.
+# URL: https://metacpan.org/pod/Git::Repository
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:
+
+name=p5-git-repository
+version=1.324
+release=1
+source=(https://cpan.metacpan.org/authors/id/B/BO/BOOK/Git-Repository-${version}.tar.gz)
+
+build() {
+  cd Git-Repository-$version
+  unset PERL5LIB PERL_MM_OPT PERL_MB_OPT PERL_LOCAL_LIB_ROOT
+  export PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--skipdeps
+  perl Makefile.PL
+  make
+  make install INSTALLDIRS=vendor DESTDIR=$PKG
+  find $PKG -name .packlist -o \
+    -name perllocal.pod -o \
+    -name README -o \
+    -name '*.bs' | xargs rm
+ rm -r $PKG/usr/share/man/
+}
