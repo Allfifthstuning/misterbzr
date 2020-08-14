@@ -36,7 +36,7 @@ d:tuneit
 d:p5-anyevent-termkey
 f:8ae45db0b2b147968eb6be2015b8329d:p5-alien-libtermkey/.md5sum
 f:a7c99232ceeb8b91c31df14c3b473283:p5-alien-libtermkey/.footprint
-f:4d654db933432b8f1a6521e3df079b0f:p5-alien-libtermkey/Pkgfile
+f:f9c08c01bf71edb49f91ab8cd698cbd0:p5-alien-libtermkey/Pkgfile
 f:5b36e292165103f3d0feebfc5d399535:p5-term-readline-gnu/.md5sum
 f:186d84e4c44d89656abdd23fcbe575f3:p5-term-readline-gnu/.footprint
 f:10cefc20666daa83def017ee35362cd0:p5-term-readline-gnu/Pkgfile
@@ -48,10 +48,10 @@ f:4d5a1d51fac148a1011d12ff2817a8ea:p5-modern-perl/.footprint
 f:800314fa1000d02e27171c07d99d490c:p5-modern-perl/Pkgfile
 f:7a1f0ceeaf29c2c9f54864e844050c9a:p5-event/.md5sum
 f:4787d8fdb65dd02f1034d50a3e858518:p5-event/.footprint
-f:b0406d5d938a75e22953acbe3596a735:p5-event/Pkgfile
+f:f35da4af2943bfa6ab4555fa55d0894b:p5-event/Pkgfile
 f:3a37ba3497769e98c0777fb2f604ca61:p5-file-copy-link/.md5sum
 f:f01e0da0b9d5791418bf0df6515aec59:p5-file-copy-link/.footprint
-f:8a0aa91ef67d2ea0266dab2b12ec0337:p5-file-copy-link/Pkgfile
+f:9fae9a047d68713c94e155f26220ad36:p5-file-copy-link/Pkgfile
 f:aa56e9a1d5e0d3cd41e0176473444ed3:p5-term-termkey/.md5sum
 f:a30275c8e5148d3f2c17cf1e1e859ae3:p5-term-termkey/.footprint
 f:98d1db4e752fa970c19564a4d2abceaa:p5-term-termkey/Pkgfile
@@ -69,10 +69,10 @@ f:3c566585870d0b6ab5e8e298962b4ed5:p5-text-template/.footprint
 f:3a68e12e66b83dd945b57fd0551a4648:p5-text-template/Pkgfile
 f:b05a2b06e3b959933c76868826433910:p5-data-dumper-concise/.md5sum
 f:7a38323c90c7ff1d0938a5717c3732f8:p5-data-dumper-concise/.footprint
-f:f6db6965a95921f4a4246134f50d0dd7:p5-data-dumper-concise/Pkgfile
+f:1c0eaf739fb6224d38a41cf7866e0efa:p5-data-dumper-concise/Pkgfile
 f:c2a656b7c2d1404ea53f74c6e06e1427:p5-audio-nama/.md5sum
 f:44115882e1d3972eb64d8dfdd4510a4b:p5-audio-nama/.footprint
-f:b58e19ffaea17e9a92bcea617267a13c:p5-audio-nama/Pkgfile
+f:a970a95929c533bf69cf27110f0ae320:p5-audio-nama/Pkgfile
 f:4aef68261780b8e617119aab6cb17451:p5-inc-module-install/.md5sum
 f:49a0e67d2d6538da37e986bdd2c0d435:p5-inc-module-install/.footprint
 f:9b249f389d62c5e899503f212cbfd433:p5-inc-module-install/Pkgfile
@@ -100,7 +100,7 @@ f:0c4a4b6ccec3fab306fd062dae4accae:booty/.footprint
 f:225fc4989dc02540403036996f220b57:booty/Pkgfile
 f:3a37ba3497769e98c0777fb2f604ca61:p5-file-spec-link/.md5sum
 f:f01e0da0b9d5791418bf0df6515aec59:p5-file-spec-link/.footprint
-f:2f31fb329a93be5c96fa02593f87e407:p5-file-spec-link/Pkgfile
+f:04edcde5f9c25de383d3bec8470b1cd5:p5-file-spec-link/Pkgfile
 f:308e808a2e681e7854e838ebe7af3a26:minetest/.md5sum
 f:d8b20944e7e4b8c8f9502fa748904711:minetest/.footprint
 f:da3dc3f92af5734c5179bd0269deb4e1:minetest/Pkgfile
@@ -114,7 +114,7 @@ f:f69926e98824143ed5be74cd26650f74:xboxdrv/.footprint
 f:9250a8dc8bfd1ff288ff3975e10e6149:xboxdrv/Pkgfile
 f:f56a3e77566c1c24381b4a438501e317:p5-file-homedir/.md5sum
 f:0aa64c504ea96c34c53a680b37842ba6:p5-file-homedir/.footprint
-f:83a2bd76b6026062e8fb616eacef5809:p5-file-homedir/Pkgfile
+f:10600b5da86429f3b76952d0b901ec5a:p5-file-homedir/Pkgfile
 f:9b24d2340a2cad6fc4666a333c53e3cc:p5-super/.md5sum
 f:3be3a849bf95831e409f84e40c792c99:p5-super/.footprint
 f:98812f5dd3c8b1e6e3faad44a06c2666:p5-super/Pkgfile
@@ -138,10 +138,10 @@ f:82390f3c26bc221b575a077d5be84458:libtermkey/.footprint
 f:dfeeb4ca9137afcd822f652887052974:libtermkey/Pkgfile
 f:ac9feb6bfc13c2437566f305f2c49422:p5-data-section-simple/.md5sum
 f:108a8c2a9f193dd42a576690a95ad242:p5-data-section-simple/.footprint
-f:8ce0d115509c998c557d749ce35b3ed6:p5-data-section-simple/Pkgfile
+f:0913afce0494bd0a031bf3a67b334214:p5-data-section-simple/Pkgfile
 f:2259dd9089d3225562e6b8473c458a3f:tuneit/.md5sum
 f:a561930cedbd7b9f8b714fd6f9e8d1cd:tuneit/.footprint
 f:2ba8dfe748f13b9d00317db889ce8fb8:tuneit/Pkgfile
 f:83c9d5f92d12df626bd74f38ed31f102:p5-anyevent-termkey/.md5sum
 f:fd42111592f2916a1389dec3a0115393:p5-anyevent-termkey/.footprint
-f:b0453690dfa056ef7c1d22f574b6c437:p5-anyevent-termkey/Pkgfile
+f:01bac94bd9263048b1bee3ed603f69ca:p5-anyevent-termkey/Pkgfile
