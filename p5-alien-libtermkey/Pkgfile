@@ -5,7 +5,7 @@
 
 name=p5-alien-libtermkey
 version=0.22
-release=1
+release=2
 source=(https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Alien-libtermkey-${version}.tar.gz)
 
 build() {
@@ -14,6 +14,7 @@ build() {
   export PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--skipdeps
   perl ./Build.PL INSTALLDIRS=vendor
   ./Build
+  #./Build test  
   ./Build install --destdir=$PKG
   find $PKG -name .packlist -o \
     -name perllocal.pod -o \

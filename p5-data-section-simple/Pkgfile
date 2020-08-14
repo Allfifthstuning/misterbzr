@@ -14,6 +14,7 @@ build() {
   export PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--skipdeps
   perl Makefile.PL
   make
+  #make test
   make install INSTALLDIRS=vendor DESTDIR=$PKG
   find $PKG -name .packlist -o \
     -name perllocal.pod -o \

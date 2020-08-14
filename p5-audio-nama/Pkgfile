@@ -5,7 +5,7 @@
 
 name=p5-audio-nama
 version=1.216
-release=1
+release=2
 source=(https://cpan.metacpan.org/authors/id/G/GA/GANGLION/Audio-Nama-${version}.tar.gz)
 
 build() {

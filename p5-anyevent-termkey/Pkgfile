@@ -1,11 +1,11 @@
 # Description: AnyEvent::TermKey - terminal key input using libtermkey with AnyEvent
 # URL: https://metacpan.org/pod/AnyEvent::TermKey
 # Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
-# Depends on:
+# Depends on: p5-anyevent, p5-term-termkey
 
 name=p5-anyevent-termkey
 version=0.02
-release=1
+release=2
 source=(https://cpan.metacpan.org/authors/id/P/PE/PEVANS/AnyEvent-TermKey-${version}.tar.gz)
 
 build() {
@@ -14,6 +14,7 @@ build() {
   export PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--skipdeps
   perl Makefile.PL
   make
+  #make test
   make install INSTALLDIRS=vendor DESTDIR=$PKG
   find $PKG -name .packlist -o \
     -name perllocal.pod -o \
