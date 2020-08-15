@@ -1,5 +1,5 @@
 # Description: multitrack recorder and digital audio workstation
-# # URL: https://metacpan.org/release/Audio-Nama
+# URL: https://metacpan.org/release/Audio-Nama
 # Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
 # Depends on:	ecasound, alsa, jack, p5-text-template, p5-file-slurp, p5-modern-perl, p5-data-dumper-concise, p5-inc-module-install, p5-data-section-simple, p5-file-find-rule,  p5-file-spec-link, p5-git-repository, p5-system-command, p5-git-version-compare, p5-namespace-clean,  p5-graph, p5-log-log4perl, p5-parse-recdescent, p5-text-diff, p5-text-format, p5-file-homedir, p5-file-which, p5-json-xs, p5-list-moreutils, p5-exporter-tiny, p5-super, p5-sub-identify, p5-anyevent-termkey, p5-anyevent, p5-term-termkey, p5-event, p5-term-readline-gnu, p5-role-tiny, p5-try-tiny, p5-file-copy-link 
 
