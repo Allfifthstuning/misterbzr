@@ -25,7 +25,6 @@ d:umoria
 d:xboxdrv
 d:p5-file-homedir
 d:p5-super
-d:teeworlds
 d:ecasound
 d:p5-module-build-using-pkgconfig
 d:calcurse
@@ -118,9 +117,6 @@ f:10600b5da86429f3b76952d0b901ec5a:p5-file-homedir/Pkgfile
 f:9b24d2340a2cad6fc4666a333c53e3cc:p5-super/.md5sum
 f:3be3a849bf95831e409f84e40c792c99:p5-super/.footprint
 f:98812f5dd3c8b1e6e3faad44a06c2666:p5-super/Pkgfile
-f:9c5ae7a06367a826aa02b075cf8f048e:teeworlds/.md5sum
-f:6a3f5653f22dfd4c159cb44a7ad63566:teeworlds/.footprint
-f:a86847445af6a457c83eaceb8d8fb2a8:teeworlds/Pkgfile
 f:f4c910ce68634b7b558afb593d1d9534:ecasound/.md5sum
 f:9046959d59df18431eca86cf6d2f7e70:ecasound/.footprint
 f:06fc6433953d23b0fab5208bdb74e852:ecasound/Pkgfile
