@@ -1,0 +1,15 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/perl5/
+drwxr-xr-x	root/root	usr/lib/perl5/5.28/
+drwxr-xr-x	root/root	usr/lib/perl5/5.28/linux-thread-multi/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/Audio/
+-r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/Audio/Ecasound.pm
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/auto/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/auto/Audio/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/auto/Audio/Ecasound/
+-r-xr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/linux-thread-multi/auto/Audio/Ecasound/Ecasound.so
+drwxr-xr-x	root/root	usr/share/

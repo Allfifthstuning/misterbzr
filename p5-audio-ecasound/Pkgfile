@@ -1,0 +1,23 @@
+# Description: Audio::Ecasound - Perl binding to the ecasound sampler, recorder, fx-processor 
+# URL: https://metacpan.org/pod/Audio::Ecasound
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:
+
+name=p5-audio-ecasound
+version=1.01
+release=1
+source=(https://cpan.metacpan.org/authors/id/B/BO/BOWMANBS/Audio-Ecasound-${version}.tar.gz)
+
+build() {
+  cd Audio-Ecasound-$version
+  unset PERL5LIB PERL_MM_OPT PERL_MB_OPT PERL_LOCAL_LIB_ROOT
+  export PERL_MM_USE_DEFAULT=1 PERL_AUTOINSTALL=--skipdeps
+  perl Makefile.PL
+  make
+  make install INSTALLDIRS=vendor DESTDIR=$PKG
+  find $PKG -name .packlist -o \
+    -name perllocal.pod -o \
+    -name README -o \
+    -name '*.bs' | xargs rm
+ rm -r $PKG/usr/share/man/
+}
