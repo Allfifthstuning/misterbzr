@@ -1,0 +1,24 @@
+# Description: A compiled language for real-time audio signal processing.
+# URL: http://faust.grame.fr/
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager:
+ 
+name=faust
+version=2.20.2
+release=1
+source=(https://github.com/grame-cncm/${name}/releases/download/${version}/${name}-${version}.tar.gz\
+        faust-2.20.2-fix_c-api.patch  faust-2.20.2-llvm10.patch)
+ 
+build() {
+
+  cd ${name}-${version}
+
+  patch -Np1 -i "../${name}-${version}-fix_c-api.patch"
+  patch -Np1 -i "../${name}-${version}-llvm10.patch"
+
+  export JOBS=""
+
+  make PREFIX=/usr VERBOSE=1 world 
+  make install PREFIX=/usr DESTDIR=${PKG}
+
+}

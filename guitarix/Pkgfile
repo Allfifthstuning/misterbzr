@@ -1,0 +1,19 @@
+# Description:	Guitarix is a simple mono amplifier to be used in a 'JACKified' environment
+# URL:		guitarix.org
+# Maintainer:	Hans Bezemer hbezemer at kliksafe dot nl
+# Depends on:	gtk3 desktop-file-utils glibmm libsndfile jack fttw ladspa sassc gtkmm3 liblrdf lilv boost zita-convolver zita-resampler faust avahi bluez eigen3
+# Optional:	
+
+name=guitarix
+version=0.41.0
+release=1
+source=(https://sourceforge.net/projects/$name/files/$name/${name}2-$version.tar.xz)
+build() {
+	cd $name-$version
+	rm -v ./IR/BestPlugins_Bands/*
+	rm -v ./IR/BestPlugins_Amps/*
+	./waf configure --prefix=/usr --install-roboto-font
+	./waf build
+	./waf install --destdir=$PKG
+	# rm all bandfiles see log.
+}
