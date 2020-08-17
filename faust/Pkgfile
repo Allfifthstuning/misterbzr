@@ -5,7 +5,7 @@
  
 name=faust
 version=2.20.2
-release=1
+release=2
 source=(https://github.com/grame-cncm/${name}/releases/download/${version}/${name}-${version}.tar.gz\
         faust-2.20.2-fix_c-api.patch  faust-2.20.2-llvm10.patch)
  

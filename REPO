@@ -104,7 +104,7 @@ f:af775b782d3987c61f535ea793d7cf05:faust/faust-2.20.2-llvm10.patch
 f:45db6863b56c28f3b4d1bf785331f220:faust/.md5sum
 f:27d857c7b26cb692239b4ed29d150704:faust/faust-2.20.2-fix_c-api.patch
 f:86dc80d09d0dd0c0080007602b683bd8:faust/.footprint
-f:8f8c954e1b760ce1e5ce606c64ac81ab:faust/Pkgfile
+f:200d7e43d7521f3ff63761a707bd79f8:faust/Pkgfile
 f:f13d86b7107d3f45454551048548dd20:booty/.md5sum
 f:0c4a4b6ccec3fab306fd062dae4accae:booty/.footprint
 f:225fc4989dc02540403036996f220b57:booty/Pkgfile
