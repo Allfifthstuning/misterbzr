@@ -20,5 +20,6 @@ build() {
 
   make PREFIX=/usr VERBOSE=1 world 
   make install PREFIX=/usr DESTDIR=${PKG}
+  find $PKG -name "README.md" | xargs rm
 
 }

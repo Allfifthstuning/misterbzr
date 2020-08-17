@@ -70,8 +70,8 @@ f:15eada57ed2ad8f5a5eb1ba71df84ba6:p5-text-template/.md5sum
 f:3c566585870d0b6ab5e8e298962b4ed5:p5-text-template/.footprint
 f:3a68e12e66b83dd945b57fd0551a4648:p5-text-template/Pkgfile
 f:5fd0161c6b135106965c0cbdc2d1599e:guitarix/.md5sum
-f:a777b90d37461549fb536699161e5841:guitarix/.footprint
-f:0598736d1b8a5ed098db4150d7b9c8ec:guitarix/Pkgfile
+f:dd441c1d97accfe6e5b0f40eadf186a1:guitarix/.footprint
+f:d17d41bdda3f34a9662be4c8299af25a:guitarix/Pkgfile
 f:b05a2b06e3b959933c76868826433910:p5-data-dumper-concise/.md5sum
 f:7a38323c90c7ff1d0938a5717c3732f8:p5-data-dumper-concise/.footprint
 f:1c0eaf739fb6224d38a41cf7866e0efa:p5-data-dumper-concise/Pkgfile
@@ -101,9 +101,10 @@ f:040bfa38d323fc146fb0f9f10f042cce:zita-resampler/.md5sum
 f:d6220831bec77a77a6b4544027b31c69:zita-resampler/.footprint
 f:2b426fce02bbcb665d7c5c80d0060d6c:zita-resampler/Pkgfile
 f:af775b782d3987c61f535ea793d7cf05:faust/faust-2.20.2-llvm10.patch
+f:45db6863b56c28f3b4d1bf785331f220:faust/.md5sum
 f:27d857c7b26cb692239b4ed29d150704:faust/faust-2.20.2-fix_c-api.patch
-f:f674616d8aa66a3e799951d980d12d97:faust/.footprint
-f:9298bbd3b6dffd43a4b06d726a225098:faust/Pkgfile
+f:86dc80d09d0dd0c0080007602b683bd8:faust/.footprint
+f:8f8c954e1b760ce1e5ce606c64ac81ab:faust/Pkgfile
 f:f13d86b7107d3f45454551048548dd20:booty/.md5sum
 f:0c4a4b6ccec3fab306fd062dae4accae:booty/.footprint
 f:225fc4989dc02540403036996f220b57:booty/Pkgfile
