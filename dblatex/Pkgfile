@@ -1,0 +1,21 @@
+# Description: Converts DocBook to LaTeX, DVI, PostScript, and PDF
+# URL:         http://dblatex.sourceforge.net
+# Maintainer:  Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:  python texlive
+
+name=dblatex
+version=0.3.11
+release=1
+source=(http://downloads.sourceforge.net/sourceforge/$name/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	python ./setup.py build
+	python ./setup.py install \
+		--prefix=/usr \
+		--root=$PKG
+
+	rm -f $PKG/usr/share/$name/xsl/mathml2/README
+	rm -rf $PKG/usr/share/doc
+}

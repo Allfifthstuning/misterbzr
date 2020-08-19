@@ -1,0 +1,8 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/t1ascii
+-rwxr-xr-x	root/root	usr/bin/t1asm
+-rwxr-xr-x	root/root	usr/bin/t1binary
+-rwxr-xr-x	root/root	usr/bin/t1disasm
+-rwxr-xr-x	root/root	usr/bin/t1mac
+-rwxr-xr-x	root/root	usr/bin/t1unmac

@@ -1,0 +1,14 @@
+# Description: Substitute PostScript fonts in OpenType format
+# URL:         http://www.gust.org.pl/projects/e-foundry/tex-gyre
+# Maintainer:  misterbzr, hbezemer at kliksafe.nl
+# Depends on:  
+
+name=tex-gyre-fonts
+version=2.501
+release=1
+source=(http://www.gust.org.pl/projects/e-foundry/tex-gyre/whole/tg${version/./_}otf.zip)
+
+build() {
+  install -d "$PKG/usr/share/fonts/tex-gyre"
+  install -t "$PKG/usr/share/fonts/tex-gyre" -m644 tg${version/./_}otf/*.otf
+}

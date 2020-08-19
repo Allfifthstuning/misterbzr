@@ -1,0 +1,8 @@
+c566fc35d34f3de4d8e41a578bc3a898  netpbm-10.73.32.tgz
+914e2b00571ee925a73f3864251b9b59  netpbm-CAN-2005-2471.patch
+5077d676c2c771a288811b06c39afeae  netpbm-doc-31Jan2014.tar.xz
+894a6b411a7861aec2c9a413be18d4f7  netpbm-doc-31Jan2014.tar.xz.sig
+2864c441c717b7fbe01511dbafe67b2c  netpbm-security-code.patch
+31b30be6cbf98dd79436db2b85b969d6  netpbm-security-scripts.patch
+e201fba27e54c32ab121bd7f191653d2  reproducible-man-gzip.patch
+820c4f830a0812fbb2ad043548bc0c94  use-source-date-epoch.patch

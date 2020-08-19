@@ -1,0 +1,18 @@
+# Description: 
+# URL: https://github.com/kohler/t1utils/ 
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:
+
+name=t1utils
+version=1.39
+release=1
+source=(https://github.com/kohler/t1utils/archive/v${version}.tar.gz)
+
+build() {
+  cd t1utils-$version
+	autoreconf -i
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+	rm -rv $PKG/usr/share
+}
