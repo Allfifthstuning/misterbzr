@@ -1,6 +1,6 @@
 # Description: A toolkit for manipulation of graphic images.
 # URL: http://netpbm.sourceforge.net/
-# maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
 # Credits: Erich Eckner, crux at eckner dot net / Arch linux repo
 # Depends on: perl libpng libtiff libxml2 python jbigkit subversion
 

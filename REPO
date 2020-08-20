@@ -77,8 +77,8 @@ f:7f5a8145f0422c955d706ebc4c6ce927:p5-text-format/.md5sum
 f:d7bcb4d513c246a7831beb5b80c0003b:p5-text-format/.footprint
 f:30dcbf19d3d7f53849be02a92a38de13:p5-text-format/Pkgfile
 f:b5943a3d83c287ddf8784993f2395e2e:lilypond/.md5sum
-f:4dbd88bde4cfe1813a12dd21613a20d9:lilypond/.footprint
-f:ba639f65cb0d12d87e3b01bca30fc3b8:lilypond/Pkgfile
+f:28273e6f100fb81ee6353299c8e376f4:lilypond/.footprint
+f:afba2fb239c8e1f54cfd9a53fa5bfe8f:lilypond/Pkgfile
 f:4b84469f2705a76a2c607c68840e55d9:dblatex/.md5sum
 f:c273fd5fd552b1101c280839e73d9ea8:dblatex/.footprint
 f:92f94e319202f41402e285a07f2d7f50:dblatex/Pkgfile
@@ -121,7 +121,7 @@ f:ec90104efb7f04674493fc33a846403e:faust/.footprint
 f:4f90cb82c579266737276fba656b656e:faust/Pkgfile
 f:c83816b4719fc1d5d28cabd324ed1e4b:tex-gyre-fonts/.md5sum
 f:cf136dafffa233e6c90aa0997dd85a51:tex-gyre-fonts/.footprint
-f:fb1e2b162a5b08229fa519eebae305d8:tex-gyre-fonts/Pkgfile
+f:c6911fa618ac12aadb39a0eeb6cf1356:tex-gyre-fonts/Pkgfile
 f:f13d86b7107d3f45454551048548dd20:booty/.md5sum
 f:0c4a4b6ccec3fab306fd062dae4accae:booty/.footprint
 f:225fc4989dc02540403036996f220b57:booty/Pkgfile
@@ -181,7 +181,7 @@ f:e201fba27e54c32ab121bd7f191653d2:netpbm/reproducible-man-gzip.patch
 f:e88a0e7ff6320b93489b2ed098d15f05:netpbm/.md5sum
 f:820c4f830a0812fbb2ad043548bc0c94:netpbm/use-source-date-epoch.patch
 f:83fdf311ff054167bce6f8a31ad713e0:netpbm/.footprint
-f:1bf93b95916abc525fe671d0fad91c21:netpbm/Pkgfile
+f:b27d3ef8c3bc190a3b63de89aff4fa5a:netpbm/Pkgfile
 f:2864c441c717b7fbe01511dbafe67b2c:netpbm/netpbm-security-code.patch
 f:cccb0c48f42d822e57a2a3382e36bf39:PortsCheck.sh
 f:83c9d5f92d12df626bd74f38ed31f102:p5-anyevent-termkey/.md5sum

@@ -1,6 +1,6 @@
 # Description: Substitute PostScript fonts in OpenType format
 # URL:         http://www.gust.org.pl/projects/e-foundry/tex-gyre
-# Maintainer:  misterbzr, hbezemer at kliksafe.nl
+# Maintainer:  Hans Bezemer, hbezemer at kliksafe dot nl
 # Depends on:  
 
 name=tex-gyre-fonts

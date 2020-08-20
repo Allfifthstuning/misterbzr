@@ -6,7 +6,7 @@
 
 name=lilypond
 version=2.20.0
-release=1
+release=2
 source=(http://lilypond.org/download/sources/v${version%.*}/lilypond-$version.tar.gz)
 
 build() {
@@ -19,6 +19,8 @@ build() {
 	cd build
 	../configure --prefix=/usr/
 	make
-	make DESTDIR=$PKG install 
+	make DESTDIR=$PKG install
+	rm -rv $PKG/usr/share/info
+	rm -rv $PKG/usr/share/locale/
 	}
 
