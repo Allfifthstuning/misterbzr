@@ -1,0 +1,22 @@
+# Description: 	zathura is a highly customizable and functional document viewer based on the
+# girara user interface library and several document libraries.
+# URL: 		https://git.pwmt.org/pwmt/zathura
+# Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: 	gtk3, girara, ninja, meson, sqlite3,
+
+name=zathura
+version=0.4.6
+release=1
+source=(https://git.pwmt.org/pwmt/${name}/-/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+	meson build \
+		--prefix=/usr \
+    		--buildtype=release
+    	cd build
+	ninja
+	DESTDIR=$PKG ninja install
+    }
+

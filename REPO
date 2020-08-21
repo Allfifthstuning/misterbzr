@@ -11,6 +11,7 @@ d:irrlicht
 d:p5-text-format
 d:lilypond
 d:dblatex
+d:zathura
 d:p5-text-template
 d:guitarix
 d:p5-data-dumper-concise
@@ -21,6 +22,7 @@ d:cruxstrap
 d:klick
 d:jacktrip
 d:p5-system-command
+d:girara
 d:zita-resampler
 d:faust
 d:tex-gyre-fonts
@@ -31,6 +33,7 @@ d:umoria
 d:xboxdrv
 d:p5-file-homedir
 d:p5-super
+d:zathura-pdf-poppler
 d:t1utils
 d:p5-audio-ecasound
 d:ecasound
@@ -82,6 +85,9 @@ f:afba2fb239c8e1f54cfd9a53fa5bfe8f:lilypond/Pkgfile
 f:4b84469f2705a76a2c607c68840e55d9:dblatex/.md5sum
 f:c273fd5fd552b1101c280839e73d9ea8:dblatex/.footprint
 f:92f94e319202f41402e285a07f2d7f50:dblatex/Pkgfile
+f:1fd8656916cda18671b943bf9dbd7f56:zathura/.md5sum
+f:e5113f2d89771bd57c7eee61c6923caa:zathura/.footprint
+f:caffe94166646848ddcf9ec0f6a06a9f:zathura/Pkgfile
 f:15eada57ed2ad8f5a5eb1ba71df84ba6:p5-text-template/.md5sum
 f:3c566585870d0b6ab5e8e298962b4ed5:p5-text-template/.footprint
 f:3a68e12e66b83dd945b57fd0551a4648:p5-text-template/Pkgfile
@@ -113,6 +119,9 @@ f:0488ce1603f55b7d6e7d1056b08827c2:jacktrip/Pkgfile
 f:9a8075cbcbffe6554f46c33e327f4568:p5-system-command/.md5sum
 f:4d246add919c43fd90578a899d1a615f:p5-system-command/.footprint
 f:26f8007c4c4a864d51e0f51124be30b3:p5-system-command/Pkgfile
+f:db012911e1b2799706ad1029c33f79b2:girara/.md5sum
+f:017a6c191fc256fd32edb628b6cf9d57:girara/.footprint
+f:54c44a6fea3563f8db6797575c9a0294:girara/Pkgfile
 f:040bfa38d323fc146fb0f9f10f042cce:zita-resampler/.md5sum
 f:d6220831bec77a77a6b4544027b31c69:zita-resampler/.footprint
 f:2b426fce02bbcb665d7c5c80d0060d6c:zita-resampler/Pkgfile
@@ -145,6 +154,9 @@ f:10600b5da86429f3b76952d0b901ec5a:p5-file-homedir/Pkgfile
 f:9b24d2340a2cad6fc4666a333c53e3cc:p5-super/.md5sum
 f:3be3a849bf95831e409f84e40c792c99:p5-super/.footprint
 f:98812f5dd3c8b1e6e3faad44a06c2666:p5-super/Pkgfile
+f:8177562b7a6d2e74bf62d08abdb53b9b:zathura-pdf-poppler/.md5sum
+f:3961411333908c5200c5ba74f8240798:zathura-pdf-poppler/.footprint
+f:162fda51b1122a9aece6cc563e8036be:zathura-pdf-poppler/Pkgfile
 f:788713a259a659fb62b465a622071250:t1utils/.md5sum
 f:aa199c7343abd40c5b6b4fad96efd2fb:t1utils/.footprint
 f:0807a662c0f4d2299a0cf899ed078fc3:t1utils/Pkgfile

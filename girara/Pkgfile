@@ -1,0 +1,22 @@
+# Description: 	girara is a library that implements a user interface that focuses on simplicity
+and minimalism.
+# URL: 		https://git.pwmt.org/pwmt/girara
+# Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: 	gtk3, libnotify, json-c
+
+name=girara
+version=0.3.5
+release=1
+source=(https://git.pwmt.org/pwmt/${name}/-/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+	meson build \
+		--prefix=/usr \
+    		--buildtype=release
+    	cd build
+	ninja
+	DESTDIR=$PKG ninja install
+    }
+
