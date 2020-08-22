@@ -86,8 +86,8 @@ f:4b84469f2705a76a2c607c68840e55d9:dblatex/.md5sum
 f:c273fd5fd552b1101c280839e73d9ea8:dblatex/.footprint
 f:92f94e319202f41402e285a07f2d7f50:dblatex/Pkgfile
 f:1fd8656916cda18671b943bf9dbd7f56:zathura/.md5sum
-f:e5113f2d89771bd57c7eee61c6923caa:zathura/.footprint
-f:caffe94166646848ddcf9ec0f6a06a9f:zathura/Pkgfile
+f:62ed02b662f9f342e60023fb49169782:zathura/.footprint
+f:2fba92661a09a0c255ae381114339a0d:zathura/Pkgfile
 f:15eada57ed2ad8f5a5eb1ba71df84ba6:p5-text-template/.md5sum
 f:3c566585870d0b6ab5e8e298962b4ed5:p5-text-template/.footprint
 f:3a68e12e66b83dd945b57fd0551a4648:p5-text-template/Pkgfile
@@ -120,8 +120,8 @@ f:9a8075cbcbffe6554f46c33e327f4568:p5-system-command/.md5sum
 f:4d246add919c43fd90578a899d1a615f:p5-system-command/.footprint
 f:26f8007c4c4a864d51e0f51124be30b3:p5-system-command/Pkgfile
 f:db012911e1b2799706ad1029c33f79b2:girara/.md5sum
-f:017a6c191fc256fd32edb628b6cf9d57:girara/.footprint
-f:54c44a6fea3563f8db6797575c9a0294:girara/Pkgfile
+f:6ffbc8af1ead7c8838d50abb238ff896:girara/.footprint
+f:8ad59b45206fe821f8e57ea53475ee59:girara/Pkgfile
 f:040bfa38d323fc146fb0f9f10f042cce:zita-resampler/.md5sum
 f:d6220831bec77a77a6b4544027b31c69:zita-resampler/.footprint
 f:2b426fce02bbcb665d7c5c80d0060d6c:zita-resampler/Pkgfile

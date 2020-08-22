@@ -18,5 +18,6 @@ build() {
     	cd build
 	ninja
 	DESTDIR=$PKG ninja install
+	rm -rv $PKG/usr/share/locale
     }
 
