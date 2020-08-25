@@ -29,6 +29,7 @@ d:tex-gyre-fonts
 d:booty
 d:p5-file-spec-link
 d:minetest
+d:rclone
 d:umoria
 d:xboxdrv
 d:p5-file-homedir
@@ -140,6 +141,9 @@ f:04edcde5f9c25de383d3bec8470b1cd5:p5-file-spec-link/Pkgfile
 f:308e808a2e681e7854e838ebe7af3a26:minetest/.md5sum
 f:d8b20944e7e4b8c8f9502fa748904711:minetest/.footprint
 f:da3dc3f92af5734c5179bd0269deb4e1:minetest/Pkgfile
+f:d1526fe17282b8e11e55c3e0c027b189:rclone/.md5sum
+f:aec10ebc2109697aa7b6aad3302b1134:rclone/.footprint
+f:a05e287722e528d9831689c4806e9611:rclone/Pkgfile
 f:3666289065bd7b6e554d84af85587ac4:umoria/umoria.patch
 f:aec31bfa35724f5dd269118da459328f:umoria/.md5sum
 f:fb5043c9cb8c944162fd52a71983fbc8:umoria/post-install
