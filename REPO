@@ -34,6 +34,7 @@ d:rclone
 d:umoria
 d:xboxdrv
 d:p5-file-homedir
+d:p5-git-repository
 d:p5-super
 d:zathura-pdf-poppler
 d:t1utils
@@ -42,6 +43,7 @@ d:ecasound
 d:jbigkit
 d:p5-module-build-using-pkgconfig
 d:calcurse
+d:p5-git-version-compare
 d:busybox
 d:libtermkey
 d:p5-data-section-simple
@@ -161,6 +163,9 @@ f:9250a8dc8bfd1ff288ff3975e10e6149:xboxdrv/Pkgfile
 f:f56a3e77566c1c24381b4a438501e317:p5-file-homedir/.md5sum
 f:0aa64c504ea96c34c53a680b37842ba6:p5-file-homedir/.footprint
 f:10600b5da86429f3b76952d0b901ec5a:p5-file-homedir/Pkgfile
+f:497efc2e32703e99f3e1b841f69dabba:p5-git-repository/.md5sum
+f:08e5303d92e7e3e593e9689f0cdfd2ca:p5-git-repository/.footprint
+f:bbd1867aee0b072f95bc162cbf4e5e14:p5-git-repository/Pkgfile
 f:9b24d2340a2cad6fc4666a333c53e3cc:p5-super/.md5sum
 f:3be3a849bf95831e409f84e40c792c99:p5-super/.footprint
 f:98812f5dd3c8b1e6e3faad44a06c2666:p5-super/Pkgfile
@@ -185,6 +190,9 @@ f:1302c99ed65bb2572f07d289285874b4:p5-module-build-using-pkgconfig/Pkgfile
 f:f6f7321ba894753839da630443d4a1aa:calcurse/.md5sum
 f:46aecb0ad614def5060237b473e34987:calcurse/.footprint
 f:7632f645f4727a741580c39ea13690cb:calcurse/Pkgfile
+f:6f4652bedd5f19621d4ada05791f11e2:p5-git-version-compare/.md5sum
+f:413f6b8594fd683caeb9b791d317ca26:p5-git-version-compare/.footprint
+f:30e5b7b314a1ff1deb809ca1b3868036:p5-git-version-compare/Pkgfile
 f:aeb94579b3db5e7b9010942fc9694829:busybox/.md5sum
 f:4ce31a04084c9c176680533ec774ab15:busybox/.footprint
 f:ee3643916942e526c2878e9eb29871c2:busybox/Pkgfile
