@@ -1,0 +1,40 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/oathtool
+-rwxr-xr-x	root/root	usr/bin/pskctool
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/liboath/
+-rw-r--r--	root/root	usr/include/liboath/oath.h
+drwxr-xr-x	root/root	usr/include/pskc/
+-rw-r--r--	root/root	usr/include/pskc/container.h
+-rw-r--r--	root/root	usr/include/pskc/enums.h
+-rw-r--r--	root/root	usr/include/pskc/errors.h
+-rw-r--r--	root/root	usr/include/pskc/exports.h
+-rw-r--r--	root/root	usr/include/pskc/global.h
+-rw-r--r--	root/root	usr/include/pskc/keypackage.h
+-rw-r--r--	root/root	usr/include/pskc/pskc.h
+-rw-r--r--	root/root	usr/include/pskc/version.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/liboath.a
+-rwxr-xr-x	root/root	usr/lib/liboath.la
+lrwxrwxrwx	root/root	usr/lib/liboath.so -> liboath.so.0.1.3
+lrwxrwxrwx	root/root	usr/lib/liboath.so.0 -> liboath.so.0.1.3
+-rwxr-xr-x	root/root	usr/lib/liboath.so.0.1.3
+-rw-r--r--	root/root	usr/lib/libpskc.a
+-rwxr-xr-x	root/root	usr/lib/libpskc.la
+lrwxrwxrwx	root/root	usr/lib/libpskc.so -> libpskc.so.0.0.1
+lrwxrwxrwx	root/root	usr/lib/libpskc.so.0 -> libpskc.so.0.0.1
+-rwxr-xr-x	root/root	usr/lib/libpskc.so.0.0.1
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/liboath.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/libpskc.pc
+drwxr-xr-x	root/root	usr/lib/security/
+-rwxr-xr-x	root/root	usr/lib/security/pam_oath.la
+-rwxr-xr-x	root/root	usr/lib/security/pam_oath.so
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/xml/
+drwxr-xr-x	root/root	usr/share/xml/pskc/
+-rw-r--r--	root/root	usr/share/xml/pskc/catalog-pskc.xml
+-rw-r--r--	root/root	usr/share/xml/pskc/pskc-schema.xsd
+-rw-r--r--	root/root	usr/share/xml/pskc/xenc-schema.xsd
+-rw-r--r--	root/root	usr/share/xml/pskc/xmldsig-core-schema.xsd
