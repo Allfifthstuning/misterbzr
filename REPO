@@ -5,6 +5,7 @@ d:guile1
 d:p5-modern-perl
 d:p5-event
 d:p5-file-copy-link
+d:oath-toolkit
 d:p5-term-termkey
 d:p5-yaml-tiny
 d:irrlicht
@@ -68,6 +69,11 @@ f:f35da4af2943bfa6ab4555fa55d0894b:p5-event/Pkgfile
 f:3a37ba3497769e98c0777fb2f604ca61:p5-file-copy-link/.md5sum
 f:f01e0da0b9d5791418bf0df6515aec59:p5-file-copy-link/.footprint
 f:9fae9a047d68713c94e155f26220ad36:p5-file-copy-link/Pkgfile
+f:7c70102439fc20a257c29420903de7af:oath-toolkit/.md5sum
+f:4262fb3b2acb053a4892a087d3663be7:oath-toolkit/.footprint
+f:138f220b59dcdd3fa4173aeaf17f660f:oath-toolkit/Pkgfile
+f:d9f144e4a8e47b65a103b9fb752d1679:oath-toolkit/2fffce2a471f74a585939c84cce16ef3015e5d3d.diff
+f:9c0d53e0fdc0a27cb0cb9faadc0bff64:oath-toolkit/fseeko.patch
 f:aa56e9a1d5e0d3cd41e0176473444ed3:p5-term-termkey/.md5sum
 f:a30275c8e5148d3f2c17cf1e1e859ae3:p5-term-termkey/.footprint
 f:98d1db4e752fa970c19564a4d2abceaa:p5-term-termkey/Pkgfile
