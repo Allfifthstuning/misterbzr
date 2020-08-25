@@ -1,0 +1,18 @@
+# Description:	Rclone is a command line program to manage files on cloud storage. 
+# URL: 		https://rclone.org/
+# Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: go
+
+name=rclone
+version=1.52.3
+release=1
+source=(https://github.com/${name}/${name}/archive/v${version}.tar.gz)
+
+build() {
+	export GOPATH=$PKG/usr
+	cd ${name}-${version}
+	go install
+	unset GOPATH
+	}
+
