@@ -5,7 +5,7 @@
 
 name=linux-stable
 version=5.7.19
-release=2
+release=4
 source=(
 https://cdn.kernel.org/pub/${name%-*}/kernel/v${version:0:1}.x/${name%-*}-$version.tar.xz
 )
@@ -71,10 +71,17 @@ build() {
 	
 	sed -e 's/=m/=y/g' -i ./.config
 	
+	
 	make -j${numjobs} all
-	make prepare_module
+	
+	make INSTALL_MOD_PATH=$PKG modules_install 
+	rm $PKG/lib/modules/${version}/{build,source}
+	mkdir $PKG/lib/modules/{build,source} 
+	
+	cp -rv ./* $PKG/usr/src/${name%-*}-$version
+	
+	mkdir -v $PKG/boot
+	cp -v ./arch/x86/boot/bzImage $PKG/boot/vmlinuz-${version}
+	cp -v ./System.map $PKG/boot/System.map-${version}
 
-	make dir-pkg
-	mv tar-install/* $PKG
-	rm $PKG/lib/modules/$version/{source,build}
 }

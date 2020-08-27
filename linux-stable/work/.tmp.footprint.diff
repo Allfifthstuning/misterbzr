@@ -1,0 +1,4 @@
+MISSING   -rw-r--r--      root/root       boot/config-5.7.19
+MISSING   -rwxr-xr-x      root/root       boot/vmlinux-5.7.19
+NEW       lrwxrwxrwx      root/root       lib/modules/5.7.19/build -> /home/misterbzr/Documents/Crux/misterbzr/linux-stable/work/src/linux-5.7.19
+NEW       lrwxrwxrwx      root/root       lib/modules/5.7.19/source -> /home/misterbzr/Documents/Crux/misterbzr/linux-stable/work/src/linux-5.7.19
