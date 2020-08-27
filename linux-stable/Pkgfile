@@ -1,0 +1,79 @@
+# Description: Linux Kernel 
+# URL:         https://www.kernel.org/
+# Maintainer:  Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:  kexec, grub2 
+
+name=linux-stable
+version=5.7.19
+release=1
+source=(
+https://cdn.kernel.org/pub/${name%-*}/kernel/v${version:0:1}.x/${name%-*}-$version.tar.xz
+)
+numjobs=8
+
+
+build() {
+	cd ${name%-*}-$version
+
+	make defconfig
+	make kvmconfig
+	# Kexec
+	scripts/config -e CONFIG_KEXEC
+
+	# Virtualization
+	scripts/config -e KVM
+	scripts/config -e KVM_INTEL
+
+	# Network Bridge
+	scripts/config -e BRIDGE
+	scripts/config -e TUN
+
+	# SquashFS + OverlayFS
+	scripts/config -e OVERLAY_FS
+
+	scripts/config -e SQUASHFS
+	scripts/config -e SQUASHFS_XZ
+
+	# Sound
+	scripts/config -e SND_HDA_INPUT_BEEP
+	scripts/config -e SND_HDA_PATCH_LOADER
+	scripts/config -e SND_HDA_CODEC_REALTEK
+	scripts/config -e SND_HDA_CODEC_HDMI
+	scripts/config -e SND_USB_AUDIO
+	
+	# Media
+	scripts/config -e CONFIG_MEDIA_CAMERA_SUPPORT
+	scripts/config -e CONFIG_MEDIA_CONTROLLER
+	scripts/config -e CONFIG_VIDEO_DEV
+	scripts/config -e CONFIG_VIDEO_V4L2_SUBDEV_API
+	scripts/config -e CONFIG_VIDEO_V4L2
+	scripts/config -e CONFIG_VIDEO_V4L2_I2C
+	scripts/config -e CONFIG_MEDIA_USB_SUPPORT
+	scripts/config -e CONFIG_USB_VIDEO_CLASS
+	scripts/config -e CONFIG_USB_VIDEO_CLASS_INPUT_EVDEV
+	scripts/config -e CONFIG_USB_GSPCA
+	scripts/config -e CONFIG_MEDIA_PCI_SUPPORT
+	scripts/config -e CONFIG_V4L_PLATFORM_DRIVERS
+	scripts/config -e CONFIG_VIDEOBUF2_CORE
+	scripts/config -e CONFIG_VIDEOBUF2_V4L2
+	scripts/config -e CONFIG_VIDEOBUF2_MEMOPS
+	scripts/config -e CONFIG_VIDEOBUF2_VMALLOC
+	scripts/config -e CONFIG_MEDIA_SUBDRV_AUTOSELECT
+	scripts/config -e CONFIG_MEDIA_HIDE_ANCILLARY_SUBDRV
+	scripts/config -e CONFIG_SND_USB_AUDIO_USE_MEDIA_CONTROLLER
+	
+	# Filesystems
+	scripts/config -e CONFIG_EXFAT_FS
+	scripts/config -e CONFIG_NTFS_FS
+
+
+	make olddefconfig
+	
+	sed -e 's/=m/=y/g' -i ./.config
+	
+	make -j${numjobs} all
+
+	make dir-pkg
+	mv tar-install/* $PKG
+	rm $PKG/lib/modules/$version/{source,build}
+}

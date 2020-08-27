@@ -1,0 +1,5 @@
+#!/bin/bash
+
+Version=$(grep 'version=' ./Pkgfile | cut --delimiter='=' --field=2)
+kexec -l /boot/vmlinux-$Version --append=root=/dev/sda3
+grub-mkconfig -o /boot/grub/grub.cfg
