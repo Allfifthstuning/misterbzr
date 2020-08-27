@@ -5,7 +5,7 @@
 
 name=linux-stable
 version=5.7.19
-release=4
+release=5
 source=(
 https://cdn.kernel.org/pub/${name%-*}/kernel/v${version:0:1}.x/${name%-*}-$version.tar.xz
 )
@@ -78,6 +78,7 @@ build() {
 	rm $PKG/lib/modules/${version}/{build,source}
 	mkdir $PKG/lib/modules/{build,source} 
 	
+	mkdir -pv $PKG/usr/src/${name%-*}-$version
 	cp -rv ./* $PKG/usr/src/${name%-*}-$version
 	
 	mkdir -v $PKG/boot
