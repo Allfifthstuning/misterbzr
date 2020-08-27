@@ -5,7 +5,7 @@
 
 name=linux-stable
 version=5.7.19
-release=1
+release=2
 source=(
 https://cdn.kernel.org/pub/${name%-*}/kernel/v${version:0:1}.x/${name%-*}-$version.tar.xz
 )
@@ -72,6 +72,7 @@ build() {
 	sed -e 's/=m/=y/g' -i ./.config
 	
 	make -j${numjobs} all
+	make prepare_module
 
 	make dir-pkg
 	mv tar-install/* $PKG
