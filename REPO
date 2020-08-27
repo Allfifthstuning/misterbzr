@@ -218,7 +218,6 @@ f:820c4f830a0812fbb2ad043548bc0c94:netpbm/use-source-date-epoch.patch
 f:83fdf311ff054167bce6f8a31ad713e0:netpbm/.footprint
 f:b27d3ef8c3bc190a3b63de89aff4fa5a:netpbm/Pkgfile
 f:2864c441c717b7fbe01511dbafe67b2c:netpbm/netpbm-security-code.patch
-f:cccb0c48f42d822e57a2a3382e36bf39:PortsCheck.sh
 f:83c9d5f92d12df626bd74f38ed31f102:p5-anyevent-termkey/.md5sum
 f:fd42111592f2916a1389dec3a0115393:p5-anyevent-termkey/.footprint
 f:01bac94bd9263048b1bee3ed603f69ca:p5-anyevent-termkey/Pkgfile
