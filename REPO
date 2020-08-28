@@ -27,7 +27,6 @@ d:girara
 d:zita-resampler
 d:faust
 d:tex-gyre-fonts
-d:linux-stable
 d:booty
 d:p5-file-spec-link
 d:minetest
@@ -141,10 +140,6 @@ f:4f90cb82c579266737276fba656b656e:faust/Pkgfile
 f:c83816b4719fc1d5d28cabd324ed1e4b:tex-gyre-fonts/.md5sum
 f:cf136dafffa233e6c90aa0997dd85a51:tex-gyre-fonts/.footprint
 f:c6911fa618ac12aadb39a0eeb6cf1356:tex-gyre-fonts/Pkgfile
-f:2fdafcbb3ecbb5d91ec69d1ca32e96bc:linux-stable/.md5sum
-f:2053e5a5513ce43d1537dcfda250dccb:linux-stable/post-install
-f:140f54a1f8f8145ce5034f55d7bb9c6c:linux-stable/.footprint
-f:b1a6c737c3e37027ac982663a888636d:linux-stable/Pkgfile
 f:f13d86b7107d3f45454551048548dd20:booty/.md5sum
 f:0c4a4b6ccec3fab306fd062dae4accae:booty/.footprint
 f:225fc4989dc02540403036996f220b57:booty/Pkgfile
