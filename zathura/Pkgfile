@@ -6,7 +6,7 @@
 # Depends on: 	gtk3, girara, ninja, meson, sqlite3,
 
 name=zathura
-version=0.4.6
+version=0.4.7
 release=1
 source=(https://git.pwmt.org/pwmt/${name}/-/archive/${version}/${name}-${version}.tar.gz)
 
