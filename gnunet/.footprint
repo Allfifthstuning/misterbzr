@@ -1,0 +1,697 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/gnunet-arm
+-rwxr-xr-x	root/root	usr/bin/gnunet-ats
+-rwxr-xr-x	root/root	usr/bin/gnunet-auto-share
+-rwxr-xr-x	root/root	usr/bin/gnunet-bcd
+-rwxr-xr-x	root/root	usr/bin/gnunet-bugreport
+-rwxr-xr-x	root/root	usr/bin/gnunet-cadet
+-rwxr-xr-x	root/root	usr/bin/gnunet-config
+-rwxr-xr-x	root/root	usr/bin/gnunet-consensus-profiler
+-rwxr-xr-x	root/root	usr/bin/gnunet-core
+-rwxr-xr-x	root/root	usr/bin/gnunet-crypto-tvg
+-rwxr-xr-x	root/root	usr/bin/gnunet-datastore
+-rwxr-xr-x	root/root	usr/bin/gnunet-dht-get
+-rwxr-xr-x	root/root	usr/bin/gnunet-dht-monitor
+-rwxr-xr-x	root/root	usr/bin/gnunet-dht-put
+-rwxr-xr-x	root/root	usr/bin/gnunet-directory
+-rwxr-xr-x	root/root	usr/bin/gnunet-download
+-rwxr-xr-x	root/root	usr/bin/gnunet-ecc
+-rwxr-xr-x	root/root	usr/bin/gnunet-fs
+-rwxr-xr-x	root/root	usr/bin/gnunet-gns
+-rwxr-xr-x	root/root	usr/bin/gnunet-gns-proxy-setup-ca
+-rwxr-xr-x	root/root	usr/bin/gnunet-gnsrecord-tvg
+-rwxr-xr-x	root/root	usr/bin/gnunet-identity
+-rwxr-xr-x	root/root	usr/bin/gnunet-namecache
+-rwxr-xr-x	root/root	usr/bin/gnunet-namestore
+-rwxr-xr-x	root/root	usr/bin/gnunet-nat
+-rwxr-xr-x	root/root	usr/bin/gnunet-nat-auto
+-rwxr-xr-x	root/root	usr/bin/gnunet-nat-server
+-rwxr-xr-x	root/root	usr/bin/gnunet-nse
+-rwxr-xr-x	root/root	usr/bin/gnunet-peerinfo
+-rwxr-xr-x	root/root	usr/bin/gnunet-peerstore
+-rwxr-xr-x	root/root	usr/bin/gnunet-publish
+-rwxr-xr-x	root/root	usr/bin/gnunet-reclaim
+-rwxr-xr-x	root/root	usr/bin/gnunet-resolver
+-rwxr-xr-x	root/root	usr/bin/gnunet-revocation
+-rwxr-xr-x	root/root	usr/bin/gnunet-revocation-tvg
+-rwxr-xr-x	root/root	usr/bin/gnunet-scalarproduct
+-rwxr-xr-x	root/root	usr/bin/gnunet-scrypt
+-rwxr-xr-x	root/root	usr/bin/gnunet-search
+-rwxr-xr-x	root/root	usr/bin/gnunet-secretsharing-profiler
+-rwxr-xr-x	root/root	usr/bin/gnunet-set-profiler
+-rwxr-xr-x	root/root	usr/bin/gnunet-statistics
+-rwxr-xr-x	root/root	usr/bin/gnunet-suidfix
+-rwxr-xr-x	root/root	usr/bin/gnunet-testbed-profiler
+-rwxr-xr-x	root/root	usr/bin/gnunet-testing
+-rwxr-xr-x	root/root	usr/bin/gnunet-transport
+-rwxr-xr-x	root/root	usr/bin/gnunet-transport-certificate-creation
+-rwxr-xr-x	root/root	usr/bin/gnunet-unindex
+-rwxr-xr-x	root/root	usr/bin/gnunet-uri
+-rwxr-xr-x	root/root	usr/bin/gnunet-vpn
+-rwxr-xr-x	root/root	usr/bin/gnunet-zoneimport
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/gnunet/
+-rw-r--r--	root/root	usr/include/gnunet/compat.h
+-rw-r--r--	root/root	usr/include/gnunet/gettext.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_abd_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_abe_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_applications.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_arm_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_ats_application_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_ats_plugin.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_ats_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_ats_transport_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_bandwidth_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_bio_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_block_group_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_block_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_block_plugin.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_buffer_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_cadet_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_client_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_common.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_config.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_configuration_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_consensus_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_constants.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_container_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_conversation_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_core_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_crypto_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_curl_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_datacache_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_datacache_plugin.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_datastore_plugin.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_datastore_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_db_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_dht_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_disk_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_dns_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_dnsparser_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_dnsstub_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_fragmentation_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_friends_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_fs_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_getopt_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_gns_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_gnsrecord_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_gnsrecord_plugin.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_hello_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_helper_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_identity_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_json_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_load_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_mhd_compat.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_microphone_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_mq_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_mst_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_my_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_mysql_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_namecache_plugin.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_namecache_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_namestore_plugin.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_namestore_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_nat_auto_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_nat_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_nc_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_network_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_nse_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_nt_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_op_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_os_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_peer_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_peerinfo_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_peerstore_plugin.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_peerstore_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_plugin_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_pq_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_program_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_protocols.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_reclaim_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_reclaim_plugin.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_reclaim_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_regex_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_resolver_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_rest_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_rest_plugin.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_revocation_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_rps_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_scalarproduct_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_scheduler_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_secretsharing_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_service_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_set_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_signal_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_signatures.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_socks.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_speaker_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_sq_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_statistics_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_strings_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_testbed_logger_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_testbed_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_testing_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_time_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_transport_application_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_transport_communication_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_transport_core_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_transport_hello_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_transport_manipulation_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_transport_monitor_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_transport_plugin.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_transport_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_tun_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_util_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_vpn_service.h
+-rw-r--r--	root/root	usr/include/gnunet/platform.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/gnunet/
+drwxr-xr-x	root/root	usr/lib/gnunet/libexec/
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-communicator-tcp
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-communicator-udp
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-communicator-unix
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-daemon-exit
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-daemon-hostlist
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-daemon-latency-logger
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-daemon-pt
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-daemon-regexprofiler
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-daemon-testbed-blacklist
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-daemon-testbed-underlay
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-daemon-topology
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-dns2gns
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-gns-proxy
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-helper-dns
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-helper-exit
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-helper-fs-publish
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-helper-nat-client
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-helper-nat-server
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-helper-testbed
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-helper-vpn
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-namestore-fcfsd
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-rest-server
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-arm
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-ats
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-cadet
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-consensus
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-core
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-datastore
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-dht
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-dns
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-evil-consensus
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-fs
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-gns
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-identity
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-namecache
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-namestore
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-nat
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-nat-auto
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-nse
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-peerinfo
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-peerstore
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-reclaim
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-regex
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-resolver
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-revocation
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-scalarproduct-alice
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-scalarproduct-bob
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-scalarproduct-ecc-alice
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-scalarproduct-ecc-bob
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-secretsharing
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-set
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-statistics
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-testbed
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-testbed-logger
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-transport
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-vpn
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-zonemaster
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-zonemaster-monitor
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-timeout
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_ats_proportional.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_ats_proportional.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_consensus.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_consensus.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_dht.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_dht.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_dns.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_dns.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_fs.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_fs.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_gns.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_gns.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_regex.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_regex.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_revocation.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_revocation.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_set_test.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_set_test.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_test.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_block_test.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_datacache_heap.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_datacache_heap.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_datacache_sqlite.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_datacache_sqlite.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_datastore_heap.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_datastore_heap.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_datastore_sqlite.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_datastore_sqlite.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_gnsrecord_dns.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_gnsrecord_dns.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_gnsrecord_gns.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_gnsrecord_gns.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_gnsrecord_reclaim.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_gnsrecord_reclaim.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_namecache_sqlite.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_namecache_sqlite.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_namestore_flat.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_namestore_flat.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_namestore_sqlite.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_namestore_sqlite.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_peerstore_sqlite.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_peerstore_sqlite.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_reclaim_attestation_jwt.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_reclaim_attestation_jwt.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_reclaim_attribute_basic.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_reclaim_attribute_basic.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_config.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_config.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_copying.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_copying.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_gns.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_gns.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_identity.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_identity.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_namestore.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_namestore.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_openid_connect.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_openid_connect.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_peerinfo.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_peerinfo.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_reclaim.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_reclaim.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_test.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_test.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_http_client.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_http_client.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_http_server.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_http_server.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_https_client.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_https_client.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_https_server.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_https_server.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_tcp.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_tcp.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_unix.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_unix.so
+drwxr-xr-x	root/root	usr/lib/gnunet/nss/
+-rwxr-xr-x	root/root	usr/lib/gnunet/nss/libnss_gns.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/nss/libnss_gns.so.2
+-rwxr-xr-x	root/root	usr/lib/gnunet/nss/libnss_gns4.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/nss/libnss_gns4.so.2
+-rwxr-xr-x	root/root	usr/lib/gnunet/nss/libnss_gns6.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/nss/libnss_gns6.so.2
+-rwxr-xr-x	root/root	usr/lib/libgnunetarm.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetarm.so -> libgnunetarm.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetarm.so.2 -> libgnunetarm.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetarm.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetats.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetats.so -> libgnunetats.so.4.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetats.so.4 -> libgnunetats.so.4.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetats.so.4.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetatstesting.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetatstesting.so -> libgnunetatstesting.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetatstesting.so.0 -> libgnunetatstesting.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetatstesting.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetblock.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetblock.so -> libgnunetblock.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetblock.so.0 -> libgnunetblock.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetblock.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetblockgroup.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetblockgroup.so -> libgnunetblockgroup.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetblockgroup.so.0 -> libgnunetblockgroup.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetblockgroup.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetcadet.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetcadet.so -> libgnunetcadet.so.7.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetcadet.so.7 -> libgnunetcadet.so.7.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetcadet.so.7.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetconsensus.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetconsensus.so -> libgnunetconsensus.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetconsensus.so.0 -> libgnunetconsensus.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetconsensus.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetcore.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetcore.so -> libgnunetcore.so.0.0.1
+lrwxrwxrwx	root/root	usr/lib/libgnunetcore.so.0 -> libgnunetcore.so.0.0.1
+-rwxr-xr-x	root/root	usr/lib/libgnunetcore.so.0.0.1
+-rwxr-xr-x	root/root	usr/lib/libgnunetcurl.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetcurl.so -> libgnunetcurl.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetcurl.so.0 -> libgnunetcurl.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetcurl.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetdatacache.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetdatacache.so -> libgnunetdatacache.so.0.0.1
+lrwxrwxrwx	root/root	usr/lib/libgnunetdatacache.so.0 -> libgnunetdatacache.so.0.0.1
+-rwxr-xr-x	root/root	usr/lib/libgnunetdatacache.so.0.0.1
+-rwxr-xr-x	root/root	usr/lib/libgnunetdatastore.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetdatastore.so -> libgnunetdatastore.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetdatastore.so.1 -> libgnunetdatastore.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetdatastore.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetdht.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetdht.so -> libgnunetdht.so.3.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetdht.so.3 -> libgnunetdht.so.3.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetdht.so.3.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetdns.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetdns.so -> libgnunetdns.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetdns.so.0 -> libgnunetdns.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetdns.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetfragmentation.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetfragmentation.so -> libgnunetfragmentation.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetfragmentation.so.2 -> libgnunetfragmentation.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetfragmentation.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetfriends.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetfriends.so -> libgnunetfriends.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetfriends.so.0 -> libgnunetfriends.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetfriends.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetfs.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetfs.so -> libgnunetfs.so.2.1.1
+lrwxrwxrwx	root/root	usr/lib/libgnunetfs.so.2 -> libgnunetfs.so.2.1.1
+-rwxr-xr-x	root/root	usr/lib/libgnunetfs.so.2.1.1
+-rwxr-xr-x	root/root	usr/lib/libgnunetgns.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetgns.so -> libgnunetgns.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetgns.so.0 -> libgnunetgns.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetgns.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetgnsrecord.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetgnsrecord.so -> libgnunetgnsrecord.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetgnsrecord.so.0 -> libgnunetgnsrecord.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetgnsrecord.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunethello.la
+lrwxrwxrwx	root/root	usr/lib/libgnunethello.so -> libgnunethello.so.0.1.0
+lrwxrwxrwx	root/root	usr/lib/libgnunethello.so.0 -> libgnunethello.so.0.1.0
+-rwxr-xr-x	root/root	usr/lib/libgnunethello.so.0.1.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetidentity.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetidentity.so -> libgnunetidentity.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetidentity.so.1 -> libgnunetidentity.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetidentity.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetjson.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetjson.so -> libgnunetjson.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetjson.so.0 -> libgnunetjson.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetjson.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetnamecache.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetnamecache.so -> libgnunetnamecache.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetnamecache.so.0 -> libgnunetnamecache.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetnamecache.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetnamestore.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetnamestore.so -> libgnunetnamestore.so.0.0.1
+lrwxrwxrwx	root/root	usr/lib/libgnunetnamestore.so.0 -> libgnunetnamestore.so.0.0.1
+-rwxr-xr-x	root/root	usr/lib/libgnunetnamestore.so.0.0.1
+-rwxr-xr-x	root/root	usr/lib/libgnunetnatauto.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetnatauto.so -> libgnunetnatauto.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetnatauto.so.0 -> libgnunetnatauto.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetnatauto.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetnatnew.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetnatnew.so -> libgnunetnatnew.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetnatnew.so.2 -> libgnunetnatnew.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetnatnew.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetnse.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetnse.so -> libgnunetnse.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetnse.so.0 -> libgnunetnse.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetnse.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetnt.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetnt.so -> libgnunetnt.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetnt.so.0 -> libgnunetnt.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetnt.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetpeerinfo.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetpeerinfo.so -> libgnunetpeerinfo.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetpeerinfo.so.0 -> libgnunetpeerinfo.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetpeerinfo.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetpeerstore.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetpeerstore.so -> libgnunetpeerstore.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetpeerstore.so.0 -> libgnunetpeerstore.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetpeerstore.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetreclaim.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetreclaim.so -> libgnunetreclaim.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetreclaim.so.0 -> libgnunetreclaim.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetreclaim.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetregex.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetregex.so -> libgnunetregex.so.3.0.1
+lrwxrwxrwx	root/root	usr/lib/libgnunetregex.so.3 -> libgnunetregex.so.3.0.1
+-rwxr-xr-x	root/root	usr/lib/libgnunetregex.so.3.0.1
+-rwxr-xr-x	root/root	usr/lib/libgnunetregexblock.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetregexblock.so -> libgnunetregexblock.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetregexblock.so.1 -> libgnunetregexblock.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetregexblock.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetrest.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetrest.so -> libgnunetrest.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetrest.so.0 -> libgnunetrest.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetrest.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetrevocation.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetrevocation.so -> libgnunetrevocation.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetrevocation.so.0 -> libgnunetrevocation.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetrevocation.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetscalarproduct.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetscalarproduct.so -> libgnunetscalarproduct.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetscalarproduct.so.0 -> libgnunetscalarproduct.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetscalarproduct.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetsecretsharing.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetsecretsharing.so -> libgnunetsecretsharing.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetsecretsharing.so.0 -> libgnunetsecretsharing.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetsecretsharing.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetset.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetset.so -> libgnunetset.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetset.so.0 -> libgnunetset.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetset.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetsq.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetsq.so -> libgnunetsq.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetsq.so.0 -> libgnunetsq.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetsq.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetstatistics.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetstatistics.so -> libgnunetstatistics.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetstatistics.so.2 -> libgnunetstatistics.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetstatistics.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettestbed.la
+lrwxrwxrwx	root/root	usr/lib/libgnunettestbed.so -> libgnunettestbed.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunettestbed.so.0 -> libgnunettestbed.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettestbed.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettestbedlogger.la
+lrwxrwxrwx	root/root	usr/lib/libgnunettestbedlogger.so -> libgnunettestbedlogger.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunettestbedlogger.so.0 -> libgnunettestbedlogger.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettestbedlogger.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettesting.la
+lrwxrwxrwx	root/root	usr/lib/libgnunettesting.so -> libgnunettesting.so.1.1.0
+lrwxrwxrwx	root/root	usr/lib/libgnunettesting.so.1 -> libgnunettesting.so.1.1.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettesting.so.1.1.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettransport.la
+lrwxrwxrwx	root/root	usr/lib/libgnunettransport.so -> libgnunettransport.so.2.2.0
+lrwxrwxrwx	root/root	usr/lib/libgnunettransport.so.2 -> libgnunettransport.so.2.2.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettransport.so.2.2.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettransportapplication.la
+lrwxrwxrwx	root/root	usr/lib/libgnunettransportapplication.so -> libgnunettransportapplication.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunettransportapplication.so.0 -> libgnunettransportapplication.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettransportapplication.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettransportcommunicator.la
+lrwxrwxrwx	root/root	usr/lib/libgnunettransportcommunicator.so -> libgnunettransportcommunicator.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunettransportcommunicator.so.0 -> libgnunettransportcommunicator.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettransportcommunicator.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettransportcore.la
+lrwxrwxrwx	root/root	usr/lib/libgnunettransportcore.so -> libgnunettransportcore.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunettransportcore.so.0 -> libgnunettransportcore.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettransportcore.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettransportmonitor.la
+lrwxrwxrwx	root/root	usr/lib/libgnunettransportmonitor.so -> libgnunettransportmonitor.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunettransportmonitor.so.0 -> libgnunettransportmonitor.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettransportmonitor.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettransporttesting.la
+lrwxrwxrwx	root/root	usr/lib/libgnunettransporttesting.so -> libgnunettransporttesting.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunettransporttesting.so.0 -> libgnunettransporttesting.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettransporttesting.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettransporttesting2.la
+lrwxrwxrwx	root/root	usr/lib/libgnunettransporttesting2.so -> libgnunettransporttesting2.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunettransporttesting2.so.0 -> libgnunettransporttesting2.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunettransporttesting2.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetutil.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetutil.so -> libgnunetutil.so.13.0.2
+lrwxrwxrwx	root/root	usr/lib/libgnunetutil.so.13 -> libgnunetutil.so.13.0.2
+-rwxr-xr-x	root/root	usr/lib/libgnunetutil.so.13.0.2
+-rwxr-xr-x	root/root	usr/lib/libgnunetvpn.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetvpn.so -> libgnunetvpn.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetvpn.so.0 -> libgnunetvpn.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetvpn.so.0.0.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetarm.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetats.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetblock.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetcadet.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetconsensus.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetconversation.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetcore.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetdatacache.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetdatastore.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetdht.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetdns.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetenv.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetfragmentation.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetfs.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetgns.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunethello.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetidentity.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetmicrophone.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetmysql.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetnamestore.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetnat.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetnse.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetpeerinfo.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetregex.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetrevocation.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetrps.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetscalarproduct.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetset.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetspeaker.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetstatistics.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunettestbed.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunettesting.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunettransport.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetutil.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gnunetvpn.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/doc/
+drwxr-xr-x	root/root	usr/share/doc/gnunet/
+-rw-r--r--	root/root	usr/share/doc/gnunet/COPYING
+-rw-r--r--	root/root	usr/share/doc/gnunet/README
+drwxr-xr-x	root/root	usr/share/gnunet/
+-rw-r--r--	root/root	usr/share/gnunet/LICENSE
+drwxr-xr-x	root/root	usr/share/gnunet/config.d/
+-rw-r--r--	root/root	usr/share/gnunet/config.d/arm.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/ats.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/cadet.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/communicator-unix.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/consensus.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/core.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/datacache.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/datastore.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/dht.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/dns.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/exit.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/fs.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/gns.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/hostlist.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/identity.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/namecache.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/namestore.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/nat-auto.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/nat.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/nse.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/peerinfo.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/peerstore.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/pt.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/reclaim.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/regex.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/resolver.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/rest.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/revocation.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/scalarproduct.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/secretsharing.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/set.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/statistics.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/template.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/testbed-logger.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/testbed.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/testing.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/topology.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/transport.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/util.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/vpn.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/zonemaster.conf
+-rw-r--r--	root/root	usr/share/gnunet/def.tex
+-rw-r--r--	root/root	usr/share/gnunet/existence.sh
+-rw-r--r--	root/root	usr/share/gnunet/existence_python.sh
+-rw-r--r--	root/root	usr/share/gnunet/gns-bcd.html
+-rw-r--r--	root/root	usr/share/gnunet/gns-bcd.tex
+-rw-r--r--	root/root	usr/share/gnunet/gns-form-fields.xml
+-rw-r--r--	root/root	usr/share/gnunet/gns-form.xslt
+-rw-r--r--	root/root	usr/share/gnunet/gnunet-gns-proxy-ca.template
+-rw-r--r--	root/root	usr/share/gnunet/gnunet-logo-color.png
+-rw-r--r--	root/root	usr/share/gnunet/gnunet-logo.pdf
+-rw-r--r--	root/root	usr/share/gnunet/gnunet-logo.png
+drwxr-xr-x	root/root	usr/share/gnunet/hellos/
+-rw-r--r--	root/root	usr/share/gnunet/hellos/Y924NSHMMZ1N1SQCE5TXF93ED6S6JY311K0QT86G9WJC68F6XVZ0
+-rw-r--r--	root/root	usr/share/gnunet/msg.sh
+-rw-r--r--	root/root	usr/share/gnunet/progname.sh
+-rw-r--r--	root/root	usr/share/gnunet/python.sh
+drwxr-xr-x	root/root	usr/share/gnunet/services/
+drwxr-xr-x	root/root	usr/share/gnunet/services/openrc/
+-rw-r--r--	root/root	usr/share/gnunet/services/openrc/gnunet.initd
+drwxr-xr-x	root/root	usr/share/gnunet/services/systemd/
+-rw-r--r--	root/root	usr/share/gnunet/services/systemd/gnunet.service
+-rw-r--r--	root/root	usr/share/gnunet/testing_hostkeys.ecc
+-rw-r--r--	root/root	usr/share/gnunet/version_gnunet.sh
+drwxr-xr-x	root/root	usr/share/locale/
+drwxr-xr-x	root/root	usr/share/locale/de/
+drwxr-xr-x	root/root	usr/share/locale/de/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/de/LC_MESSAGES/gnunet.mo
+drwxr-xr-x	root/root	usr/share/locale/es/
+drwxr-xr-x	root/root	usr/share/locale/es/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/es/LC_MESSAGES/gnunet.mo
+drwxr-xr-x	root/root	usr/share/locale/fr/
+drwxr-xr-x	root/root	usr/share/locale/fr/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/fr/LC_MESSAGES/gnunet.mo
+drwxr-xr-x	root/root	usr/share/locale/it/
+drwxr-xr-x	root/root	usr/share/locale/it/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/it/LC_MESSAGES/gnunet.mo
+drwxr-xr-x	root/root	usr/share/locale/sv/
+drwxr-xr-x	root/root	usr/share/locale/sv/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/sv/LC_MESSAGES/gnunet.mo
+drwxr-xr-x	root/root	usr/share/locale/vi/
+drwxr-xr-x	root/root	usr/share/locale/vi/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/vi/LC_MESSAGES/gnunet.mo
+drwxr-xr-x	root/root	usr/share/locale/zh_CN/
+drwxr-xr-x	root/root	usr/share/locale/zh_CN/LC_MESSAGES/
+-rw-r--r--	root/root	usr/share/locale/zh_CN/LC_MESSAGES/gnunet.mo
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-arm.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-ats.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-auto-share.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-bcd.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-bugreport.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-cadet.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-config.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-conversation-test.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-conversation.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-core.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-datastore.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-directory.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-dns2gns.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-download.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-ecc.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-fs.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-gns-proxy-setup-ca.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-gns-proxy.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-gns.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-identity.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-namecache.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-namestore-fcfsd.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-namestore.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-nat-auto.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-nat-server.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-nat.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-nse.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-peerinfo.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-publish.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-qr.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-reclaim.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-resolver.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-revocation.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-scalarproduct.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-scrypt.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-search.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-statistics.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-testbed-profiler.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-testing-run-service.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-timeout.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-transport-certificate-creation.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-transport.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-unindex.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-uri.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-vpn.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-zoneimport.1.gz
+drwxr-xr-x	root/root	usr/share/man/man5/
+-rw-r--r--	root/root	usr/share/man/man5/gnunet.conf.5.gz
+drwxr-xr-x	root/root	usr/share/man/man7/
