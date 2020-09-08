@@ -6,12 +6,13 @@
 
 name=gnunet
 version=0.13.2
-release=1
+release=2
 source=(https://mirror.lyrahosting.com/gnu/${name}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
 	./configure 	--prefix=/usr/ 	--disable-documentation --with-sqlite --with-libidn2	
 	make DESTDIR=$PKG install
+	rm -r $PKG/usr/share/{doc,locale}
 	}
 

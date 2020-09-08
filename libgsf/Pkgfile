@@ -1,7 +1,7 @@
 # Description:	GNOME Structured File Library
-# # URL:		http://www.gnome.org
-# # Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
-# # Depends on:	libxml2, intltool
+# URL:		http://www.gnome.org
+# Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
+# Depends on:	libxml2, intltool
 
 name=libgsf
 version=1.14.34
