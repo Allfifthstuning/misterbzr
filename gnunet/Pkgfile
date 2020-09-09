@@ -2,16 +2,16 @@
 # URL: 		gnunet.org
 # Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
 # Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
-# Depends on:	libgcrypt, jansson, libsodium, libunistring, libmicrohttpd, sqlite3, libunbound, gnutls, libidn2, libextractor
+# Depends on:	libgcrypt, jansson, libsodium, libunistring, libmicrohttpd, sqlite3, libunbound, gnutls, libidn2, libextractor, pulseaudio, libogg, opus
 
 name=gnunet
-version=0.13.2
-release=2
+version=0.13.3
+release=1
 source=(https://mirror.lyrahosting.com/gnu/${name}/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
-	./configure 	--prefix=/usr/ 	--disable-documentation --with-sqlite --with-libidn2	
+	./configure 	--prefix=/usr/ 	--disable-documentation --with-sqlite --with-libidn2  --with-extractor
 	make DESTDIR=$PKG install
 	rm -r $PKG/usr/share/{doc,locale}
 	}

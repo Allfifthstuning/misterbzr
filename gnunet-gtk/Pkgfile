@@ -6,12 +6,12 @@
 
 name=gnunet-gtk
 version=0.13.1
-release=2
+release=3
 source=(https://mirror.lyrahosting.com/gnu/gnunet/${name}-${version}.tar.gz)
 
 build() {
 	cd ${name}-${version}
-	./configure PKG_CONFIG_PATH=/usr/lib/pkgconfig/	--prefix=/usr/ 	--disable-documentation --with-sqlite --with-libidn2	
+	./configure PKG_CONFIG_PATH=/usr/lib/pkgconfig/	--prefix=/usr/ 	--disable-documentation --with-sqlite --with-libidn2  --with-extractor
 	make DESTDIR=$PKG install
 	rm -r $PKG/usr/share/{doc,locale}
 	}
