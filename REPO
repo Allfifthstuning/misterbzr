@@ -54,6 +54,7 @@ d:p5-data-section-simple
 d:tuneit
 d:netpbm
 d:p5-anyevent-termkey
+d:aircrack-ng
 f:8ae45db0b2b147968eb6be2015b8329d:p5-alien-libtermkey/.md5sum
 f:a7c99232ceeb8b91c31df14c3b473283:p5-alien-libtermkey/.footprint
 f:f9c08c01bf71edb49f91ab8cd698cbd0:p5-alien-libtermkey/Pkgfile
@@ -156,9 +157,9 @@ f:5c6c799dec800d14c6378046cbd971f5:libgsf/Pkgfile
 f:308e808a2e681e7854e838ebe7af3a26:minetest/.md5sum
 f:d8b20944e7e4b8c8f9502fa748904711:minetest/.footprint
 f:730e4209c7de0e697d42baeccbf4bfc3:minetest/Pkgfile
-f:de9f35e36702b983ae2408e6371a92ad:rclone/.md5sum
+f:20a899b1cec26d50c5c1705d870b71c1:rclone/.md5sum
 f:aec10ebc2109697aa7b6aad3302b1134:rclone/.footprint
-f:c30ca02bfac37fe970b879573963aba1:rclone/Pkgfile
+f:3218f7315b1badd7b9572f7d7e6d5a68:rclone/Pkgfile
 f:3666289065bd7b6e554d84af85587ac4:umoria/umoria.patch
 f:aec31bfa35724f5dd269118da459328f:umoria/.md5sum
 f:fb5043c9cb8c944162fd52a71983fbc8:umoria/post-install
@@ -232,3 +233,6 @@ f:2864c441c717b7fbe01511dbafe67b2c:netpbm/netpbm-security-code.patch
 f:83c9d5f92d12df626bd74f38ed31f102:p5-anyevent-termkey/.md5sum
 f:fd42111592f2916a1389dec3a0115393:p5-anyevent-termkey/.footprint
 f:01bac94bd9263048b1bee3ed603f69ca:p5-anyevent-termkey/Pkgfile
+f:22ea9f01453e9bd3021118d14a0a94b6:aircrack-ng/.md5sum
+f:be5c64860019f2312902f6f9ef5da38b:aircrack-ng/.footprint
+f:7054974d20d00079babaf26aad399704:aircrack-ng/Pkgfile
