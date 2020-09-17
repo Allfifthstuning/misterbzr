@@ -93,9 +93,9 @@ f:45f982461a7d705b4e01f00ed85bded5:irrlicht/Pkgfile
 f:7f5a8145f0422c955d706ebc4c6ce927:p5-text-format/.md5sum
 f:d7bcb4d513c246a7831beb5b80c0003b:p5-text-format/.footprint
 f:30dcbf19d3d7f53849be02a92a38de13:p5-text-format/Pkgfile
-f:b5943a3d83c287ddf8784993f2395e2e:lilypond/.md5sum
-f:28273e6f100fb81ee6353299c8e376f4:lilypond/.footprint
-f:afba2fb239c8e1f54cfd9a53fa5bfe8f:lilypond/Pkgfile
+f:0010e0d76015ccc61f9482bb79653d2a:lilypond/.md5sum
+f:2ea5555d6e67e6518d00b930a046aa8e:lilypond/.footprint
+f:c6a330f9fa87a1fe7a4891995767905f:lilypond/Pkgfile
 f:4b84469f2705a76a2c607c68840e55d9:dblatex/.md5sum
 f:c273fd5fd552b1101c280839e73d9ea8:dblatex/.footprint
 f:92f94e319202f41402e285a07f2d7f50:dblatex/Pkgfile
