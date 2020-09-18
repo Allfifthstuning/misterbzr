@@ -1,6 +1,6 @@
 # Description: simple terminal implementation for X
 # URL:         https://st.suckless.org/
-# Maintainer:  John Vogel, jvogel4 at stny dot rr dot com
+# Maintainer:  Hans Bezemer, hbezemer at kliksafe dot nl
 # Depends on:  xorg-libxext xorg-libxft
 
 name=st
