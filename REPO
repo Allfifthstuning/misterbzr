@@ -2,6 +2,7 @@ d:p5-alien-libtermkey
 d:p5-term-readline-gnu
 d:p5-graph
 d:guile1
+d:dwm
 d:p5-modern-perl
 d:p5-event
 d:p5-file-copy-link
@@ -69,6 +70,10 @@ f:c2e227e1d45bfd1b8239015422bc6f86:p5-graph/Pkgfile
 f:50ed308e6cf8c9b45c6007767c532bfd:guile1/.md5sum
 f:d997ad5425d8f0b1aec1f5762e92371d:guile1/.footprint
 f:3267ccd874b936ebd4a3832d31705b8f:guile1/Pkgfile
+f:b6e237f39c34b1673a6e5b0360c36d7d:dwm/.signature
+f:6fad530f81a7658a10ad62de8946f6ae:dwm/README
+f:741c1a116e5019e71222386c940489a8:dwm/.footprint
+f:fef8e3d3431a977dd9c570bc50735aae:dwm/Pkgfile
 f:7927fbe73d227bf9019adc71c9e24664:p5-modern-perl/.md5sum
 f:4d5a1d51fac148a1011d12ff2817a8ea:p5-modern-perl/.footprint
 f:800314fa1000d02e27171c07d99d490c:p5-modern-perl/Pkgfile
@@ -119,8 +124,7 @@ f:c33591ae9ce76b05bed3f871a9fee33e:p5-audio-nama/Pkgfile
 f:4aef68261780b8e617119aab6cb17451:p5-inc-module-install/.md5sum
 f:49a0e67d2d6538da37e986bdd2c0d435:p5-inc-module-install/.footprint
 f:9b249f389d62c5e899503f212cbfd433:p5-inc-module-install/Pkgfile
-f:be92d9b044242fe56ff036060de8eebb:vim/.signature
-f:b47c1fe27ebaed2c2f9b9ff1c5983a23:vim/.md5sum
+f:d84bea663e4ae128394f5fe240e0ad4c:vim/.md5sum
 f:64e273c51f48c381e6707f649990c968:vim/.footprint
 f:dec64214abe580483f58a2efcbfbae81:vim/Pkgfile
 f:935e752d31ec55d4729c9a0ec1850b2a:rtaudio/.md5sum
