@@ -1,11 +1,11 @@
 # Description: dynamic window manager
 # URL:         https://dwm.suckless.org/
 # Maintainer:  Hans Bezemer, hbezemer at kliksafe dot nl
-# Depends on:  xorg-libxft xorg-libxinerama
+# Depends on:  xorg-libxft xorg-libxinerama st links
 
 name=dwm
 version=6.2
-release=5
+release=6
 source=(https://dl.suckless.org/dwm/$name-$version.tar.gz)
 
 build () {
