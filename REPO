@@ -71,10 +71,10 @@ f:50ed308e6cf8c9b45c6007767c532bfd:guile1/.md5sum
 f:d997ad5425d8f0b1aec1f5762e92371d:guile1/.footprint
 f:3267ccd874b936ebd4a3832d31705b8f:guile1/Pkgfile
 f:f75942c4c4911c7f00afc9bfa978cdf3:dwm/.md5sum
-f:c725b7214a6f9fec46486b557a2684a7:dwm/config.h
+f:8992c97c3edfcb902f83fc6deeaf49d3:dwm/config.h
 f:6fad530f81a7658a10ad62de8946f6ae:dwm/README
 f:741c1a116e5019e71222386c940489a8:dwm/.footprint
-f:0a54b5dcfdaadb1c0495eba95fe4b7af:dwm/Pkgfile
+f:87f3ea5465dccd2822262a3a4ccf6c40:dwm/Pkgfile
 f:7927fbe73d227bf9019adc71c9e24664:p5-modern-perl/.md5sum
 f:4d5a1d51fac148a1011d12ff2817a8ea:p5-modern-perl/.footprint
 f:800314fa1000d02e27171c07d99d490c:p5-modern-perl/Pkgfile
