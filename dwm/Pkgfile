@@ -5,7 +5,7 @@
 
 name=dwm
 version=6.2
-release=2
+release=3
 source=(https://dl.suckless.org/dwm/$name-$version.tar.gz)
 
 build () {
