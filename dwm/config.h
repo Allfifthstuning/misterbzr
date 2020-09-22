@@ -61,7 +61,7 @@ static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() 
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_black, "-nf", col_green, "-sb", col_green, "-sf", col_black, NULL };
 static const char *termcmd[]  = { "st", NULL };
 static const char *browsercmd[] = { "qutebrowser", NULL };
-static const char *linkscmd[] = { "st", "-e", "links", "www.duckduckgo.com/lite" };
+static const char *linkscmd[] = { "st", "-e", "links", "www.duckduckgo.com/lite", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
