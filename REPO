@@ -57,6 +57,7 @@ d:p5-data-section-simple
 d:tuneit
 d:netpbm
 d:p5-anyevent-termkey
+d:dwmstatus
 d:aircrack-ng
 f:8ae45db0b2b147968eb6be2015b8329d:p5-alien-libtermkey/.md5sum
 f:a7c99232ceeb8b91c31df14c3b473283:p5-alien-libtermkey/.footprint
@@ -249,6 +250,10 @@ f:2864c441c717b7fbe01511dbafe67b2c:netpbm/netpbm-security-code.patch
 f:83c9d5f92d12df626bd74f38ed31f102:p5-anyevent-termkey/.md5sum
 f:fd42111592f2916a1389dec3a0115393:p5-anyevent-termkey/.footprint
 f:01bac94bd9263048b1bee3ed603f69ca:p5-anyevent-termkey/Pkgfile
+f:d41d8cd98f00b204e9800998ecf8427e:dwmstatus/.md5sum
+f:8f49fa60644742b3d6b2c28a03e5f1d0:dwmstatus/README
+f:5204bcc3acd4d2bd2285744e8ed7f19d:dwmstatus/.footprint
+f:21e71c64683d7ffe73b29105bb1e35c4:dwmstatus/Pkgfile
 f:22ea9f01453e9bd3021118d14a0a94b6:aircrack-ng/.md5sum
 f:be5c64860019f2312902f6f9ef5da38b:aircrack-ng/.footprint
 f:7054974d20d00079babaf26aad399704:aircrack-ng/Pkgfile

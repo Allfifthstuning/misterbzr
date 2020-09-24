@@ -1,0 +1,22 @@
+# Description: dynamic window manager statusbar
+# URL:         https://dwm.suckless.org/
+# Maintainer:  Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:  dwm
+
+name=dwmstatus
+version=git
+release=1
+source=()
+git=git://git.suckless.org/${name}
+
+build () {
+    git clone $git $name
+    cd ${name}
+
+    if [ -f $PKGMK_ROOT/config.h ]; then
+	    cp $PKGMK_ROOT/config.h .
+    fi
+
+    make CC=gcc X11INC=/usr/include
+    make DESTDIR=$PKG PREFIX=/usr install
+}
