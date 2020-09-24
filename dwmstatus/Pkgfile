@@ -4,7 +4,7 @@
 # Depends on:  dwm
 
 name=dwmstatus
-version=git
+version=1
 release=1
 source=()
 git=git://git.suckless.org/${name}
@@ -12,10 +12,7 @@ git=git://git.suckless.org/${name}
 build () {
     git clone $git $name
     cd ${name}
-
-    if [ -f $PKGMK_ROOT/config.h ]; then
-	    cp $PKGMK_ROOT/config.h .
-    fi
+    patch -p0 < $PKGMK_ROOT/dwmstatus.patch
 
     make CC=gcc X11INC=/usr/include
     make DESTDIR=$PKG PREFIX=/usr install
