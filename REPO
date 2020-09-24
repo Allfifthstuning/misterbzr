@@ -32,6 +32,7 @@ d:faust
 d:tex-gyre-fonts
 d:booty
 d:p5-file-spec-link
+d:pkg-clean
 d:libgsf
 d:minetest
 d:rclone
@@ -167,6 +168,12 @@ f:225fc4989dc02540403036996f220b57:booty/Pkgfile
 f:3a37ba3497769e98c0777fb2f604ca61:p5-file-spec-link/.md5sum
 f:f01e0da0b9d5791418bf0df6515aec59:p5-file-spec-link/.footprint
 f:04edcde5f9c25de383d3bec8470b1cd5:p5-file-spec-link/Pkgfile
+f:e9f1b0da4c9aee796bde264af3c57aa2:pkg-clean/.signature
+f:01702c78133337cff041f154fb1c2a22:pkg-clean/pkg-clean.conf
+f:51f9660e80e4ba9c220d5cc72f13d736:pkg-clean/.md5sum
+f:de3b03a0d3eac94992c038c547718e2c:pkg-clean/pkg-clean
+f:94e6152faea3da16c41cb5aaee049b0f:pkg-clean/.footprint
+f:997224fd5e7d391bab1d5b8ff4e950a0:pkg-clean/Pkgfile
 f:769a27bdb39bd5e1e0ef77d3e5d544f7:libgsf/.md5sum
 f:0e8c2dc7773b61746973df09a6af51bb:libgsf/.footprint
 f:5c6c799dec800d14c6378046cbd971f5:libgsf/Pkgfile

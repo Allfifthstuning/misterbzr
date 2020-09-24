@@ -1,0 +1,14 @@
+# Description: Remove ports to a clean state.
+# URL: http://crux.ster.zone/
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager: Hans Bezemer, hbezemer at kliksafe dot nl
+
+name=pkg-clean
+version=0.0.3
+release=1
+source=($name $name.conf)
+
+build() {
+	install -m 0750 -D $SRC/$name $PKG/usr/sbin/$name
+	install -m 0640 -D $SRC/$name.conf $PKG/etc/$name.conf
+}

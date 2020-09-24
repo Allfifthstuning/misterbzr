@@ -1,0 +1,130 @@
+#!/usr/bin/env bash
+#
+# Copyright (c) 2012-2017 by Daniel K Rawlins, contact at romster dot me
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+# THE SOFTWARE.
+#
+
+pkg_clean() {
+	local LIST PKG TOTAL COUNT LINE I CORE KEEP
+
+	if [ ! -f $PKG_CLEAN_CONFFILE ]; then
+		echo "File '$PKG_CLEAN_CONFFILE' not found."
+		exit 1
+	fi
+	. $PKG_CLEAN_CONFFILE
+
+	if [ "$PKG_CLEAN_RUN" = 'no' ]; then
+		echo 'Error please read /etc/pkg-clean.conf carefully!'
+		exit 1
+	fi
+
+	# keep /usr/ports/core
+	CORE=(`find /usr/ports/core -maxdepth 1 -type d -exec basename {} \; | xargs`)
+
+	# keep dependency tree of package
+	if [ -n "$PKG_CLEAN_TREE" ]; then
+		KEEP=(`prt-get quickdep ${PKG_CLEAN_TREE}`)
+		echo "pkg-clean: Keeping dependency tree ${PKG_CLEAN_TREE}"
+	fi
+
+	# populate file
+	pkginfo -i | awk '{print $1}' > $PKG_CLEAN_FILE
+
+	LIST=(${CORE[@]} ${PKG_CLEAN_KEEP[@]} ${KEEP[@]})
+
+	# remove packages to keep from file
+	for PKG in "${LIST[@]}"; do
+		sed -i -e "/^$PKG$/d" "${PKG_CLEAN_FILE}"
+	done
+
+	TOTAL=`cat "${PKG_CLEAN_FILE}" | wc -w`
+	COUNT=1
+	cat "${PKG_CLEAN_FILE}" | while read LINE; do
+		I=`printf  "%.0f\n" $(bc -l <<< "($COUNT / $TOTAL) * 100")`
+
+		if (( $I < 10 )); then
+			echo "[  $I%] Removing: $LINE"
+		elif (( $I < 100 )); then
+			echo "[ $I%] Removing: $LINE"
+		else
+			echo "[$I%] Removing: $LINE"
+		fi
+		(( COUNT++ ))
+		if [ "${PKG_CLEAN_DRYRUN}" = 'no' ]; then
+			pkgrm "$LINE"
+		fi
+	done
+	rm "${PKG_CLEAN_FILE}"
+}
+
+print_help() {
+	echo "usage: pkg-clean [options]"
+	echo "options:"
+	echo "  -r,           --run           remove ports to a clean state"
+	echo "  -k PACKAGE,   --keep PACKAGE  keep dependency tree of package"
+	echo "  -h,           --help          print help and exit"
+}
+
+parse_options() {
+	while [ "$1" ]; do
+		case $1 in
+			-k|--keep)
+			if [ ! "$2" ]; then
+				echo "pkg-clean: option $1 requires an argument"
+				exit 1
+			fi
+			PKG_CLEAN_TREE="$2"
+			shift ;;
+			-r|--run)
+			PKG_CLEAN_CLEAN='yes'
+			;;
+			-h|--help)
+			print_help
+			exit 0 ;;
+			*)
+			echo "pkg-clean: invalid option $1"
+			print_help
+			exit 1;;
+		esac
+		shift
+	done
+}
+
+main() {
+	parse_options "$@"
+
+	if [ "$PKG_CLEAN_CLEAN" = 'yes' ]; then
+		pkg_clean
+		exit
+	fi
+}
+
+set -e
+
+PKG_CLEAN_FILE="$(mktemp -p /tmp --suffix=-pkg-clean.log)"
+PKG_CLEAN_CONFFILE='/etc/pkg-clean.conf'
+PKG_CLEAN_RUN='no'
+PKG_CLEAN_DRYRUN='no'
+PKG_CLEAN_CLEAN='no'
+PKG_CLEAN_TREE=''
+
+main "$@"
+
+# End of File
