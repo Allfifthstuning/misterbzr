@@ -13,7 +13,7 @@ build() {
 	cd ${name}-${version}
 	 ./autogen.sh
 	 ./usrinst.sh
-	make
+	MAKEFLAGS="-j1" 1make
 	make DESTDIR=$PKG install
 	mkdir $PKG/etc/
 	make DESTDIR=$PKG install_config
