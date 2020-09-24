@@ -1,0 +1,21 @@
+# Description:  The SWORD Project is the CrossWire Bible Society's free Bible software project. Its purpose is to create cross-platform open-source tools-- covered by the GNU General Public License-- that allow programmers and Bible societies to write new Bible software more quickly and easily.
+# URL: 		http://crosswire.org/sword/index.jsp
+# Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: 
+
+name=sword
+version=1.8.1
+release=1
+source=(http://crosswire.org/ftpmirror/pub/sword/source/v1.8/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+	 ./autogen.sh
+	 ./usrinst.sh
+	make
+	make DESTDIR=$PKG install
+	mkdir $PKG/etc/
+	make DESTDIR=$PKG install_config
+	}
+
