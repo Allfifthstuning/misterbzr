@@ -2,7 +2,7 @@
 # URL: 		http://crosswire.org/sword/index.jsp
 # Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
 # Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
-# Depends on:	clucene, icu-sword 
+# Depends on:	clucene, xapian-core
 
 name=sword
 version=1.8.1
@@ -14,6 +14,7 @@ build() {
 	sed -e 's/#AM/AM/' -i configure.ac
 	./autogen.sh
 	./usrinst.sh
+ 	CXXFLAGS+=' -DU_USING_ICU_NAMESPACE=1'
  	make
 	make DESTDIR=$PKG install
 	mkdir $PKG/etc/
