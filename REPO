@@ -1,3 +1,4 @@
+d:sword-modules
 d:p5-alien-libtermkey
 d:p5-term-readline-gnu
 d:p5-graph
@@ -61,6 +62,10 @@ d:netpbm
 d:p5-anyevent-termkey
 d:dwmstatus
 d:aircrack-ng
+f:1d70e500d63713cd891da09c3df7d0ea:sword-modules/.md5sum
+f:e016aad7c71e13a5c063c18739ae2b0a:sword-modules/post-install
+f:56aae2cda3fe452af03086a2ce6472b3:sword-modules/.footprint
+f:37cc036df97610f317e23ec050c0cca6:sword-modules/Pkgfile
 f:8ae45db0b2b147968eb6be2015b8329d:p5-alien-libtermkey/.md5sum
 f:a7c99232ceeb8b91c31df14c3b473283:p5-alien-libtermkey/.footprint
 f:f9c08c01bf71edb49f91ab8cd698cbd0:p5-alien-libtermkey/Pkgfile

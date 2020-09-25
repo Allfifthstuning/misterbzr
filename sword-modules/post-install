@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+#Post install script for modules.
+#
+diatheke -b system -k modulelist
+
+#End of file
+
