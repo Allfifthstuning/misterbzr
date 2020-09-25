@@ -22,12 +22,4 @@ build() {
 	make DESTDIR="$PKG" install
 	}
 
-#	sed -e 's/#AM/AM/' -i configure.ac
-#	./autogen.sh
-#	./usrinst.sh
-# 	CXXFLAGS+=' -DU_USING_ICU_NAMESPACE=1'
-# 	make
-#	make DESTDIR=$PKG install
-#	mkdir $PKG/etc/
-#	make DESTDIR=$PKG install_config
 
