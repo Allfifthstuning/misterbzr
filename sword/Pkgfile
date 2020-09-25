@@ -2,7 +2,7 @@
 # URL: 		http://crosswire.org/sword/index.jsp
 # Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
 # Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
-# Depends on:	clucene, xapian-core
+# Depends on:	clucene, xapian-core, swig 
 
 name=sword
 version=1.8.1
@@ -11,13 +11,23 @@ source=(http://crosswire.org/ftpmirror/pub/sword/source/v1.8/${name}-${version}.
 
 build() {
 	cd ${name}-${version}
-	sed -e 's/#AM/AM/' -i configure.ac
-	./autogen.sh
-	./usrinst.sh
- 	CXXFLAGS+=' -DU_USING_ICU_NAMESPACE=1'
- 	make
-	make DESTDIR=$PKG install
-	mkdir $PKG/etc/
-	make DESTDIR=$PKG install_config
+	mkdir build
+	cd build
+	CXXFLAGS+=' -DU_USING_ICU_NAMESPACE=1'
+ 	cmake .. -DLIBSWORD_LIBRARY_TYPE="Shared" -DSYSCONF_INSTALL_DIR='/etc' \
+        -DSWORD_BUILD_TESTS="Y" -DCMAKE_INSTALL_PREFIX=/usr
+	make
+	depends=('curl' 'clucene' 'swig' 'xz')
+  	backup=('etc/sword.conf')
+	make DESTDIR="$PKG" install
 	}
+
+#	sed -e 's/#AM/AM/' -i configure.ac
+#	./autogen.sh
+#	./usrinst.sh
+# 	CXXFLAGS+=' -DU_USING_ICU_NAMESPACE=1'
+# 	make
+#	make DESTDIR=$PKG install
+#	mkdir $PKG/etc/
+#	make DESTDIR=$PKG install_config
 

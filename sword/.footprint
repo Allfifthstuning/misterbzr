@@ -2,6 +2,7 @@ drwxr-xr-x	root/root	etc/
 -rw-r--r--	root/root	etc/sword.conf
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/addld
 -rwxr-xr-x	root/root	usr/bin/diatheke
 -rwxr-xr-x	root/root	usr/bin/emptyvss
 -rwxr-xr-x	root/root	usr/bin/imp2gbs
@@ -14,7 +15,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/mod2vpl
 -rwxr-xr-x	root/root	usr/bin/mod2zmod
 -rwxr-xr-x	root/root	usr/bin/osis2mod
--rwxr-xr-x	root/root	usr/bin/stripaccents
 -rwxr-xr-x	root/root	usr/bin/tei2mod
 -rwxr-xr-x	root/root	usr/bin/vpl2mod
 -rwxr-xr-x	root/root	usr/bin/vs2osisref
@@ -25,10 +25,6 @@ drwxr-xr-x	root/root	usr/include/sword/
 -rw-r--r--	root/root	usr/include/sword/bz2comprs.h
 -rw-r--r--	root/root	usr/include/sword/canon.h
 -rw-r--r--	root/root	usr/include/sword/canon_abbrevs.h
--rw-r--r--	root/root	usr/include/sword/canon_calvin.h
--rw-r--r--	root/root	usr/include/sword/canon_catholic.h
--rw-r--r--	root/root	usr/include/sword/canon_catholic2.h
--rw-r--r--	root/root	usr/include/sword/canon_darbyfr.h
 -rw-r--r--	root/root	usr/include/sword/canon_german.h
 -rw-r--r--	root/root	usr/include/sword/canon_kjva.h
 -rw-r--r--	root/root	usr/include/sword/canon_leningrad.h
@@ -39,7 +35,6 @@ drwxr-xr-x	root/root	usr/include/sword/
 -rw-r--r--	root/root	usr/include/sword/canon_nrsva.h
 -rw-r--r--	root/root	usr/include/sword/canon_null.h
 -rw-r--r--	root/root	usr/include/sword/canon_orthodox.h
--rw-r--r--	root/root	usr/include/sword/canon_segond.h
 -rw-r--r--	root/root	usr/include/sword/canon_synodal.h
 -rw-r--r--	root/root	usr/include/sword/canon_synodalprot.h
 -rw-r--r--	root/root	usr/include/sword/canon_vulg.h
@@ -106,7 +101,6 @@ drwxr-xr-x	root/root	usr/include/sword/
 -rw-r--r--	root/root	usr/include/sword/osisxlit.h
 -rw-r--r--	root/root	usr/include/sword/papyriplain.h
 -rw-r--r--	root/root	usr/include/sword/rawcom.h
--rw-r--r--	root/root	usr/include/sword/rawcom4.h
 -rw-r--r--	root/root	usr/include/sword/rawfiles.h
 -rw-r--r--	root/root	usr/include/sword/rawgenbook.h
 -rw-r--r--	root/root	usr/include/sword/rawld.h
@@ -114,13 +108,10 @@ drwxr-xr-x	root/root	usr/include/sword/
 -rw-r--r--	root/root	usr/include/sword/rawstr.h
 -rw-r--r--	root/root	usr/include/sword/rawstr4.h
 -rw-r--r--	root/root	usr/include/sword/rawtext.h
--rw-r--r--	root/root	usr/include/sword/rawtext4.h
 -rw-r--r--	root/root	usr/include/sword/rawverse.h
--rw-r--r--	root/root	usr/include/sword/rawverse4.h
 -rw-r--r--	root/root	usr/include/sword/remotetrans.h
 -rw-r--r--	root/root	usr/include/sword/roman.h
 -rw-r--r--	root/root	usr/include/sword/rtfhtml.h
--rw-r--r--	root/root	usr/include/sword/rtranspgdrive.h
 -rw-r--r--	root/root	usr/include/sword/sapphire.h
 -rw-r--r--	root/root	usr/include/sword/scsuutf8.h
 -rw-r--r--	root/root	usr/include/sword/stringmgr.h
@@ -199,6 +190,7 @@ drwxr-xr-x	root/root	usr/include/sword/
 -rw-r--r--	root/root	usr/include/sword/xzcomprs.h
 -rw-r--r--	root/root	usr/include/sword/zcom.h
 -rw-r--r--	root/root	usr/include/sword/zcom4.h
+-rw-r--r--	root/root	usr/include/sword/zconf.h
 -rw-r--r--	root/root	usr/include/sword/zipcomprs.h
 -rw-r--r--	root/root	usr/include/sword/zld.h
 -rw-r--r--	root/root	usr/include/sword/zstr.h
@@ -206,14 +198,15 @@ drwxr-xr-x	root/root	usr/include/sword/
 -rw-r--r--	root/root	usr/include/sword/ztext4.h
 -rw-r--r--	root/root	usr/include/sword/zverse.h
 -rw-r--r--	root/root	usr/include/sword/zverse4.h
-drwxr-xr-x	root/root	usr/lib64/
--rw-r--r--	root/root	usr/lib64/libsword.a
--rwxr-xr-x	root/root	usr/lib64/libsword.la
-drwxr-xr-x	root/root	usr/lib64/pkgconfig/
--rw-r--r--	root/root	usr/lib64/pkgconfig/sword.pc
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libsword.so -> libsword.so.1.8.1
+-rwxr-xr-x	root/root	usr/lib/libsword.so.1.8.1
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/sword.pc
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/sword/
 drwxr-xr-x	root/root	usr/share/sword/locales.d/
+-rw-r--r--	root/root	usr/share/sword/locales.d/Makefile.am
 -rw-r--r--	root/root	usr/share/sword/locales.d/abbr.conf
 -rw-r--r--	root/root	usr/share/sword/locales.d/af-utf8.conf
 -rw-r--r--	root/root	usr/share/sword/locales.d/af.conf
