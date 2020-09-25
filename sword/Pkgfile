@@ -2,7 +2,7 @@
 # URL: 		http://crosswire.org/sword/index.jsp
 # Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
 # Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
-# Depends on:	clucene, icu 
+# Depends on:	clucene, icu-sword 
 
 name=sword
 version=1.8.1
