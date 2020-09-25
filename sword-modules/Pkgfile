@@ -1,0 +1,24 @@
+# Description: 	Modules for the sword Bible software
+# URL: 		http://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Bibles	
+# Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: 	sword
+
+name=sword-modules
+version=1
+release=1
+
+
+source=(
+	http://www.crosswire.org/ftpmirror/pub/sword/packages/rawzip/KJV.zip
+	http://www.crosswire.org/ftpmirror/pub/sword/packages/rawzip/DutSVV.zip
+	http://www.crosswire.org/ftpmirror/pub/sword/packages/rawzip/TR.zip
+	http://www.crosswire.org/ftpmirror/pub/sword/packages/rawzip/LXX.zip
+	http://www.crosswire.org/ftpmirror/pub/sword/packages/rawzip/WLC.zip
+	)
+
+build() {
+	mkdir -pv $PKG/usr/share/sword
+	cp -r ./* $PKG/usr/share/sword/
+}
+
