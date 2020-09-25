@@ -2,7 +2,7 @@
 # URL: 		http://crosswire.org/sword/index.jsp
 # Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
 # Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
-# Depends on: 
+# Depends on:	clucene 
 
 name=sword
 version=1.8.1
@@ -13,7 +13,7 @@ build() {
 	cd ${name}-${version}
 	 ./autogen.sh
 	 ./usrinst.sh
-	MAKEFLAGS="-j1" make
+ 	make
 	make DESTDIR=$PKG install
 	mkdir $PKG/etc/
 	make DESTDIR=$PKG install_config
