@@ -12,6 +12,7 @@ d:p5-term-termkey
 d:p5-yaml-tiny
 d:irrlicht
 d:p5-text-format
+d:liblrdf
 d:lilypond
 d:dblatex
 d:zathura
@@ -29,6 +30,7 @@ d:p5-system-command
 d:girara
 d:zita-resampler
 d:sword
+d:ntk
 d:faust
 d:tex-gyre-fonts
 d:booty
@@ -49,6 +51,7 @@ d:zathura-pdf-poppler
 d:t1utils
 d:p5-audio-ecasound
 d:gnunet-gtk
+d:non
 d:ecasound
 d:jbigkit
 d:p5-module-build-using-pkgconfig
@@ -109,6 +112,9 @@ f:45f982461a7d705b4e01f00ed85bded5:irrlicht/Pkgfile
 f:7f5a8145f0422c955d706ebc4c6ce927:p5-text-format/.md5sum
 f:d7bcb4d513c246a7831beb5b80c0003b:p5-text-format/.footprint
 f:30dcbf19d3d7f53849be02a92a38de13:p5-text-format/Pkgfile
+f:0e46e8947f9487d504274b561928846a:liblrdf/.md5sum
+f:1748d61bb76acb497645d895db7f1a00:liblrdf/.footprint
+f:4b351d77362369b6b31e74c2d20b41a0:liblrdf/Pkgfile
 f:0010e0d76015ccc61f9482bb79653d2a:lilypond/.md5sum
 f:2ea5555d6e67e6518d00b930a046aa8e:lilypond/.footprint
 f:c6a330f9fa87a1fe7a4891995767905f:lilypond/Pkgfile
@@ -161,6 +167,9 @@ f:2b426fce02bbcb665d7c5c80d0060d6c:zita-resampler/Pkgfile
 f:4bcb3eb9359cad6ef4ca1f6d31bdcc44:sword/.md5sum
 f:08ed35bfa900c540a12c8f21c807e0c0:sword/.footprint
 f:9c96caa270c210f963d62efb8fcc72a9:sword/Pkgfile
+f:d41d8cd98f00b204e9800998ecf8427e:ntk/.md5sum
+f:f1b4b81d29ed6e8c0b3a1676917bd2b1:ntk/.footprint
+f:492a75f3f5dfbbf1a9dd5fdacb5b6e2c:ntk/Pkgfile
 f:67dcf2a7d6326de353f0da1745ce6f16:faust/.md5sum
 f:ec90104efb7f04674493fc33a846403e:faust/.footprint
 f:4f90cb82c579266737276fba656b656e:faust/Pkgfile
@@ -227,6 +236,9 @@ f:ce1654c14f76968e1c4e7ab22cd895b9:p5-audio-ecasound/Pkgfile
 f:a581ba863e5fb29a7e3e83ff2945e039:gnunet-gtk/.md5sum
 f:88c0d3a4ef2a687889af2b260fd7c588:gnunet-gtk/.footprint
 f:614656599061298ea8e6281005524a70:gnunet-gtk/Pkgfile
+f:d41d8cd98f00b204e9800998ecf8427e:non/.md5sum
+f:8dfee2c16be83cb56f84e472150d27bd:non/.footprint
+f:6deec0ab2bd93cabb3133ebc9b78310c:non/Pkgfile
 f:f4c910ce68634b7b558afb593d1d9534:ecasound/.md5sum
 f:9046959d59df18431eca86cf6d2f7e70:ecasound/.footprint
 f:06fc6433953d23b0fab5208bdb74e852:ecasound/Pkgfile
