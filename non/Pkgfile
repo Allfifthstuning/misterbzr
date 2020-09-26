@@ -1,0 +1,20 @@
+# Description:	non daw 
+# URL: 		https://non.tuxfamily.org/
+# Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:	ntk, jack, liblo, ladspa, liblrdf, libsigc++ 
+
+name=non
+version=git
+release=1
+source=()
+
+build() {
+	git clone git://git.tuxfamily.org/gitroot/non/non.git
+	cd non
+    	./waf configure --prefix=/usr/
+    	./waf build
+	#sed -i "s[INSTALL=''[INSTALL='$PKG'[g" ./waf
+	./waf install --destdir=$PKG
+	}
+

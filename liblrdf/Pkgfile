@@ -1,0 +1,17 @@
+# Description: 	A lightweight RDF library with special support for LADSPA plugins.
+# URL: 		https://github.com/swh/LRDF
+# Maintainer: 	Hans Bezemer, hbezemer@kliksafe dot nl
+# Packager: 	Hans Bezemer, hbezemer@kliksafe dot nl
+# Depends on: 	raptor ladspa
+
+name=liblrdf
+version=0.6.1
+release=1
+source=(https://github.com/swh/LRDF/archive/v$version.tar.gz)
+
+build() {
+	cd LRDF-${version}
+	./autogen.sh --prefix=/usr
+  	make
+ 	make DESTDIR=$PKG install
+}
