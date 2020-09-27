@@ -1,0 +1,18 @@
+# Description:  ncurses based jack connector
+# URL: 		https://sourceforge.net/projects/njconnect/
+# Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:   jack
+
+name=njconnect
+version=1.6
+release=1
+source=(https://sourceforge.net/projects/njconnect/files/${name}-${version}.tar.xz)
+
+build() {
+	cd ${name}-${version}
+	#../configure --prefix=/usr/
+	make
+	make DESTDIR=$PKG install
+	}
+
