@@ -1422,7 +1422,6 @@ drwxr-xr-x	root/root	usr/share/vim/tools/
 -rw-r--r--	root/root	usr/share/vim/tools/blink.c
 -rw-r--r--	root/root	usr/share/vim/tools/ccfilter.1
 -rw-r--r--	root/root	usr/share/vim/tools/ccfilter.c
--rw-r--r--	root/root	usr/share/vim/tools/ccfilter_README.txt
 -rwxr-xr-x	root/root	usr/share/vim/tools/demoserver.py
 -rwxr-xr-x	root/root	usr/share/vim/tools/efm_filter.pl
 -rw-r--r--	root/root	usr/share/vim/tools/efm_filter.txt

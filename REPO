@@ -142,8 +142,8 @@ f:4aef68261780b8e617119aab6cb17451:p5-inc-module-install/.md5sum
 f:49a0e67d2d6538da37e986bdd2c0d435:p5-inc-module-install/.footprint
 f:9b249f389d62c5e899503f212cbfd433:p5-inc-module-install/Pkgfile
 f:d84bea663e4ae128394f5fe240e0ad4c:vim/.md5sum
-f:64e273c51f48c381e6707f649990c968:vim/.footprint
-f:dec64214abe580483f58a2efcbfbae81:vim/Pkgfile
+f:ad688d3fa5dae16c2126e7122abefadb:vim/.footprint
+f:fd9c2ac4ea53cca904853e86a191d3c4:vim/Pkgfile
 f:935e752d31ec55d4729c9a0ec1850b2a:rtaudio/.md5sum
 f:9bd28e266271d48653d9414576ca6c49:rtaudio/.footprint
 f:5cfddbce37793efd0d634ae371589200:rtaudio/Pkgfile

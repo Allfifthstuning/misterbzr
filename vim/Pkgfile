@@ -5,7 +5,7 @@
 
 name=vim
 version=8.2.1632
-release=1
+release=2
 source=(https://github.com/vim/vim/archive/v${version}/$name-$version.tar.gz)
 
 build () {
@@ -50,4 +50,5 @@ build () {
 
     make VIMRTDIR=
     make -j1 VIMRTDIR= DESTDIR=$PKG installvimbin
-}
+    rm $PKG/usr/share/vim/tools/ccfilter_README.txt  	
+	}
