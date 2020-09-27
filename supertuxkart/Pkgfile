@@ -1,0 +1,22 @@
+# Description: 	Supertuxkart is a free kart racing game
+# URL: 		https://supertuxkart.net/
+# Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: 	mesa3d, openal, libogg, libvorbis, freetype, harfbuzz, fribidi, bluez, libpng, libjpeg-turbo, libsdl2
+
+name=supertuxkart
+version=1.2
+release=1
+source=(https://github.com/supertuxkart/stk-code/archive/${version}.tar.gz)
+
+build() {
+	cd stk-code-${version}
+	mkdir build
+	cd build
+	cmake  	-DBUILD_RECORDER=0		\
+		-DCMAKE_INSTALL_PREFIX=/usr 	\
+		 -DCHECK_ASSETS=off ..
+	make
+	make DESTDIR=$PKG install
+	}
+
