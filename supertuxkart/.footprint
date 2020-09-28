@@ -489,7 +489,6 @@ drwxr-xr-x	root/root	usr/share/supertuxkart/data/replay/
 -rw-r--r--	root/root	usr/share/supertuxkart/data/replay/standard_supertux_xr591.replay
 drwxr-xr-x	root/root	usr/share/supertuxkart/data/shaders/
 -rw-r--r--	root/root	usr/share/supertuxkart/data/shaders/IBL.frag
--rw-r--r--	root/root	usr/share/supertuxkart/data/shaders/MLAA_COPYING
 -rw-r--r--	root/root	usr/share/supertuxkart/data/shaders/alphatest_particle.frag
 -rw-r--r--	root/root	usr/share/supertuxkart/data/shaders/alphatest_particle.vert
 -rw-r--r--	root/root	usr/share/supertuxkart/data/shaders/bilateralH.comp

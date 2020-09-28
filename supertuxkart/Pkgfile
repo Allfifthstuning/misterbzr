@@ -15,8 +15,9 @@ build() {
 	cd build
 	cmake  	-DBUILD_RECORDER=0		\
 		-DCMAKE_INSTALL_PREFIX=/usr 	\
-		 -DCHECK_ASSETS=off ..
+		-DCHECK_ASSETS=off ..
 	make
 	make DESTDIR=$PKG install
+	rm $PKG/usr/share/supertuxkart/data/shaders/MLAA_COPYING
 	}
 
