@@ -2,20 +2,21 @@
 # URL: 		https://supertuxkart.net/
 # Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
 # Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
-# Depends on: 	mesa3d, openal, libogg, libvorbis, freetype, harfbuzz, fribidi, bluez, libpng, libjpeg-turbo, libsdl2
+# Depends on: 	mesa3d, openal, libogg, libvorbis, freetype, harfbuzz, fribidi, bluez, libpng, libjpeg-turbo, libsdl2, subversion
 
 name=supertuxkart
 version=1.2
-release=1
+release=2
 source=(https://github.com/supertuxkart/stk-code/archive/${version}.tar.gz)
 
 build() {
+	svn co https://svn.code.sf.net/p/supertuxkart/code/stk-assets stk-assets
 	cd stk-code-${version}
 	mkdir build
 	cd build
 	cmake  	-DBUILD_RECORDER=0		\
 		-DCMAKE_INSTALL_PREFIX=/usr 	\
-		-DCHECK_ASSETS=off ..
+		-DCHECK_ASSETS=on ..
 	make
 	make DESTDIR=$PKG install
 	rm $PKG/usr/share/supertuxkart/data/shaders/MLAA_COPYING
