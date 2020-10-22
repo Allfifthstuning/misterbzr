@@ -6,7 +6,7 @@
 
 name=supertuxkart
 version=1.2
-release=2
+release=1
 source=(https://github.com/supertuxkart/stk-code/archive/${version}.tar.gz)
 
 build() {
