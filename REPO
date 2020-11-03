@@ -15,7 +15,6 @@ d:p5-text-format
 d:liblrdf
 d:lilypond
 d:dblatex
-d:zathura
 d:p5-text-template
 d:guitarix
 d:p5-data-dumper-concise
@@ -48,7 +47,6 @@ d:st
 d:p5-git-repository
 d:p5-super
 d:gnunet
-d:zathura-pdf-poppler
 d:t1utils
 d:p5-audio-ecasound
 d:gnunet-gtk
@@ -123,9 +121,6 @@ f:9ed195aa1826763e0b1e59cabffaa8f8:lilypond/Pkgfile
 f:4b84469f2705a76a2c607c68840e55d9:dblatex/.md5sum
 f:c273fd5fd552b1101c280839e73d9ea8:dblatex/.footprint
 f:92f94e319202f41402e285a07f2d7f50:dblatex/Pkgfile
-f:78e7bc8894f5c87dfab35bd733557d17:zathura/.md5sum
-f:62ed02b662f9f342e60023fb49169782:zathura/.footprint
-f:c1561f7d911631015041a27e46e60d51:zathura/Pkgfile
 f:15eada57ed2ad8f5a5eb1ba71df84ba6:p5-text-template/.md5sum
 f:3c566585870d0b6ab5e8e298962b4ed5:p5-text-template/.footprint
 f:3a68e12e66b83dd945b57fd0551a4648:p5-text-template/Pkgfile
@@ -229,9 +224,6 @@ f:98812f5dd3c8b1e6e3faad44a06c2666:p5-super/Pkgfile
 f:756d680fcf76689d2ade0334612bd9a8:gnunet/.md5sum
 f:5c836f641c7dac52e4cf2c7689fc7bde:gnunet/.footprint
 f:02950e320f3c11a1f328e6ce323283f8:gnunet/Pkgfile
-f:8177562b7a6d2e74bf62d08abdb53b9b:zathura-pdf-poppler/.md5sum
-f:3961411333908c5200c5ba74f8240798:zathura-pdf-poppler/.footprint
-f:162fda51b1122a9aece6cc563e8036be:zathura-pdf-poppler/Pkgfile
 f:788713a259a659fb62b465a622071250:t1utils/.md5sum
 f:aa199c7343abd40c5b6b4fad96efd2fb:t1utils/.footprint
 f:0807a662c0f4d2299a0cf899ed078fc3:t1utils/Pkgfile
