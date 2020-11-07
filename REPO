@@ -115,9 +115,9 @@ f:30dcbf19d3d7f53849be02a92a38de13:p5-text-format/Pkgfile
 f:0e46e8947f9487d504274b561928846a:liblrdf/.md5sum
 f:1748d61bb76acb497645d895db7f1a00:liblrdf/.footprint
 f:7924c4ec8fa73b0b9e181c6fa1078b8e:liblrdf/Pkgfile
-f:33571e966e18cc6f5bcb07199fcaad02:lilypond/.md5sum
-f:5cb64260a2b8b89ceeb2291ad1d34987:lilypond/.footprint
-f:3453dbb126c18af5b71e0b3cfe4c8ea9:lilypond/Pkgfile
+f:b5943a3d83c287ddf8784993f2395e2e:lilypond/.md5sum
+f:28273e6f100fb81ee6353299c8e376f4:lilypond/.footprint
+f:c38cfe879e08c0981671f1adf6ad75a3:lilypond/Pkgfile
 f:4b84469f2705a76a2c607c68840e55d9:dblatex/.md5sum
 f:c273fd5fd552b1101c280839e73d9ea8:dblatex/.footprint
 f:92f94e319202f41402e285a07f2d7f50:dblatex/Pkgfile

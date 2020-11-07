@@ -5,7 +5,7 @@
 # Depends on: fontconfig, freetype, ghostscript, guile1, pango, python, texlive, texinfo, tex-gyre-fonts, xorg-font-dejavu-ttf, zip, fontforge, imagemagick, dblatex, xorg-libx11, t1utils, netpbm
 
 name=lilypond
-version=2.21.80
+version=2.20.0
 release=1
 source=(http://lilypond.org/download/sources/v${version%.*}/lilypond-$version.tar.gz)
 
