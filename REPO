@@ -15,7 +15,6 @@ d:p5-text-format
 d:liblrdf
 d:lilypond
 d:dblatex
-d:zathura
 d:p5-text-template
 d:guitarix
 d:p5-data-dumper-concise
@@ -48,7 +47,6 @@ d:st
 d:p5-git-repository
 d:p5-super
 d:gnunet
-d:zathura-pdf-poppler
 d:t1utils
 d:p5-audio-ecasound
 d:gnunet-gtk
@@ -117,15 +115,12 @@ f:30dcbf19d3d7f53849be02a92a38de13:p5-text-format/Pkgfile
 f:0e46e8947f9487d504274b561928846a:liblrdf/.md5sum
 f:1748d61bb76acb497645d895db7f1a00:liblrdf/.footprint
 f:7924c4ec8fa73b0b9e181c6fa1078b8e:liblrdf/Pkgfile
-f:0010e0d76015ccc61f9482bb79653d2a:lilypond/.md5sum
-f:2ea5555d6e67e6518d00b930a046aa8e:lilypond/.footprint
-f:c6a330f9fa87a1fe7a4891995767905f:lilypond/Pkgfile
+f:b5943a3d83c287ddf8784993f2395e2e:lilypond/.md5sum
+f:28273e6f100fb81ee6353299c8e376f4:lilypond/.footprint
+f:c38cfe879e08c0981671f1adf6ad75a3:lilypond/Pkgfile
 f:4b84469f2705a76a2c607c68840e55d9:dblatex/.md5sum
 f:c273fd5fd552b1101c280839e73d9ea8:dblatex/.footprint
 f:92f94e319202f41402e285a07f2d7f50:dblatex/Pkgfile
-f:78e7bc8894f5c87dfab35bd733557d17:zathura/.md5sum
-f:62ed02b662f9f342e60023fb49169782:zathura/.footprint
-f:c1561f7d911631015041a27e46e60d51:zathura/Pkgfile
 f:15eada57ed2ad8f5a5eb1ba71df84ba6:p5-text-template/.md5sum
 f:3c566585870d0b6ab5e8e298962b4ed5:p5-text-template/.footprint
 f:3a68e12e66b83dd945b57fd0551a4648:p5-text-template/Pkgfile
@@ -168,7 +163,7 @@ f:d6220831bec77a77a6b4544027b31c69:zita-resampler/.footprint
 f:2b426fce02bbcb665d7c5c80d0060d6c:zita-resampler/Pkgfile
 f:668b926d6dc1a776c03fd93a3945b86b:supertuxkart/.md5sum
 f:7335da133e461f2236c8ed146a90997c:supertuxkart/.footprint
-f:e9449853346d73e14346369af5ec9c3b:supertuxkart/Pkgfile
+f:80258db45df9477c757997abcb8bcf44:supertuxkart/Pkgfile
 f:4bcb3eb9359cad6ef4ca1f6d31bdcc44:sword/.md5sum
 f:08ed35bfa900c540a12c8f21c807e0c0:sword/.footprint
 f:9c96caa270c210f963d62efb8fcc72a9:sword/Pkgfile
@@ -198,9 +193,9 @@ f:5c6c799dec800d14c6378046cbd971f5:libgsf/Pkgfile
 f:308e808a2e681e7854e838ebe7af3a26:minetest/.md5sum
 f:d8b20944e7e4b8c8f9502fa748904711:minetest/.footprint
 f:730e4209c7de0e697d42baeccbf4bfc3:minetest/Pkgfile
-f:20a899b1cec26d50c5c1705d870b71c1:rclone/.md5sum
+f:45927b62d3bce1bb3a48f81b11411824:rclone/.md5sum
 f:aec10ebc2109697aa7b6aad3302b1134:rclone/.footprint
-f:3218f7315b1badd7b9572f7d7e6d5a68:rclone/Pkgfile
+f:e962113c7c68d120e2be7fdeb99c1e23:rclone/Pkgfile
 f:3666289065bd7b6e554d84af85587ac4:umoria/umoria.patch
 f:aec31bfa35724f5dd269118da459328f:umoria/.md5sum
 f:fb5043c9cb8c944162fd52a71983fbc8:umoria/post-install
@@ -229,9 +224,6 @@ f:98812f5dd3c8b1e6e3faad44a06c2666:p5-super/Pkgfile
 f:756d680fcf76689d2ade0334612bd9a8:gnunet/.md5sum
 f:5c836f641c7dac52e4cf2c7689fc7bde:gnunet/.footprint
 f:02950e320f3c11a1f328e6ce323283f8:gnunet/Pkgfile
-f:8177562b7a6d2e74bf62d08abdb53b9b:zathura-pdf-poppler/.md5sum
-f:3961411333908c5200c5ba74f8240798:zathura-pdf-poppler/.footprint
-f:162fda51b1122a9aece6cc563e8036be:zathura-pdf-poppler/Pkgfile
 f:788713a259a659fb62b465a622071250:t1utils/.md5sum
 f:aa199c7343abd40c5b6b4fad96efd2fb:t1utils/.footprint
 f:0807a662c0f4d2299a0cf899ed078fc3:t1utils/Pkgfile
