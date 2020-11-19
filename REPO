@@ -14,6 +14,7 @@ d:irrlicht
 d:p5-text-format
 d:liblrdf
 d:lilypond
+d:nama
 d:dblatex
 d:p5-text-template
 d:guitarix
@@ -118,6 +119,9 @@ f:7924c4ec8fa73b0b9e181c6fa1078b8e:liblrdf/Pkgfile
 f:b5943a3d83c287ddf8784993f2395e2e:lilypond/.md5sum
 f:28273e6f100fb81ee6353299c8e376f4:lilypond/.footprint
 f:c38cfe879e08c0981671f1adf6ad75a3:lilypond/Pkgfile
+f:f568193bac75f92bb58404d85ba48284:nama/.md5sum
+f:a7bbace62d523b4f8d9d8cd409b66119:nama/.footprint
+f:fc1b9fecbb6a8333ad6f9991efd40962:nama/Pkgfile
 f:4b84469f2705a76a2c607c68840e55d9:dblatex/.md5sum
 f:c273fd5fd552b1101c280839e73d9ea8:dblatex/.footprint
 f:92f94e319202f41402e285a07f2d7f50:dblatex/Pkgfile
@@ -163,7 +167,7 @@ f:d6220831bec77a77a6b4544027b31c69:zita-resampler/.footprint
 f:2b426fce02bbcb665d7c5c80d0060d6c:zita-resampler/Pkgfile
 f:668b926d6dc1a776c03fd93a3945b86b:supertuxkart/.md5sum
 f:7335da133e461f2236c8ed146a90997c:supertuxkart/.footprint
-f:80258db45df9477c757997abcb8bcf44:supertuxkart/Pkgfile
+f:3d6beb855cd89664fd1562068bb97cdf:supertuxkart/Pkgfile
 f:4bcb3eb9359cad6ef4ca1f6d31bdcc44:sword/.md5sum
 f:08ed35bfa900c540a12c8f21c807e0c0:sword/.footprint
 f:9c96caa270c210f963d62efb8fcc72a9:sword/Pkgfile
