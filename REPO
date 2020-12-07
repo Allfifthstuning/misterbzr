@@ -207,9 +207,9 @@ f:9250a8dc8bfd1ff288ff3975e10e6149:xboxdrv/Pkgfile
 f:7a6d76945c82c31b65e043c594608b23:libextractor/.md5sum
 f:afab06bea4ec60e95324988f54bcb20d:libextractor/.footprint
 f:80269254bf8635b89b1e01fd84722bd1:libextractor/Pkgfile
-f:f56a3e77566c1c24381b4a438501e317:p5-file-homedir/.md5sum
+f:d332ef467d29ffc53139782acd355914:p5-file-homedir/.md5sum
 f:0aa64c504ea96c34c53a680b37842ba6:p5-file-homedir/.footprint
-f:10600b5da86429f3b76952d0b901ec5a:p5-file-homedir/Pkgfile
+f:c2a73c4487e45595503785c0f08ad186:p5-file-homedir/Pkgfile
 f:5c6472c9e82e0576490b8455539deff1:st/.signature
 f:18ac985744d30ed864a2226ac38dca72:st/config.h
 f:20f08c5f31e9a85c101e0a2c43b6ab36:st/README

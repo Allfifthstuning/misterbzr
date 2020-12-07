@@ -4,8 +4,8 @@
 # Depends on: p5-file-which
 
 name=p5-file-homedir
-version=1.004
-release=2
+version=1.006
+release=1
 source=(https://cpan.metacpan.org/authors/id/R/RE/REHSACK/File-HomeDir-${version}.tar.gz)
 
 build() {
