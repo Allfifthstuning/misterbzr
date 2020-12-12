@@ -6,12 +6,12 @@
 
 name=ecasound
 version=2.9.3
-release=2
+release=3
 source=(http://nosignal.fi/download/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-	./configure --prefix=/usr/
+	./configure --enable-lv2 --prefix=/usr/
 	make 
 	make DESTDIR=$PKG install
 
