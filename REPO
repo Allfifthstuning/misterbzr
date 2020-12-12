@@ -237,8 +237,8 @@ f:d41d8cd98f00b204e9800998ecf8427e:non/.md5sum
 f:8dfee2c16be83cb56f84e472150d27bd:non/.footprint
 f:6deec0ab2bd93cabb3133ebc9b78310c:non/Pkgfile
 f:f4c910ce68634b7b558afb593d1d9534:ecasound/.md5sum
-f:d78d080812d7c61040927e9cbd594914:ecasound/.footprint
-f:0e8a2a2e564aa08e39e8b7c61623c42b:ecasound/Pkgfile
+f:f07dd9df5fc0d0d4a2c72af7519eb155:ecasound/.footprint
+f:9abecd00015e1fc14db810f1ed62bf9f:ecasound/Pkgfile
 f:5b561cbb75c38fa02256babeabc8353c:njconnect/.md5sum
 f:5f0ae7151f4b0e1520d3ddd3af10b852:njconnect/.footprint
 f:47413d62c0fb49358f973cf9e5d4211d:njconnect/Pkgfile

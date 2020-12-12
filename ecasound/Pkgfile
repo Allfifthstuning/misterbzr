@@ -6,12 +6,20 @@
 
 name=ecasound
 version=2.9.3
-release=3
+release=4
 source=(http://nosignal.fi/download/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-	./configure --enable-lv2 --prefix=/usr/
+	# lv2core is deprecated in favor of lv2:
+	# https://sourceforge.net/p/ecasound/bugs/52/
+	sed -e 's/lv2core/lv2/g' -i configure.ac
+	# install ruby integration to vendor_ruby
+	sed -e 's/sitedir/vendordir/' -i configure.ac
+	# using c++98 lilv is not compatible
+	sed -e 's/c++98/c++11/' -i configure.ac
+	autoreconf -vfi
+	./configure --prefix=/usr/
 	make 
 	make DESTDIR=$PKG install
 
