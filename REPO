@@ -13,6 +13,7 @@ d:p5-yaml-tiny
 d:irrlicht
 d:p5-text-format
 d:liblrdf
+d:ranger
 d:lilypond
 d:nama
 d:dblatex
@@ -115,6 +116,9 @@ f:30dcbf19d3d7f53849be02a92a38de13:p5-text-format/Pkgfile
 f:0e46e8947f9487d504274b561928846a:liblrdf/.md5sum
 f:1748d61bb76acb497645d895db7f1a00:liblrdf/.footprint
 f:7924c4ec8fa73b0b9e181c6fa1078b8e:liblrdf/Pkgfile
+f:4756849f40efa23414bbe3a45699d6b7:ranger/.md5sum
+f:ad9a1782d932aee4ab3e0e992b620ee4:ranger/.footprint
+f:6fcc05cd943ddc8750b41e86f4303e8e:ranger/Pkgfile
 f:b5943a3d83c287ddf8784993f2395e2e:lilypond/.md5sum
 f:28273e6f100fb81ee6353299c8e376f4:lilypond/.footprint
 f:c38cfe879e08c0981671f1adf6ad75a3:lilypond/Pkgfile

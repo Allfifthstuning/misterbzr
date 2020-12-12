@@ -1,0 +1,14 @@
+# Description: file manager with VI key bindings
+# URL: http://ranger.nongnu.org/
+# Maintainer:  Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:  python ncurses less sudo
+
+name=ranger
+version=1.8.1
+release=1
+source=(http://nongnu.org/$name/$name-stable.tar.gz)
+
+build () {
+   cd $name-$version
+   python setup.py -q install --root="$PKG" --optimize=1
+}
