@@ -99,6 +99,7 @@ drwxr-xr-x	root/root	usr/include/gnunet/
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_fs_service.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_getopt_lib.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_gns_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_gnsrecord_json_lib.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_gnsrecord_lib.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_gnsrecord_plugin.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_hello_lib.h
@@ -106,6 +107,7 @@ drwxr-xr-x	root/root	usr/include/gnunet/
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_identity_service.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_json_lib.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_load_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_messenger_service.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_mhd_compat.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_microphone_lib.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_mq_lib.h
@@ -269,6 +271,8 @@ drwxr-xr-x	root/root	usr/lib/gnunet/libexec/
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_datacache_sqlite.so
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_datastore_heap.la
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_datastore_heap.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_datastore_mysql.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_datastore_mysql.so
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_datastore_sqlite.la
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_datastore_sqlite.so
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_gnsrecord_conversation.la
@@ -404,6 +408,10 @@ lrwxrwxrwx	root/root	usr/lib/libgnunetgns.so.0 -> libgnunetgns.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libgnunetgnsrecord.so -> libgnunetgnsrecord.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libgnunetgnsrecord.so.0 -> libgnunetgnsrecord.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libgnunetgnsrecord.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetgnsrecordjson.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetgnsrecordjson.so -> libgnunetgnsrecordjson.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetgnsrecordjson.so.0 -> libgnunetgnsrecordjson.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetgnsrecordjson.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libgnunethello.la
 lrwxrwxrwx	root/root	usr/lib/libgnunethello.so -> libgnunethello.so.0.1.0
 lrwxrwxrwx	root/root	usr/lib/libgnunethello.so.0 -> libgnunethello.so.0.1.0
@@ -420,6 +428,14 @@ lrwxrwxrwx	root/root	usr/lib/libgnunetjson.so.0 -> libgnunetjson.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libgnunetmicrophone.so -> libgnunetmicrophone.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libgnunetmicrophone.so.0 -> libgnunetmicrophone.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libgnunetmicrophone.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetmy.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetmy.so -> libgnunetmy.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetmy.so.0 -> libgnunetmy.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetmy.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetmysql.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetmysql.so -> libgnunetmysql.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetmysql.so.0 -> libgnunetmysql.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetmysql.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libgnunetnamecache.la
 lrwxrwxrwx	root/root	usr/lib/libgnunetnamecache.so -> libgnunetnamecache.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libgnunetnamecache.so.0 -> libgnunetnamecache.so.0.0.0

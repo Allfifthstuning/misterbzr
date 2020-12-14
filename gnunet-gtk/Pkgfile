@@ -5,8 +5,8 @@
 # Depends on:	gnunet, gtk3, glade, xorg-server, xorg-xinit
 
 name=gnunet-gtk
-version=0.13.1
-release=3
+version=0.14.0
+release=1
 source=(https://mirror.lyrahosting.com/gnu/gnunet/${name}-${version}.tar.gz)
 
 build() {
