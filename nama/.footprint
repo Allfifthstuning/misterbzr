@@ -57,7 +57,6 @@ drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.32/Audio/Nama/
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.32/Audio/Nama/Regions.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.32/Audio/Nama/Sequence.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.32/Audio/Nama/StatusSnapshot.pm
--r--r--r--	root/root	usr/lib/perl5/site_perl/5.32/Audio/Nama/Tempo.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.32/Audio/Nama/Terminal.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.32/Audio/Nama/Text.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.32/Audio/Nama/Track.pm
@@ -73,6 +72,8 @@ drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.32/Audio/Nama/
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.32/Audio/Nama/WavModify.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.32/Audio/Nama/Waveform.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.32/Audio/Nama/Wavinfo.pm
+-r-xr-xr-x	root/root	usr/lib/perl5/site_perl/5.32/Audio/makeman
+-r--r--r--	root/root	usr/lib/perl5/site_perl/5.32/Audio/nama.html
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.32/linux-thread-multi/
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.32/linux-thread-multi/auto/
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.32/linux-thread-multi/auto/Audio/

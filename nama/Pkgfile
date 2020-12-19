@@ -5,7 +5,7 @@
 # Optional: p5-audio-ecasound, lv2, caps
 
 name=nama
-version=1.218
+version=1.217
 release=1
 source=(https://github.com/bolangi/${name}/archive/v${version}.tar.gz)
 
