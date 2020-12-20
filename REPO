@@ -120,7 +120,7 @@ f:4756849f40efa23414bbe3a45699d6b7:ranger/.md5sum
 f:ad9a1782d932aee4ab3e0e992b620ee4:ranger/.footprint
 f:6fcc05cd943ddc8750b41e86f4303e8e:ranger/Pkgfile
 f:b5943a3d83c287ddf8784993f2395e2e:lilypond/.md5sum
-f:28273e6f100fb81ee6353299c8e376f4:lilypond/.footprint
+f:6a193c6c425c5cc66e44a976e9e328f0:lilypond/.footprint
 f:c38cfe879e08c0981671f1adf6ad75a3:lilypond/Pkgfile
 f:f568193bac75f92bb58404d85ba48284:nama/.md5sum
 f:3c6ada367b1f34d9a465e9e93ffe419b:nama/.footprint
@@ -153,6 +153,7 @@ f:1022e3f34ff03d04304d184c84ea4755:misterbzr.httpup
 f:f00657651d78e0d3eb10906db8dbf77a:klick/.md5sum
 f:c18aeb3014c92c9d192ef06d2f5348a0:klick/.footprint
 f:d832c5ad0c1d4164ab7978265448ba4b:klick/Pkgfile
+f:479d3c0ef84158f1227af156a6df873f:Temp.txt
 f:f9e32c4c67263d91c4015bb37f94349b:jacktrip/.md5sum
 f:f66d35d4cafefac33bd06845563b7d23:jacktrip/.footprint
 f:0488ce1603f55b7d6e7d1056b08827c2:jacktrip/Pkgfile
@@ -166,7 +167,7 @@ f:040bfa38d323fc146fb0f9f10f042cce:zita-resampler/.md5sum
 f:d6220831bec77a77a6b4544027b31c69:zita-resampler/.footprint
 f:2b426fce02bbcb665d7c5c80d0060d6c:zita-resampler/Pkgfile
 f:668b926d6dc1a776c03fd93a3945b86b:supertuxkart/.md5sum
-f:7335da133e461f2236c8ed146a90997c:supertuxkart/.footprint
+f:443741f18daa7cbd34eca3da0e842961:supertuxkart/.footprint
 f:3d6beb855cd89664fd1562068bb97cdf:supertuxkart/Pkgfile
 f:4bcb3eb9359cad6ef4ca1f6d31bdcc44:sword/.md5sum
 f:08ed35bfa900c540a12c8f21c807e0c0:sword/.footprint
@@ -195,10 +196,10 @@ f:769a27bdb39bd5e1e0ef77d3e5d544f7:libgsf/.md5sum
 f:0e8c2dc7773b61746973df09a6af51bb:libgsf/.footprint
 f:5c6c799dec800d14c6378046cbd971f5:libgsf/Pkgfile
 f:308e808a2e681e7854e838ebe7af3a26:minetest/.md5sum
-f:d8b20944e7e4b8c8f9502fa748904711:minetest/.footprint
+f:cc5ed64ab928692aec7c9a41310fd762:minetest/.footprint
 f:730e4209c7de0e697d42baeccbf4bfc3:minetest/Pkgfile
 f:45927b62d3bce1bb3a48f81b11411824:rclone/.md5sum
-f:aec10ebc2109697aa7b6aad3302b1134:rclone/.footprint
+f:225bfd060fe98b9bd87b391be1d01f1f:rclone/.footprint
 f:e962113c7c68d120e2be7fdeb99c1e23:rclone/Pkgfile
 f:3666289065bd7b6e554d84af85587ac4:umoria/umoria.patch
 f:aec31bfa35724f5dd269118da459328f:umoria/.md5sum
@@ -209,7 +210,7 @@ f:cd8c0bbce3b841c2f1d4deaa8416d805:xboxdrv/.md5sum
 f:f69926e98824143ed5be74cd26650f74:xboxdrv/.footprint
 f:9250a8dc8bfd1ff288ff3975e10e6149:xboxdrv/Pkgfile
 f:7a6d76945c82c31b65e043c594608b23:libextractor/.md5sum
-f:afab06bea4ec60e95324988f54bcb20d:libextractor/.footprint
+f:5dc8b00aa41dd07f7994b499c2b4ebd7:libextractor/.footprint
 f:80269254bf8635b89b1e01fd84722bd1:libextractor/Pkgfile
 f:d332ef467d29ffc53139782acd355914:p5-file-homedir/.md5sum
 f:e6dfbd7d142ce519496238850c354e1e:p5-file-homedir/.footprint
@@ -275,7 +276,7 @@ f:31b30be6cbf98dd79436db2b85b969d6:netpbm/netpbm-security-scripts.patch
 f:e201fba27e54c32ab121bd7f191653d2:netpbm/reproducible-man-gzip.patch
 f:e88a0e7ff6320b93489b2ed098d15f05:netpbm/.md5sum
 f:820c4f830a0812fbb2ad043548bc0c94:netpbm/use-source-date-epoch.patch
-f:83fdf311ff054167bce6f8a31ad713e0:netpbm/.footprint
+f:7b0f2b46b5ab16f1754618618969f0a9:netpbm/.footprint
 f:b27d3ef8c3bc190a3b63de89aff4fa5a:netpbm/Pkgfile
 f:2864c441c717b7fbe01511dbafe67b2c:netpbm/netpbm-security-code.patch
 f:83c9d5f92d12df626bd74f38ed31f102:p5-anyevent-termkey/.md5sum

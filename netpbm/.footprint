@@ -119,6 +119,7 @@ lrwxrwxrwx	root/root	usr/bin/pamrgbatopng -> pamtopng
 -rwxr-xr-x	root/root	usr/bin/pamunlookup
 -rwxr-xr-x	root/root	usr/bin/pamvalidate
 -rwxr-xr-x	root/root	usr/bin/pamwipeout
+-rwxr-xr-x	root/root	usr/bin/pamx
 -rwxr-xr-x	root/root	usr/bin/pbmclean
 -rwxr-xr-x	root/root	usr/bin/pbmlife
 -rwxr-xr-x	root/root	usr/bin/pbmmake

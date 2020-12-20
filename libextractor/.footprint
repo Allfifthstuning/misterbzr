@@ -28,6 +28,9 @@ drwxr-xr-x	root/root	usr/lib/libextractor/
 -rw-r--r--	root/root	usr/lib/libextractor/libextractor_gif.a
 -rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_gif.la
 -rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_gif.so
+-rw-r--r--	root/root	usr/lib/libextractor/libextractor_gstreamer.a
+-rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_gstreamer.la
+-rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_gstreamer.so
 -rw-r--r--	root/root	usr/lib/libextractor/libextractor_it.a
 -rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_it.la
 -rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_it.so
@@ -64,6 +67,9 @@ drwxr-xr-x	root/root	usr/lib/libextractor/
 -rw-r--r--	root/root	usr/lib/libextractor/libextractor_png.a
 -rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_png.la
 -rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_png.so
+-rw-r--r--	root/root	usr/lib/libextractor/libextractor_previewopus.a
+-rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_previewopus.la
+-rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_previewopus.so
 -rw-r--r--	root/root	usr/lib/libextractor/libextractor_ps.a
 -rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_ps.la
 -rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_ps.so
@@ -76,6 +82,9 @@ drwxr-xr-x	root/root	usr/lib/libextractor/
 -rw-r--r--	root/root	usr/lib/libextractor/libextractor_sid.a
 -rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_sid.la
 -rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_sid.so
+-rw-r--r--	root/root	usr/lib/libextractor/libextractor_thumbnailffmpeg.a
+-rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_thumbnailffmpeg.la
+-rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_thumbnailffmpeg.so
 -rw-r--r--	root/root	usr/lib/libextractor/libextractor_thumbnailgtk.a
 -rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_thumbnailgtk.la
 -rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_thumbnailgtk.so
