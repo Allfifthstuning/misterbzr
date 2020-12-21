@@ -5,8 +5,8 @@
 # Optional:	
 
 name=guitarix
-version=0.41.0
-release=2
+version=0.42.0
+release=1
 source=(https://sourceforge.net/projects/$name/files/$name/${name}2-$version.tar.xz)
 build() {
 	cd $name-$version
