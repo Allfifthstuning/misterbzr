@@ -1,0 +1,19 @@
+# Description: 	A linux printer driver for ZjStream protocol
+# URL: 		http://foo2zjs.rkkda.com/
+# Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: 	cups, ghostscript, hpcups, cups-filters
+
+name=foo2zjs
+version=recent
+release=1
+source=(http://foo2zjs.rkkda.com/foo2zjs.tar.gz)
+
+build() {
+	cd ${name}
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/man/
+	rm -rf $PKG/usr/share/doc/
+	}
+
