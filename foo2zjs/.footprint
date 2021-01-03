@@ -41,7 +41,7 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cups/
 drwxr-xr-x	root/root	usr/lib/cups/filter/
-lrwxrwxrwx	root/root	usr/lib/cups/filter/command2foo2lava-pjl -> /usr/src/TestCruxRepo/foo2zjs/work/pkg/usr/bin/command2foo2lava-pjl
+lrwxrwxrwx	root/root	usr/lib/cups/filter/command2foo2lava-pjl -> /usr/ports/misterbzr/foo2zjs/work/pkg/usr/bin/command2foo2lava-pjl
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/foo2ddst/
 drwxrwxr-x	root/lp	usr/share/foo2ddst/icm/
