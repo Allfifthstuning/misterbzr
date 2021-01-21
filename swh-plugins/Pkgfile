@@ -1,0 +1,24 @@
+# Description:	LADSPA audio plugins.
+# URL: 		http://plugin.org.uk/
+# Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: 	fftw p5-xml-parser
+
+name=swh-plugins
+version=0.4.17
+release=1
+source=(https://github.com/swh/ladspa/archive/v$version/$name-v$version.tar.gz)
+
+build() {
+	cd ladspa-$version
+
+	autoreconf -fi
+
+	CFLAGS+=' -fPIC' \
+	./configure \
+		--prefix=/usr \
+		--enable-3dnow \
+		--disable-nls
+
+	make
+	make DESTDIR=$PKG install
+}
