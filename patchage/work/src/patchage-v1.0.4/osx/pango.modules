@@ -1,2 +1,0 @@
-lib/modules/pango-basic-coretext.so BasicScriptEngineCoreText PangoEngineShape PangoRenderCoreText common:
-lib/modules/pango-basic-fc.so BasicScriptEngineFc PangoEngineShape PangoRenderFc common:
