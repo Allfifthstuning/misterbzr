@@ -35,6 +35,7 @@ d:supertuxkart
 d:sword
 d:ntk
 d:faust
+d:swh-plugins
 d:tex-gyre-fonts
 d:booty
 d:p5-file-spec-link
@@ -54,6 +55,7 @@ d:t1utils
 d:p5-audio-ecasound
 d:gnunet-gtk
 d:non
+d:patchage
 d:ecasound
 d:njconnect
 d:jbigkit
@@ -186,6 +188,9 @@ f:492a75f3f5dfbbf1a9dd5fdacb5b6e2c:ntk/Pkgfile
 f:67dcf2a7d6326de353f0da1745ce6f16:faust/.md5sum
 f:ec90104efb7f04674493fc33a846403e:faust/.footprint
 f:4f90cb82c579266737276fba656b656e:faust/Pkgfile
+f:2f399b265469f0ead10379e529935537:swh-plugins/.md5sum
+f:b3cd60e334d2435ab7522dc73f957923:swh-plugins/.footprint
+f:44b0cb0f1909f60b5e1dd7150b2d9162:swh-plugins/Pkgfile
 f:c83816b4719fc1d5d28cabd324ed1e4b:tex-gyre-fonts/.md5sum
 f:cf136dafffa233e6c90aa0997dd85a51:tex-gyre-fonts/.footprint
 f:c6911fa618ac12aadb39a0eeb6cf1356:tex-gyre-fonts/Pkgfile
@@ -249,6 +254,8 @@ f:8564b7ee4307ef82ecb74babe6719928:gnunet-gtk/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:non/.md5sum
 f:8dfee2c16be83cb56f84e472150d27bd:non/.footprint
 f:6deec0ab2bd93cabb3133ebc9b78310c:non/Pkgfile
+f:43b7c98914a9b1842e1c4881f2b2d056:patchage/.md5sum
+f:68a16e636ae4ddebe6ce4eaa1fbc373e:patchage/Pkgfile
 f:f4c910ce68634b7b558afb593d1d9534:ecasound/.md5sum
 f:f07dd9df5fc0d0d4a2c72af7519eb155:ecasound/.footprint
 f:9abecd00015e1fc14db810f1ed62bf9f:ecasound/Pkgfile
