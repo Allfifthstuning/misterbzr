@@ -15,6 +15,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/faust2caqtios
 -rwxr-xr-x	root/root	usr/bin/faust2csound
 -rwxr-xr-x	root/root	usr/bin/faust2csvplot
+-rwxr-xr-x	root/root	usr/bin/faust2dplug
 -rwxr-xr-x	root/root	usr/bin/faust2dssi
 -rwxr-xr-x	root/root	usr/bin/faust2dummy
 -rwxr-xr-x	root/root	usr/bin/faust2dummymem
@@ -71,6 +72,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/faust2svgviewer
 -rwxr-xr-x	root/root	usr/bin/faust2teensy
 -rwxr-xr-x	root/root	usr/bin/faust2unity
+-rwxr-xr-x	root/root	usr/bin/faust2vcvrack
 -rwxr-xr-x	root/root	usr/bin/faust2vst
 -rwxr-xr-x	root/root	usr/bin/faust2vsti
 -rwxr-xr-x	root/root	usr/bin/faust2w32max6
@@ -121,6 +123,7 @@ drwxr-xr-x	root/root	usr/include/faust/dsp/
 -rw-r--r--	root/root	usr/include/faust/dsp/dsp-bench.h
 -rw-r--r--	root/root	usr/include/faust/dsp/dsp-checker.h
 -rw-r--r--	root/root	usr/include/faust/dsp/dsp-combiner.h
+-rw-r--r--	root/root	usr/include/faust/dsp/dsp-compute-adapter.h
 -rw-r--r--	root/root	usr/include/faust/dsp/dsp-optimizer.h
 -rw-r--r--	root/root	usr/include/faust/dsp/dsp-tools.h
 -rw-r--r--	root/root	usr/include/faust/dsp/dsp.h
@@ -136,6 +139,7 @@ drwxr-xr-x	root/root	usr/include/faust/dsp/
 -rw-r--r--	root/root	usr/include/faust/dsp/llvm-c-dsp.h
 -rw-r--r--	root/root	usr/include/faust/dsp/llvm-dsp-adapter.h
 -rw-r--r--	root/root	usr/include/faust/dsp/llvm-dsp-multi.h
+-rw-r--r--	root/root	usr/include/faust/dsp/llvm-dsp-multifun.h
 -rw-r--r--	root/root	usr/include/faust/dsp/llvm-dsp.h
 -rw-r--r--	root/root	usr/include/faust/dsp/llvm-machine-dsp.h
 -rw-r--r--	root/root	usr/include/faust/dsp/one-sample-dsp.h
@@ -159,6 +163,7 @@ drwxr-xr-x	root/root	usr/include/faust/gui/
 -rw-r--r--	root/root	usr/include/faust/gui/ControlUI.h
 -rw-r--r--	root/root	usr/include/faust/gui/DecoratorUI.h
 -rw-r--r--	root/root	usr/include/faust/gui/Esp32ControlUI.h
+-rw-r--r--	root/root	usr/include/faust/gui/Esp32Reader.h
 -rw-r--r--	root/root	usr/include/faust/gui/Esp32SensorUI.h
 -rw-r--r--	root/root	usr/include/faust/gui/FUI.h
 -rw-r--r--	root/root	usr/include/faust/gui/GTKUI.h
@@ -172,6 +177,7 @@ drwxr-xr-x	root/root	usr/include/faust/gui/
 -rw-r--r--	root/root	usr/include/faust/gui/JuceParameterUI.h
 -rw-r--r--	root/root	usr/include/faust/gui/JuceReader.h
 -rw-r--r--	root/root	usr/include/faust/gui/JuceStateUI.h
+-rw-r--r--	root/root	usr/include/faust/gui/LayoutUI.h
 -rw-r--r--	root/root	usr/include/faust/gui/LibsndfileReader.h
 -rw-r--r--	root/root	usr/include/faust/gui/MapUI.h
 -rw-r--r--	root/root	usr/include/faust/gui/MemoryReader.h
@@ -217,6 +223,7 @@ drwxr-xr-x	root/root	usr/include/faust/midi/
 -rw-r--r--	root/root	usr/include/faust/midi/RtMidi.h
 -rw-r--r--	root/root	usr/include/faust/midi/bela-midi.h
 -rw-r--r--	root/root	usr/include/faust/midi/esp32-midi.h
+-rw-r--r--	root/root	usr/include/faust/midi/gramophone-midi.h
 -rw-r--r--	root/root	usr/include/faust/midi/iplug2-midi.h
 -rw-r--r--	root/root	usr/include/faust/midi/jack-midi.h
 -rw-r--r--	root/root	usr/include/faust/midi/juce-midi.h
@@ -251,8 +258,8 @@ lrwxrwxrwx	root/root	usr/lib/libOSCFaust.so.1 -> libOSCFaust.so.1.2.2
 -rwxr-xr-x	root/root	usr/lib/libOSCFaust.so.1.2.2
 -rw-r--r--	root/root	usr/lib/libfaust.a
 lrwxrwxrwx	root/root	usr/lib/libfaust.so -> libfaust.so.2
-lrwxrwxrwx	root/root	usr/lib/libfaust.so.2 -> libfaust.so.2.27.2
--rwxr-xr-x	root/root	usr/lib/libfaust.so.2.27.2
+lrwxrwxrwx	root/root	usr/lib/libfaust.so.2 -> libfaust.so.2.30.5
+-rwxr-xr-x	root/root	usr/lib/libfaust.so.2.30.5
 -rw-r--r--	root/root	usr/lib/libfaustmachine.a
 lrwxrwxrwx	root/root	usr/lib/libfaustmachine.so -> libfaustmachine.so.0
 lrwxrwxrwx	root/root	usr/lib/libfaustmachine.so.0 -> libfaustmachine.so.1.0.0
@@ -556,6 +563,7 @@ drwxr-xr-x	root/root	usr/share/faust/api/doc/
 -rw-r--r--	root/root	usr/share/faust/basics.lib
 -rw-r--r--	root/root	usr/share/faust/bela.cpp
 -rw-r--r--	root/root	usr/share/faust/bench.cpp
+-rw-r--r--	root/root	usr/share/faust/bench.d
 -rw-r--r--	root/root	usr/share/faust/c-jack-gtk.c
 -rw-r--r--	root/root	usr/share/faust/ca-qt.cpp
 -rw-r--r--	root/root	usr/share/faust/compressors.lib
@@ -582,6 +590,12 @@ drwxr-xr-x	root/root	usr/share/faust/esp32/drivers/ac101/
 -rw-r--r--	root/root	usr/share/faust/esp32/drivers/ac101/AC101.h
 -rw-r--r--	root/root	usr/share/faust/esp32/drivers/ac101/CMakeLists.txt
 -rw-r--r--	root/root	usr/share/faust/esp32/drivers/ac101/component.mk (EMPTY)
+drwxr-xr-x	root/root	usr/share/faust/esp32/drivers/es8388/
+-rw-r--r--	root/root	usr/share/faust/esp32/drivers/es8388/CMakeLists.txt
+-rw-r--r--	root/root	usr/share/faust/esp32/drivers/es8388/adf_structs.h
+-rw-r--r--	root/root	usr/share/faust/esp32/drivers/es8388/component.mk (EMPTY)
+-rw-r--r--	root/root	usr/share/faust/esp32/drivers/es8388/es8388.cpp
+-rw-r--r--	root/root	usr/share/faust/esp32/drivers/es8388/es8388.h
 drwxr-xr-x	root/root	usr/share/faust/esp32/drivers/wm8978/
 -rw-r--r--	root/root	usr/share/faust/esp32/drivers/wm8978/CMakeLists.txt
 -rw-r--r--	root/root	usr/share/faust/esp32/drivers/wm8978/WM8978.cpp
@@ -589,6 +603,21 @@ drwxr-xr-x	root/root	usr/share/faust/esp32/drivers/wm8978/
 -rw-r--r--	root/root	usr/share/faust/esp32/drivers/wm8978/component.mk (EMPTY)
 -rw-r--r--	root/root	usr/share/faust/esp32/esp32.cpp
 -rw-r--r--	root/root	usr/share/faust/esp32/esp32.h
+drwxr-xr-x	root/root	usr/share/faust/esp32/gramo-bt-midi/
+-rw-r--r--	root/root	usr/share/faust/esp32/gramo-bt-midi/CMakeLists.txt
+-rw-r--r--	root/root	usr/share/faust/esp32/gramo-bt-midi/Makefile
+drwxr-xr-x	root/root	usr/share/faust/esp32/gramo-bt-midi/components/
+drwxr-xr-x	root/root	usr/share/faust/esp32/gramo-bt-midi/components/blemidi/
+-rw-r--r--	root/root	usr/share/faust/esp32/gramo-bt-midi/components/blemidi/CMakeLists.txt
+-rw-r--r--	root/root	usr/share/faust/esp32/gramo-bt-midi/components/blemidi/blemidi.c
+-rw-r--r--	root/root	usr/share/faust/esp32/gramo-bt-midi/components/blemidi/component.mk
+drwxr-xr-x	root/root	usr/share/faust/esp32/gramo-bt-midi/components/blemidi/include/
+-rw-r--r--	root/root	usr/share/faust/esp32/gramo-bt-midi/components/blemidi/include/blemidi.h
+drwxr-xr-x	root/root	usr/share/faust/esp32/gramo-bt-midi/main/
+-rw-r--r--	root/root	usr/share/faust/esp32/gramo-bt-midi/main/CMakeLists.txt
+-rw-r--r--	root/root	usr/share/faust/esp32/gramo-bt-midi/main/component.mk
+-rw-r--r--	root/root	usr/share/faust/esp32/gramo-bt-midi/sdkconfig
+-rw-r--r--	root/root	usr/share/faust/esp32/gramo-bt-midi/sdkconfig-bt
 -rw-r--r--	root/root	usr/share/faust/esp32/gramophone-multi.cpp
 -rw-r--r--	root/root	usr/share/faust/esp32/gramophone.cpp
 -rw-r--r--	root/root	usr/share/faust/esp32/volume.dsp
@@ -749,6 +778,7 @@ drwxr-xr-x	root/root	usr/share/faust/examples/misc/
 -rw-r--r--	root/root	usr/share/faust/examples/misc/matrix.dsp
 -rw-r--r--	root/root	usr/share/faust/examples/misc/midiTester.dsp
 -rw-r--r--	root/root	usr/share/faust/examples/misc/mixer.dsp
+-rw-r--r--	root/root	usr/share/faust/examples/misc/statespace.dsp
 -rw-r--r--	root/root	usr/share/faust/examples/misc/switcher.dsp
 -rw-r--r--	root/root	usr/share/faust/examples/misc/tester.dsp
 -rw-r--r--	root/root	usr/share/faust/examples/misc/tester2.dsp
@@ -1177,12 +1207,16 @@ drwxr-xr-x	root/root	usr/share/faust/max-msp/
 -rw-r--r--	root/root	usr/share/faust/maxmsp.lib
 -rw-r--r--	root/root	usr/share/faust/mi.lib
 -rw-r--r--	root/root	usr/share/faust/minimal-bench.cpp
+-rw-r--r--	root/root	usr/share/faust/minimal-dplug.d
+-rw-r--r--	root/root	usr/share/faust/minimal-effect.c
 -rw-r--r--	root/root	usr/share/faust/minimal-effect.cpp
 -rw-r--r--	root/root	usr/share/faust/minimal-jack.rs
+-rw-r--r--	root/root	usr/share/faust/minimal-params.d
 -rw-r--r--	root/root	usr/share/faust/minimal-portaudio.rs
 -rw-r--r--	root/root	usr/share/faust/minimal-static.cpp
 -rw-r--r--	root/root	usr/share/faust/minimal.c
 -rw-r--r--	root/root	usr/share/faust/minimal.cpp
+-rw-r--r--	root/root	usr/share/faust/minimal.d
 -rw-r--r--	root/root	usr/share/faust/minimal.rs
 -rw-r--r--	root/root	usr/share/faust/misceffects.lib
 -rw-r--r--	root/root	usr/share/faust/module.cpp
@@ -1305,6 +1339,7 @@ drwxr-xr-x	root/root	usr/share/faust/osclib/oscpack/tests/
 -rw-r--r--	root/root	usr/share/faust/pure.c
 -rw-r--r--	root/root	usr/share/faust/pure.cpp
 -rw-r--r--	root/root	usr/share/faust/puredata.cpp
+-rw-r--r--	root/root	usr/share/faust/quantizers.lib
 -rw-r--r--	root/root	usr/share/faust/ra-qt.cpp
 -rw-r--r--	root/root	usr/share/faust/reducemaps.lib
 -rw-r--r--	root/root	usr/share/faust/reverbs.lib
@@ -1475,8 +1510,16 @@ drwxr-xr-x	root/root	usr/share/faust/unity/Android/
 -rw-r--r--	root/root	usr/share/faust/unity/unity.cpp
 -rw-r--r--	root/root	usr/share/faust/unity/unityplugin.cpp
 -rw-r--r--	root/root	usr/share/faust/vaeffects.lib
+drwxr-xr-x	root/root	usr/share/faust/vcvrack/
+drwxr-xr-x	root/root	usr/share/faust/vcvrack/template/
+-rw-r--r--	root/root	usr/share/faust/vcvrack/template/Makefile
+drwxr-xr-x	root/root	usr/share/faust/vcvrack/template/res/
+-rw-r--r--	root/root	usr/share/faust/vcvrack/template/res/FaustModule.svg
+drwxr-xr-x	root/root	usr/share/faust/vcvrack/template/src/
+-rw-r--r--	root/root	usr/share/faust/vcvrack/template/src/FaustModule.cpp
 -rw-r--r--	root/root	usr/share/faust/version.lib
 -rw-r--r--	root/root	usr/share/faust/vst.cpp
+-rw-r--r--	root/root	usr/share/faust/wdmodels.lib
 -rw-r--r--	root/root	usr/share/faust/webaudio.lib
 drwxr-xr-x	root/root	usr/share/faust/webaudio/
 -rw-r--r--	root/root	usr/share/faust/webaudio/ExportLib.js

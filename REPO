@@ -185,9 +185,9 @@ f:9c96caa270c210f963d62efb8fcc72a9:sword/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:ntk/.md5sum
 f:f1b4b81d29ed6e8c0b3a1676917bd2b1:ntk/.footprint
 f:492a75f3f5dfbbf1a9dd5fdacb5b6e2c:ntk/Pkgfile
-f:67dcf2a7d6326de353f0da1745ce6f16:faust/.md5sum
-f:ec90104efb7f04674493fc33a846403e:faust/.footprint
-f:4f90cb82c579266737276fba656b656e:faust/Pkgfile
+f:204489f82cab570b85b28cd80f5de267:faust/.md5sum
+f:9af5ec70ba8ba8539ef5407706c52c30:faust/.footprint
+f:8ebc77778a830dc0afdaf2cbb1b924b9:faust/Pkgfile
 f:2f399b265469f0ead10379e529935537:swh-plugins/.md5sum
 f:b3cd60e334d2435ab7522dc73f957923:swh-plugins/.footprint
 f:44b0cb0f1909f60b5e1dd7150b2d9162:swh-plugins/Pkgfile

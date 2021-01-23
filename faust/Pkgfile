@@ -4,7 +4,8 @@
 # Packager:
  
 name=faust
-version=2.27.2
+#version=2.27.2
+version=2.30.5
 release=1
 source=(https://github.com/grame-cncm/${name}/releases/download/${version}/${name}-${version}.tar.gz)
 #        faust-2.20.2-fix_c-api.patch  faust-2.20.2-llvm10.patch)
