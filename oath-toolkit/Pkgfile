@@ -3,17 +3,16 @@
 # Maintainer:  Hans Bezemer, hbezemer at kliksafe dot nl
 # Depends on:  xmlsec help2man gengetopt
 name=oath-toolkit
-version=2.6.2
+#version=2.6.2
+version=2.6.6
 release=1
 source=(https://download.savannah.gnu.org/releases/${name}/${name}-${version}.tar.gz
-        2fffce2a471f74a585939c84cce16ef3015e5d3d.diff
-        fseeko.patch
 	)
 
 build() {
   	cd ${name}-${version}
- 	patch -Np1 < ../../../2fffce2a471f74a585939c84cce16ef3015e5d3d.diff
-  	patch -Np1 < ../../../fseeko.patch
+ 	#patch -Np1 < ../../../2fffce2a471f74a585939c84cce16ef3015e5d3d.diff
+  	#patch -Np1 < ../../../fseeko.patch
   
  	autoreconf -fi
 	./configure --prefix=/usr
@@ -21,3 +20,7 @@ build() {
   	make DESTDIR=${PKG} install
 	rm -rv $PKG/usr/share/gtk-doc $PKG/usr/share/man
 }
+
+#2fffce2a471f74a585939c84cce16ef3015e5d3d.diff
+#fseeko.patch
+
