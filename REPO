@@ -211,9 +211,9 @@ f:5c6c799dec800d14c6378046cbd971f5:libgsf/Pkgfile
 f:308e808a2e681e7854e838ebe7af3a26:minetest/.md5sum
 f:cc5ed64ab928692aec7c9a41310fd762:minetest/.footprint
 f:730e4209c7de0e697d42baeccbf4bfc3:minetest/Pkgfile
-f:e2684a1a014441e46db6aa9336025baa:rclone/.md5sum
-f:225bfd060fe98b9bd87b391be1d01f1f:rclone/.footprint
-f:227bd39b3a7486f80c0ce11db88b111b:rclone/Pkgfile
+f:94fa545bbbdf147088a011e7726aab24:rclone/.md5sum
+f:bfb185e5cd9a0c4015fe235bbffed8a6:rclone/.footprint
+f:a6a4e96170e6610fc459b82ff2473ef7:rclone/Pkgfile
 f:3666289065bd7b6e554d84af85587ac4:umoria/umoria.patch
 f:aec31bfa35724f5dd269118da459328f:umoria/.md5sum
 f:fb5043c9cb8c944162fd52a71983fbc8:umoria/post-install
