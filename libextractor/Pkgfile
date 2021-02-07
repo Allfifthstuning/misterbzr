@@ -6,7 +6,7 @@
 
 
 name=libextractor
-version=1.10
+version=1.11
 release=1
 source=(https://mirror.koddos.net/gnu/${name}/${name}-${version}.tar.gz )
 

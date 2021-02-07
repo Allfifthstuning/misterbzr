@@ -6,9 +6,9 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libextractor.a
 -rwxr-xr-x	root/root	usr/lib/libextractor.la
-lrwxrwxrwx	root/root	usr/lib/libextractor.so -> libextractor.so.2.2.7
-lrwxrwxrwx	root/root	usr/lib/libextractor.so.2 -> libextractor.so.2.2.7
--rwxr-xr-x	root/root	usr/lib/libextractor.so.2.2.7
+lrwxrwxrwx	root/root	usr/lib/libextractor.so -> libextractor.so.3.1.8
+lrwxrwxrwx	root/root	usr/lib/libextractor.so.3 -> libextractor.so.3.1.8
+-rwxr-xr-x	root/root	usr/lib/libextractor.so.3.1.8
 drwxr-xr-x	root/root	usr/lib/libextractor/
 -rw-r--r--	root/root	usr/lib/libextractor/libextractor_archive.a
 -rwxr-xr-x	root/root	usr/lib/libextractor/libextractor_archive.la
