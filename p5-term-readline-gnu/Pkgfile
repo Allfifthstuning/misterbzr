@@ -4,9 +4,9 @@
 # Depends on:
 
 name=p5-term-readline-gnu
-version=1.36
+version=1.39
 release=1
-source=(https://cpan.metacpan.org/authors/id/H/HA/HAYASHI/Term-ReadLine-Gnu-1.36.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/H/HA/HAYASHI/Term-ReadLine-Gnu-${version}.tar.gz)
 
 build() {
   cd Term-ReadLine-Gnu-$version
