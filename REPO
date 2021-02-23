@@ -63,6 +63,7 @@ d:p5-module-build-using-pkgconfig
 d:calcurse
 d:p5-git-version-compare
 d:busybox
+d:peertube-viewer-rs
 d:libtermkey
 d:p5-data-section-simple
 d:tuneit
@@ -277,6 +278,9 @@ f:30e5b7b314a1ff1deb809ca1b3868036:p5-git-version-compare/Pkgfile
 f:aeb94579b3db5e7b9010942fc9694829:busybox/.md5sum
 f:4ce31a04084c9c176680533ec774ab15:busybox/.footprint
 f:ee3643916942e526c2878e9eb29871c2:busybox/Pkgfile
+f:d45e5f2f01d45f4bfe7e53cd8fe3bbc6:peertube-viewer-rs/.md5sum
+f:1db931f72cb56e00b37690770335574c:peertube-viewer-rs/.footprint
+f:424208dfca9b9ffec7d6f7be9670ecf8:peertube-viewer-rs/Pkgfile
 f:20128a33efafb2bb7e098ef5ac0d72c4:libtermkey/.md5sum
 f:82390f3c26bc221b575a077d5be84458:libtermkey/.footprint
 f:dfeeb4ca9137afcd822f652887052974:libtermkey/Pkgfile

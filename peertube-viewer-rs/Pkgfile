@@ -1,0 +1,22 @@
+# Description: 	Peertube command line viewer inspired by youtube-viewer
+# URL: 		https://peertube-viewer.com
+# Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: 	rust
+
+name=peertube-viewer-rs
+version=1.8.0
+release=1
+source=(https://gitlab.com/peertube-viewer/peertube-viewer-rs/-/archive/v${version}/peertube-viewer-rs-v${version}.tar.gz)
+
+build() {
+	cd ${name}-v${version}
+	cargo b --release --locked
+	install -Dm755 target/release/peertube-viewer-rs $PKG/usr/bin/peertube-viewer-rs
+    	install -Dm755 completions/peertube-viewer-rs.bash $PKG/etc/bash_completion.d/peertube-viewer-rs.bash
+    	install -Dm755 peertube-viewer-rs.1 $PKG/usr/share/man/man1/peertube-viewer-rs.1
+    	gzip $PKG/usr/share/man/man1/peertube-viewer-rs.1
+
+    	#install -Dm 755 LICENSE "${PKG}/usr/share/licenses/${name}/LICENSE-MIT"
+	}
+
