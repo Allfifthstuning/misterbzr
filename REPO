@@ -55,7 +55,6 @@ d:t1utils
 d:p5-audio-ecasound
 d:gnunet-gtk
 d:non
-d:patchage
 d:ecasound
 d:njconnect
 d:jbigkit
@@ -78,9 +77,9 @@ f:37cc036df97610f317e23ec050c0cca6:sword-modules/Pkgfile
 f:8ae45db0b2b147968eb6be2015b8329d:p5-alien-libtermkey/.md5sum
 f:dbf002aa97f0deeb63d50b167c3a70b8:p5-alien-libtermkey/.footprint
 f:f9c08c01bf71edb49f91ab8cd698cbd0:p5-alien-libtermkey/Pkgfile
-f:a875332167e92865e210740eb82db4ad:p5-term-readline-gnu/.md5sum
+f:17f02cd19f1a8954c163a404f119005d:p5-term-readline-gnu/.md5sum
 f:cc3f2f1d096616c199b3bdc5e86efd86:p5-term-readline-gnu/.footprint
-f:8277a9fce5f63a8dd6af973d3dbf4d3b:p5-term-readline-gnu/Pkgfile
+f:58374e6becacff8ac2c50ded59380836:p5-term-readline-gnu/Pkgfile
 f:076e51a643683fba0aaa958dbbe06940:p5-graph/.md5sum
 f:dee46c8a53f6f206739dd2f5d54ad8ae:p5-graph/.footprint
 f:c2e227e1d45bfd1b8239015422bc6f86:p5-graph/Pkgfile
@@ -209,9 +208,9 @@ f:997224fd5e7d391bab1d5b8ff4e950a0:pkg-clean/Pkgfile
 f:769a27bdb39bd5e1e0ef77d3e5d544f7:libgsf/.md5sum
 f:0e8c2dc7773b61746973df09a6af51bb:libgsf/.footprint
 f:5c6c799dec800d14c6378046cbd971f5:libgsf/Pkgfile
-f:308e808a2e681e7854e838ebe7af3a26:minetest/.md5sum
-f:cc5ed64ab928692aec7c9a41310fd762:minetest/.footprint
-f:730e4209c7de0e697d42baeccbf4bfc3:minetest/Pkgfile
+f:098933899d17d84c32076ea7037c6c9d:minetest/.md5sum
+f:9d0b5de3d037d05a86078c240940832e:minetest/.footprint
+f:d3ab4cff064bef892a94552c81e8f002:minetest/Pkgfile
 f:94fa545bbbdf147088a011e7726aab24:rclone/.md5sum
 f:bfb185e5cd9a0c4015fe235bbffed8a6:rclone/.footprint
 f:a6a4e96170e6610fc459b82ff2473ef7:rclone/Pkgfile
@@ -255,8 +254,6 @@ f:8564b7ee4307ef82ecb74babe6719928:gnunet-gtk/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:non/.md5sum
 f:8dfee2c16be83cb56f84e472150d27bd:non/.footprint
 f:6deec0ab2bd93cabb3133ebc9b78310c:non/Pkgfile
-f:43b7c98914a9b1842e1c4881f2b2d056:patchage/.md5sum
-f:68a16e636ae4ddebe6ce4eaa1fbc373e:patchage/Pkgfile
 f:f4c910ce68634b7b558afb593d1d9534:ecasound/.md5sum
 f:f07dd9df5fc0d0d4a2c72af7519eb155:ecasound/.footprint
 f:9abecd00015e1fc14db810f1ed62bf9f:ecasound/Pkgfile
