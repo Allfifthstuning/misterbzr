@@ -215,10 +215,10 @@ f:94fa545bbbdf147088a011e7726aab24:rclone/.md5sum
 f:bfb185e5cd9a0c4015fe235bbffed8a6:rclone/.footprint
 f:a6a4e96170e6610fc459b82ff2473ef7:rclone/Pkgfile
 f:3666289065bd7b6e554d84af85587ac4:umoria/umoria.patch
-f:aec31bfa35724f5dd269118da459328f:umoria/.md5sum
+f:6eed8e97143c2a60247f5cc8643747bf:umoria/.md5sum
 f:fb5043c9cb8c944162fd52a71983fbc8:umoria/post-install
 f:55b5c937afd01b4c07902d50526cc301:umoria/.footprint
-f:21d2743f8fde652bf1cc7f463e6ea0f5:umoria/Pkgfile
+f:19fa73446a4e8abbadbb46846a1ffb88:umoria/Pkgfile
 f:cd8c0bbce3b841c2f1d4deaa8416d805:xboxdrv/.md5sum
 f:f69926e98824143ed5be74cd26650f74:xboxdrv/.footprint
 f:9250a8dc8bfd1ff288ff3975e10e6149:xboxdrv/Pkgfile
