@@ -4,7 +4,7 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/pkg/
 drwxr-xr-x	root/root	usr/pkg/mod/
 drwxr-xr-x	root/root	usr/pkg/mod/bazil.org/
-dr-x------	root/root	usr/pkg/mod/bazil.org/fuse@v0.0.0-20200524192727-fb710f7dfd05/
+dr-xr-xr-x	root/root	usr/pkg/mod/bazil.org/fuse@v0.0.0-20200524192727-fb710f7dfd05/
 -r--r--r--	root/root	usr/pkg/mod/bazil.org/fuse@v0.0.0-20200524192727-fb710f7dfd05/.gitattributes
 -r--r--r--	root/root	usr/pkg/mod/bazil.org/fuse@v0.0.0-20200524192727-fb710f7dfd05/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/bazil.org/fuse@v0.0.0-20200524192727-fb710f7dfd05/LICENSE
@@ -3068,7 +3068,7 @@ drwxr-xr-x	root/root	usr/pkg/mod/cache/download/storj.io/uplink/@v/
 -rw-------	root/root	usr/pkg/mod/cache/download/storj.io/uplink/@v/v1.4.1.zip
 -rw-r--r--	root/root	usr/pkg/mod/cache/download/storj.io/uplink/@v/v1.4.1.ziphash
 drwxr-xr-x	root/root	usr/pkg/mod/cloud.google.com/
-dr-x------	root/root	usr/pkg/mod/cloud.google.com/go@v0.70.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/cloud.google.com/go@v0.70.0/
 dr-xr-xr-x	root/root	usr/pkg/mod/cloud.google.com/go@v0.70.0/.github/
 -r--r--r--	root/root	usr/pkg/mod/cloud.google.com/go@v0.70.0/.github/CODEOWNERS
 dr-xr-xr-x	root/root	usr/pkg/mod/cloud.google.com/go@v0.70.0/.github/ISSUE_TEMPLATE/
@@ -3975,7 +3975,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/cloud.google.com/go@v0.70.0/workflows/execution
 -r--r--r--	root/root	usr/pkg/mod/cloud.google.com/go@v0.70.0/workflows/executions/apiv1beta/executions_client_example_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/!azure/
-dr-x------	root/root	usr/pkg/mod/github.com/!azure/azure-pipeline-go@v0.2.3/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/!azure/azure-pipeline-go@v0.2.3/
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/azure-pipeline-go@v0.2.3/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/azure-pipeline-go@v0.2.3/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/azure-pipeline-go@v0.2.3/README.md
@@ -3994,7 +3994,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/!azure/azure-pipeline-go@v0.2.3/pipe
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/azure-pipeline-go@v0.2.3/pipeline/request.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/azure-pipeline-go@v0.2.3/pipeline/response.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/azure-pipeline-go@v0.2.3/pipeline/version.go
-dr-x------	root/root	usr/pkg/mod/github.com/!azure/azure-storage-blob-go@v0.13.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/!azure/azure-storage-blob-go@v0.13.0/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/!azure/azure-storage-blob-go@v0.13.0/.github/
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/azure-storage-blob-go@v0.13.0/.github/ISSUE_TEMPLATE.md
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/azure-storage-blob-go@v0.13.0/.gitignore
@@ -4081,7 +4081,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/!azure/azure-storage-blob-go@v0.13.0
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/azure-storage-blob-go@v0.13.0/swagger/blob.json
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/!azure/go-autorest/
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/
-dr-x------	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/adal@v0.9.8/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/adal@v0.9.8/
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/adal@v0.9.8/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/adal@v0.9.8/README.md
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/adal@v0.9.8/cmd/
@@ -4101,7 +4101,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/adal@v0.
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/adal@v0.9.8/token_legacy.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/adal@v0.9.8/token_test.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/adal@v0.9.8/version.go
-dr-x------	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/date@v0.3.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/date@v0.3.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/date@v0.3.0/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/date@v0.3.0/date.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/date@v0.3.0/date_test.go
@@ -4115,14 +4115,14 @@ dr-x------	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/date@v0.
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/date@v0.3.0/unixtime.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/date@v0.3.0/unixtime_test.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/autorest/date@v0.3.0/utility.go
-dr-x------	root/root	usr/pkg/mod/github.com/!azure/go-autorest/tracing@v0.6.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/!azure/go-autorest/tracing@v0.6.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/tracing@v0.6.0/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/tracing@v0.6.0/go.mod
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/tracing@v0.6.0/go.sum
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/tracing@v0.6.0/go_mod_tidy_hack.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/tracing@v0.6.0/tracing.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest/tracing@v0.6.0/tracing_test.go
-dr-x------	root/root	usr/pkg/mod/github.com/!azure/go-autorest@v14.2.0+incompatible/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/!azure/go-autorest@v14.2.0+incompatible/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/!azure/go-autorest@v14.2.0+incompatible/.github/
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest@v14.2.0+incompatible/.github/PULL_REQUEST_TEMPLATE.md
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest@v14.2.0+incompatible/.gitignore
@@ -4135,7 +4135,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/!azure/go-autorest@v14.2.0+incompati
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest@v14.2.0+incompatible/azure-pipelines.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/!azure/go-autorest@v14.2.0+incompatible/doc.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/!unknwon/
-dr-x------	root/root	usr/pkg/mod/github.com/!unknwon/goconfig@v0.0.0-20200908083735-df7de6a44db8/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/!unknwon/goconfig@v0.0.0-20200908083735-df7de6a44db8/
 -r--r--r--	root/root	usr/pkg/mod/github.com/!unknwon/goconfig@v0.0.0-20200908083735-df7de6a44db8/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/!unknwon/goconfig@v0.0.0-20200908083735-df7de6a44db8/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/!unknwon/goconfig@v0.0.0-20200908083735-df7de6a44db8/README.md
@@ -4150,7 +4150,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/!unknwon/goconfig@v0.0.0-20200908083
 -r--r--r--	root/root	usr/pkg/mod/github.com/!unknwon/goconfig@v0.0.0-20200908083735-df7de6a44db8/util.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/!unknwon/goconfig@v0.0.0-20200908083735-df7de6a44db8/write.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/a8m/
-dr-x------	root/root	usr/pkg/mod/github.com/a8m/tree@v0.0.0-20201026183218-fce18e2a750e/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/a8m/tree@v0.0.0-20201026183218-fce18e2a750e/
 -r--r--r--	root/root	usr/pkg/mod/github.com/a8m/tree@v0.0.0-20201026183218-fce18e2a750e/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/a8m/tree@v0.0.0-20201026183218-fce18e2a750e/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/a8m/tree@v0.0.0-20201026183218-fce18e2a750e/LICENSE
@@ -4182,7 +4182,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/a8m/tree@v0.0.0-20201026183218-fce18
 -r--r--r--	root/root	usr/pkg/mod/github.com/a8m/tree@v0.0.0-20201026183218-fce18e2a750e/stat_unix.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/a8m/tree@v0.0.0-20201026183218-fce18e2a750e/stat_unsupported.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/aalpar/
-dr-x------	root/root	usr/pkg/mod/github.com/aalpar/deheap@v0.0.0-20200318053559-9a0c2883bd56/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/aalpar/deheap@v0.0.0-20200318053559-9a0c2883bd56/
 -r--r--r--	root/root	usr/pkg/mod/github.com/aalpar/deheap@v0.0.0-20200318053559-9a0c2883bd56/LICENSE.txt
 -r--r--r--	root/root	usr/pkg/mod/github.com/aalpar/deheap@v0.0.0-20200318053559-9a0c2883bd56/README.md
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/aalpar/deheap@v0.0.0-20200318053559-9a0c2883bd56/corpus/
@@ -4194,7 +4194,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/aalpar/deheap@v0.0.0-20200318053559-
 -r--r--r--	root/root	usr/pkg/mod/github.com/aalpar/deheap@v0.0.0-20200318053559-9a0c2883bd56/example_intheap_test.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/aalpar/deheap@v0.0.0-20200318053559-9a0c2883bd56/fuzz.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/abbot/
-dr-x------	root/root	usr/pkg/mod/github.com/abbot/go-http-auth@v0.4.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/abbot/go-http-auth@v0.4.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/abbot/go-http-auth@v0.4.0/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/abbot/go-http-auth@v0.4.0/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/abbot/go-http-auth@v0.4.0/Makefile
@@ -4218,7 +4218,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/abbot/go-http-auth@v0.4.0/examples/
 -r--r--r--	root/root	usr/pkg/mod/github.com/abbot/go-http-auth@v0.4.0/users.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/abbot/go-http-auth@v0.4.0/users_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/anacrolix/
-dr-x------	root/root	usr/pkg/mod/github.com/anacrolix/dms@v1.1.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/anacrolix/dms@v1.1.0/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/anacrolix/dms@v1.1.0/.circleci/
 -r--r--r--	root/root	usr/pkg/mod/github.com/anacrolix/dms@v1.1.0/.circleci/config.yml
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/anacrolix/dms@v1.1.0/.github/
@@ -4289,7 +4289,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/anacrolix/dms@v1.1.0/upnp/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/anacrolix/dms@v1.1.0/upnpav/
 -r--r--r--	root/root	usr/pkg/mod/github.com/anacrolix/dms@v1.1.0/upnpav/upnpav.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/atotto/
-dr-x------	root/root	usr/pkg/mod/github.com/atotto/clipboard@v0.1.2/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/atotto/clipboard@v0.1.2/
 -r--r--r--	root/root	usr/pkg/mod/github.com/atotto/clipboard@v0.1.2/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/atotto/clipboard@v0.1.2/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/atotto/clipboard@v0.1.2/README.md
@@ -4306,7 +4306,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/atotto/clipboard@v0.1.2/cmd/gopaste/
 -r--r--r--	root/root	usr/pkg/mod/github.com/atotto/clipboard@v0.1.2/example_test.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/atotto/clipboard@v0.1.2/go.mod
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/aws/
-dr-x------	root/root	usr/pkg/mod/github.com/aws/aws-sdk-go@v1.35.17/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/aws/aws-sdk-go@v1.35.17/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/aws/aws-sdk-go@v1.35.17/.github/
 -r--r--r--	root/root	usr/pkg/mod/github.com/aws/aws-sdk-go@v1.35.17/.github/ISSUE_TEMPLATE.md
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/aws/aws-sdk-go@v1.35.17/.github/ISSUE_TEMPLATE/
@@ -8663,7 +8663,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/aws/aws-sdk-go@v1.35.17/service/xray
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/aws/aws-sdk-go@v1.35.17/service/xray/xrayiface/
 -r--r--r--	root/root	usr/pkg/mod/github.com/aws/aws-sdk-go@v1.35.17/service/xray/xrayiface/interface.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/beorn7/
-dr-x------	root/root	usr/pkg/mod/github.com/beorn7/perks@v1.0.1/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/beorn7/perks@v1.0.1/
 -r--r--r--	root/root	usr/pkg/mod/github.com/beorn7/perks@v1.0.1/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/beorn7/perks@v1.0.1/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/beorn7/perks@v1.0.1/README.md
@@ -8683,7 +8683,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/beorn7/perks@v1.0.1/topk/
 -r--r--r--	root/root	usr/pkg/mod/github.com/beorn7/perks@v1.0.1/topk/topk.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/beorn7/perks@v1.0.1/topk/topk_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/btcsuite/
-dr-x------	root/root	usr/pkg/mod/github.com/btcsuite/btcutil@v1.0.3-0.20201124182144-4031bdc69ded/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/btcsuite/btcutil@v1.0.3-0.20201124182144-4031bdc69ded/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/btcsuite/btcutil@v1.0.3-0.20201124182144-4031bdc69ded/.github/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/btcsuite/btcutil@v1.0.3-0.20201124182144-4031bdc69ded/.github/workflows/
 -r--r--r--	root/root	usr/pkg/mod/github.com/btcsuite/btcutil@v1.0.3-0.20201124182144-4031bdc69ded/.github/workflows/go.yml
@@ -8781,7 +8781,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/btcsuite/btcutil@v1.0.3-0.2020112418
 -r--r--r--	root/root	usr/pkg/mod/github.com/btcsuite/btcutil@v1.0.3-0.20201124182144-4031bdc69ded/wif.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/btcsuite/btcutil@v1.0.3-0.20201124182144-4031bdc69ded/wif_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/buengese/
-dr-x------	root/root	usr/pkg/mod/github.com/buengese/sgzip@v0.1.1/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/buengese/sgzip@v0.1.1/
 -r--r--r--	root/root	usr/pkg/mod/github.com/buengese/sgzip@v0.1.1/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/buengese/sgzip@v0.1.1/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/buengese/sgzip@v0.1.1/GO_LICENSE
@@ -8798,7 +8798,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/buengese/sgzip@v0.1.1/testdata/
 -r--r--r--	root/root	usr/pkg/mod/github.com/buengese/sgzip@v0.1.1/testdata/test.json.dat
 -r--r--r--	root/root	usr/pkg/mod/github.com/buengese/sgzip@v0.1.1/testdata/test.json.gz
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/calebcase/
-dr-x------	root/root	usr/pkg/mod/github.com/calebcase/tmpfile@v1.0.2/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/calebcase/tmpfile@v1.0.2/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/calebcase/tmpfile@v1.0.2/.github/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/calebcase/tmpfile@v1.0.2/.github/workflows/
 -r--r--r--	root/root	usr/pkg/mod/github.com/calebcase/tmpfile@v1.0.2/.github/workflows/tests.yml
@@ -8817,7 +8817,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/calebcase/tmpfile@v1.0.2/.github/wor
 -r--r--r--	root/root	usr/pkg/mod/github.com/calebcase/tmpfile@v1.0.2/tmpfile_windows.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/cespare/
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/cespare/xxhash/
-dr-x------	root/root	usr/pkg/mod/github.com/cespare/xxhash/v2@v2.1.1/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/cespare/xxhash/v2@v2.1.1/
 -r--r--r--	root/root	usr/pkg/mod/github.com/cespare/xxhash/v2@v2.1.1/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/cespare/xxhash/v2@v2.1.1/LICENSE.txt
 -r--r--r--	root/root	usr/pkg/mod/github.com/cespare/xxhash/v2@v2.1.1/README.md
@@ -8834,7 +8834,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/cespare/xxhash/v2@v2.1.1/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/cespare/xxhash/v2@v2.1.1/xxhsum/
 -r--r--r--	root/root	usr/pkg/mod/github.com/cespare/xxhash/v2@v2.1.1/xxhsum/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/cespare/xxhash/v2@v2.1.1/xxhsum/xxhsum.go
-dr-x------	root/root	usr/pkg/mod/github.com/cespare/xxhash@v1.1.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/cespare/xxhash@v1.1.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/cespare/xxhash@v1.1.0/LICENSE.txt
 -r--r--r--	root/root	usr/pkg/mod/github.com/cespare/xxhash@v1.1.0/README.md
 -r--r--r--	root/root	usr/pkg/mod/github.com/cespare/xxhash@v1.1.0/go.mod
@@ -8854,7 +8854,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/cespare/xxhash@v1.1.0/xxhsum/
 -r--r--r--	root/root	usr/pkg/mod/github.com/cespare/xxhash@v1.1.0/xxhsum/xxhsum.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/colinmarc/
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/colinmarc/hdfs/
-dr-x------	root/root	usr/pkg/mod/github.com/colinmarc/hdfs/v2@v2.2.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/colinmarc/hdfs/v2@v2.2.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/colinmarc/hdfs/v2@v2.2.0/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/colinmarc/hdfs/v2@v2.2.0/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/colinmarc/hdfs/v2@v2.2.0/CODE_OF_CONDUCT.md
@@ -9025,7 +9025,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/colinmarc/hdfs/v2@v2.2.0/testdata/
 -r--r--r--	root/root	usr/pkg/mod/github.com/colinmarc/hdfs/v2@v2.2.0/xattr.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/colinmarc/hdfs/v2@v2.2.0/xattr_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/coreos/
-dr-x------	root/root	usr/pkg/mod/github.com/coreos/go-semver@v0.3.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/coreos/go-semver@v0.3.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/coreos/go-semver@v0.3.0/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/coreos/go-semver@v0.3.0/DCO
 -r--r--r--	root/root	usr/pkg/mod/github.com/coreos/go-semver@v0.3.0/LICENSE
@@ -9039,7 +9039,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/coreos/go-semver@v0.3.0/semver/
 -r--r--r--	root/root	usr/pkg/mod/github.com/coreos/go-semver@v0.3.0/semver/sort.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/cpuguy83/
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/cpuguy83/go-md2man/
-dr-x------	root/root	usr/pkg/mod/github.com/cpuguy83/go-md2man/v2@v2.0.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/cpuguy83/go-md2man/v2@v2.0.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/cpuguy83/go-md2man/v2@v2.0.0/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/cpuguy83/go-md2man/v2@v2.0.0/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/cpuguy83/go-md2man/v2@v2.0.0/Dockerfile
@@ -9060,7 +9060,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/cpuguy83/go-md2man/v2@v2.0.0/md2man/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/cpuguy83/go-md2man/v2@v2.0.0/vendor/
 -r--r--r--	root/root	usr/pkg/mod/github.com/cpuguy83/go-md2man/v2@v2.0.0/vendor/modules.txt
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/dropbox/
-dr-x------	root/root	usr/pkg/mod/github.com/dropbox/dropbox-sdk-go-unofficial@v5.6.0+incompatible/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/dropbox/dropbox-sdk-go-unofficial@v5.6.0+incompatible/
 -r--r--r--	root/root	usr/pkg/mod/github.com/dropbox/dropbox-sdk-go-unofficial@v5.6.0+incompatible/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/dropbox/dropbox-sdk-go-unofficial@v5.6.0+incompatible/.gitmodules
 -r--r--r--	root/root	usr/pkg/mod/github.com/dropbox/dropbox-sdk-go-unofficial@v5.6.0+incompatible/.travis.yml
@@ -9121,7 +9121,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/dropbox/dropbox-sdk-go-unofficial@v5
 -r--r--r--	root/root	usr/pkg/mod/github.com/dropbox/dropbox-sdk-go-unofficial@v5.6.0+incompatible/generator/go_rsrc/sdk.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/dropbox/dropbox-sdk-go-unofficial@v5.6.0+incompatible/generator/go_types.stoneg.py
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/form3tech-oss/
-dr-x------	root/root	usr/pkg/mod/github.com/form3tech-oss/jwt-go@v3.2.2+incompatible/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/form3tech-oss/jwt-go@v3.2.2+incompatible/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/form3tech-oss/jwt-go@v3.2.2+incompatible/.github/
 -r--r--r--	root/root	usr/pkg/mod/github.com/form3tech-oss/jwt-go@v3.2.2+incompatible/.github/CODEOWNERS
 -r--r--r--	root/root	usr/pkg/mod/github.com/form3tech-oss/jwt-go@v3.2.2+incompatible/.gitignore
@@ -9180,7 +9180,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/form3tech-oss/jwt-go@v3.2.2+incompat
 -r--r--r--	root/root	usr/pkg/mod/github.com/form3tech-oss/jwt-go@v3.2.2+incompatible/test/sample_key.pub
 -r--r--r--	root/root	usr/pkg/mod/github.com/form3tech-oss/jwt-go@v3.2.2+incompatible/token.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/gabriel-vasile/
-dr-x------	root/root	usr/pkg/mod/github.com/gabriel-vasile/mimetype@v1.1.1/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/gabriel-vasile/mimetype@v1.1.1/
 -r--r--r--	root/root	usr/pkg/mod/github.com/gabriel-vasile/mimetype@v1.1.1/.gitattributes
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/gabriel-vasile/mimetype@v1.1.1/.github/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/gabriel-vasile/mimetype@v1.1.1/.github/ISSUE_TEMPLATE/
@@ -9388,7 +9388,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/gabriel-vasile/mimetype@v1.1.1/testd
 -r--r--r--	root/root	usr/pkg/mod/github.com/gabriel-vasile/mimetype@v1.1.1/tree.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/gabriel-vasile/mimetype@v1.1.1/tree_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/gogo/
-dr-x------	root/root	usr/pkg/mod/github.com/gogo/protobuf@v1.3.1/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/gogo/protobuf@v1.3.1/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/gogo/protobuf@v1.3.1/.github/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/gogo/protobuf@v1.3.1/.github/workflows/
 -r--r--r--	root/root	usr/pkg/mod/github.com/gogo/protobuf@v1.3.1/.github/workflows/ci-workflow.yml
@@ -10370,7 +10370,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/gogo/protobuf@v1.3.1/vanity/test/sli
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/gogo/protobuf@v1.3.1/version/
 -r--r--r--	root/root	usr/pkg/mod/github.com/gogo/protobuf@v1.3.1/version/version.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/golang/
-dr-x------	root/root	usr/pkg/mod/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e/
 -r--r--r--	root/root	usr/pkg/mod/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e/LICENSE
@@ -10398,7 +10398,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/golang/groupcache@v0.0.0-20200121045
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e/testpb/
 -r--r--r--	root/root	usr/pkg/mod/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e/testpb/test.pb.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e/testpb/test.proto
-dr-x------	root/root	usr/pkg/mod/github.com/golang/protobuf@v1.4.3/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/golang/protobuf@v1.4.3/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/golang/protobuf@v1.4.3/.github/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/golang/protobuf@v1.4.3/.github/ISSUE_TEMPLATE/
 -r--r--r--	root/root	usr/pkg/mod/github.com/golang/protobuf@v1.4.3/.github/ISSUE_TEMPLATE/bug_report.md
@@ -10497,7 +10497,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/golang/protobuf@v1.4.3/ptypes/wrappe
 -r--r--r--	root/root	usr/pkg/mod/github.com/golang/protobuf@v1.4.3/regenerate.bash
 -r--r--r--	root/root	usr/pkg/mod/github.com/golang/protobuf@v1.4.3/test.bash
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/google/
-dr-x------	root/root	usr/pkg/mod/github.com/google/go-querystring@v1.0.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/google/go-querystring@v1.0.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/google/go-querystring@v1.0.0/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/google/go-querystring@v1.0.0/CONTRIBUTING.md
 -r--r--r--	root/root	usr/pkg/mod/github.com/google/go-querystring@v1.0.0/LICENSE
@@ -10506,7 +10506,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/google/go-querystring@v1.0.0/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/google/go-querystring@v1.0.0/query/
 -r--r--r--	root/root	usr/pkg/mod/github.com/google/go-querystring@v1.0.0/query/encode.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/google/go-querystring@v1.0.0/query/encode_test.go
-dr-x------	root/root	usr/pkg/mod/github.com/google/uuid@v1.1.2/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/google/uuid@v1.1.2/
 -r--r--r--	root/root	usr/pkg/mod/github.com/google/uuid@v1.1.2/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/google/uuid@v1.1.2/CONTRIBUTING.md
 -r--r--r--	root/root	usr/pkg/mod/github.com/google/uuid@v1.1.2/CONTRIBUTORS
@@ -10532,7 +10532,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/google/uuid@v1.1.2/
 -r--r--r--	root/root	usr/pkg/mod/github.com/google/uuid@v1.1.2/version4.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/googleapis/
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/googleapis/gax-go/
-dr-x------	root/root	usr/pkg/mod/github.com/googleapis/gax-go/v2@v2.0.5/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/googleapis/gax-go/v2@v2.0.5/
 -r--r--r--	root/root	usr/pkg/mod/github.com/googleapis/gax-go/v2@v2.0.5/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/googleapis/gax-go/v2@v2.0.5/call_option.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/googleapis/gax-go/v2@v2.0.5/call_option_test.go
@@ -10546,7 +10546,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/googleapis/gax-go/v2@v2.0.5/
 -r--r--r--	root/root	usr/pkg/mod/github.com/googleapis/gax-go/v2@v2.0.5/invoke_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/hanwen/
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/hanwen/go-fuse/
-dr-x------	root/root	usr/pkg/mod/github.com/hanwen/go-fuse/v2@v2.0.3/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/hanwen/go-fuse/v2@v2.0.3/
 -r--r--r--	root/root	usr/pkg/mod/github.com/hanwen/go-fuse/v2@v2.0.3/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/hanwen/go-fuse/v2@v2.0.3/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/hanwen/go-fuse/v2@v2.0.3/AUTHORS
@@ -10774,7 +10774,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/hanwen/go-fuse/v2@v2.0.3/zipfs/
 -r--r--r--	root/root	usr/pkg/mod/github.com/hanwen/go-fuse/v2@v2.0.3/zipfs/test.zip
 -r--r--r--	root/root	usr/pkg/mod/github.com/hanwen/go-fuse/v2@v2.0.3/zipfs/zipfs.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/hanwen/go-fuse/v2@v2.0.3/zipfs/zipfs_test.go
-dr-x------	root/root	usr/pkg/mod/github.com/hanwen/go-fuse@v1.0.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/hanwen/go-fuse@v1.0.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/hanwen/go-fuse@v1.0.0/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/hanwen/go-fuse@v1.0.0/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/hanwen/go-fuse@v1.0.0/AUTHORS
@@ -10957,7 +10957,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/hanwen/go-fuse@v1.0.0/zipfs/
 -r--r--r--	root/root	usr/pkg/mod/github.com/hanwen/go-fuse@v1.0.0/zipfs/zipfs.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/hanwen/go-fuse@v1.0.0/zipfs/zipfs_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/hashicorp/
-dr-x------	root/root	usr/pkg/mod/github.com/hashicorp/go-uuid@v1.0.2/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/hashicorp/go-uuid@v1.0.2/
 -r--r--r--	root/root	usr/pkg/mod/github.com/hashicorp/go-uuid@v1.0.2/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/hashicorp/go-uuid@v1.0.2/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/hashicorp/go-uuid@v1.0.2/README.md
@@ -10966,7 +10966,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/hashicorp/go-uuid@v1.0.2/
 -r--r--r--	root/root	usr/pkg/mod/github.com/hashicorp/go-uuid@v1.0.2/uuid_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/iguanesolutions/
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/iguanesolutions/go-systemd/
-dr-x------	root/root	usr/pkg/mod/github.com/iguanesolutions/go-systemd/v5@v5.0.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/iguanesolutions/go-systemd/v5@v5.0.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/iguanesolutions/go-systemd/v5@v5.0.0/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/iguanesolutions/go-systemd/v5@v5.0.0/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/iguanesolutions/go-systemd/v5@v5.0.0/README.md
@@ -10981,21 +10981,21 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/iguanesolutions/go-systemd/v5@v5.0.0
 -r--r--r--	root/root	usr/pkg/mod/github.com/iguanesolutions/go-systemd/v5@v5.0.0/sysd.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/jcmturner/
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/jcmturner/aescts/
-dr-x------	root/root	usr/pkg/mod/github.com/jcmturner/aescts/v2@v2.0.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jcmturner/aescts/v2@v2.0.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/aescts/v2@v2.0.0/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/aescts/v2@v2.0.0/aescts.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/aescts/v2@v2.0.0/aescts_test.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/aescts/v2@v2.0.0/go.mod
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/aescts/v2@v2.0.0/go.sum
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/jcmturner/dnsutils/
-dr-x------	root/root	usr/pkg/mod/github.com/jcmturner/dnsutils/v2@v2.0.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jcmturner/dnsutils/v2@v2.0.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/dnsutils/v2@v2.0.0/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/dnsutils/v2@v2.0.0/go.mod
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/dnsutils/v2@v2.0.0/go.sum
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/dnsutils/v2@v2.0.0/srv.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/dnsutils/v2@v2.0.0/srv_integration_test.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/dnsutils/v2@v2.0.0/srv_test.go
-dr-x------	root/root	usr/pkg/mod/github.com/jcmturner/gofork@v1.0.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jcmturner/gofork@v1.0.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/gofork@v1.0.0/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/gofork@v1.0.0/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/gofork@v1.0.0/README.md
@@ -11014,7 +11014,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jcmturner/gofork@v1.0.0/x/crypto/pbk
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/gofork@v1.0.0/x/crypto/pbkdf2/pbkdf2.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/gofork@v1.0.0/x/crypto/pbkdf2/pbkdf2_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/jcmturner/goidentity/
-dr-x------	root/root	usr/pkg/mod/github.com/jcmturner/goidentity/v6@v6.0.1/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jcmturner/goidentity/v6@v6.0.1/
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/goidentity/v6@v6.0.1/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/goidentity/v6@v6.0.1/README.md
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/goidentity/v6@v6.0.1/authenticator.go
@@ -11024,7 +11024,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/jcmturner/goidentity/v6@v6.0.1/
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/goidentity/v6@v6.0.1/user.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/goidentity/v6@v6.0.1/user_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/jcmturner/gokrb5/
-dr-x------	root/root	usr/pkg/mod/github.com/jcmturner/gokrb5/v8@v8.4.2/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jcmturner/gokrb5/v8@v8.4.2/
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/gokrb5/v8@v8.4.2/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/gokrb5/v8@v8.4.2/README.md
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/gokrb5/v8@v8.4.2/USAGE.md
@@ -11225,7 +11225,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jcmturner/gokrb5/v8@v8.4.2/types/
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/gokrb5/v8@v8.4.2/types/TypedData.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/gokrb5/v8@v8.4.2/types/TypedData_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/jcmturner/rpc/
-dr-x------	root/root	usr/pkg/mod/github.com/jcmturner/rpc/v2@v2.0.3/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jcmturner/rpc/v2@v2.0.3/
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/rpc/v2@v2.0.3/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/rpc/v2@v2.0.3/README.md
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jcmturner/rpc/v2@v2.0.3/examples/
@@ -11266,7 +11266,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jcmturner/rpc/v2@v2.0.3/ndr/
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/rpc/v2@v2.0.3/ndr/union.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/jcmturner/rpc/v2@v2.0.3/ndr/union_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/jlaffaye/
-dr-x------	root/root	usr/pkg/mod/github.com/jlaffaye/ftp@v0.0.0-20201112195030-9aae4d151126/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jlaffaye/ftp@v0.0.0-20201112195030-9aae4d151126/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jlaffaye/ftp@v0.0.0-20201112195030-9aae4d151126/.github/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jlaffaye/ftp@v0.0.0-20201112195030-9aae4d151126/.github/ISSUE_TEMPLATE/
 -r--r--r--	root/root	usr/pkg/mod/github.com/jlaffaye/ftp@v0.0.0-20201112195030-9aae4d151126/.github/ISSUE_TEMPLATE/bug_report.md
@@ -11289,7 +11289,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jlaffaye/ftp@v0.0.0-20201112195030-9
 -r--r--r--	root/root	usr/pkg/mod/github.com/jlaffaye/ftp@v0.0.0-20201112195030-9aae4d151126/walker.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/jlaffaye/ftp@v0.0.0-20201112195030-9aae4d151126/walker_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/jmespath/
-dr-x------	root/root	usr/pkg/mod/github.com/jmespath/go-jmespath@v0.4.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jmespath/go-jmespath@v0.4.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/jmespath/go-jmespath@v0.4.0/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/jmespath/go-jmespath@v0.4.0/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/jmespath/go-jmespath@v0.4.0/LICENSE
@@ -11977,7 +11977,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jmespath/go-jmespath@v0.4.0/fuzz/tes
 -r--r--r--	root/root	usr/pkg/mod/github.com/jmespath/go-jmespath@v0.4.0/util.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/jmespath/go-jmespath@v0.4.0/util_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/jzelinskie/
-dr-x------	root/root	usr/pkg/mod/github.com/jzelinskie/whirlpool@v0.0.0-20201016144138-0675e54bb004/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/jzelinskie/whirlpool@v0.0.0-20201016144138-0675e54bb004/
 -r--r--r--	root/root	usr/pkg/mod/github.com/jzelinskie/whirlpool@v0.0.0-20201016144138-0675e54bb004/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/jzelinskie/whirlpool@v0.0.0-20201016144138-0675e54bb004/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/jzelinskie/whirlpool@v0.0.0-20201016144138-0675e54bb004/README.md
@@ -11985,7 +11985,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/jzelinskie/whirlpool@v0.0.0-20201016
 -r--r--r--	root/root	usr/pkg/mod/github.com/jzelinskie/whirlpool@v0.0.0-20201016144138-0675e54bb004/whirlpool.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/jzelinskie/whirlpool@v0.0.0-20201016144138-0675e54bb004/whirlpool_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/klauspost/
-dr-x------	root/root	usr/pkg/mod/github.com/klauspost/compress@v1.11.2/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/klauspost/compress@v1.11.2/
 -r--r--r--	root/root	usr/pkg/mod/github.com/klauspost/compress@v1.11.2/.gitattributes
 -r--r--r--	root/root	usr/pkg/mod/github.com/klauspost/compress@v1.11.2/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/klauspost/compress@v1.11.2/.goreleaser.yml
@@ -12325,7 +12325,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/klauspost/compress@v1.11.2/zstd/test
 -r--r--r--	root/root	usr/pkg/mod/github.com/klauspost/compress@v1.11.2/zstd/zstd.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/klauspost/compress@v1.11.2/zstd/zstd_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/koofr/
-dr-x------	root/root	usr/pkg/mod/github.com/koofr/go-httpclient@v0.0.0-20200420163713-93aa7c75b348/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/koofr/go-httpclient@v0.0.0-20200420163713-93aa7c75b348/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/koofr/go-httpclient@v0.0.0-20200420163713-93aa7c75b348/.github/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/koofr/go-httpclient@v0.0.0-20200420163713-93aa7c75b348/.github/workflows/
 -r--r--r--	root/root	usr/pkg/mod/github.com/koofr/go-httpclient@v0.0.0-20200420163713-93aa7c75b348/.github/workflows/actions.yml
@@ -12345,7 +12345,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/koofr/go-httpclient@v0.0.0-202004201
 -r--r--r--	root/root	usr/pkg/mod/github.com/koofr/go-httpclient@v0.0.0-20200420163713-93aa7c75b348/transport.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/koofr/go-httpclient@v0.0.0-20200420163713-93aa7c75b348/utils.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/koofr/go-httpclient@v0.0.0-20200420163713-93aa7c75b348/utils_test.go
-dr-x------	root/root	usr/pkg/mod/github.com/koofr/go-koofrclient@v0.0.0-20190724113126-8e5366da203a/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/koofr/go-koofrclient@v0.0.0-20190724113126-8e5366da203a/
 -r--r--r--	root/root	usr/pkg/mod/github.com/koofr/go-koofrclient@v0.0.0-20190724113126-8e5366da203a/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/koofr/go-koofrclient@v0.0.0-20190724113126-8e5366da203a/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/koofr/go-koofrclient@v0.0.0-20190724113126-8e5366da203a/README.md
@@ -12364,7 +12364,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/koofr/go-koofrclient@v0.0.0-20190724
 -r--r--r--	root/root	usr/pkg/mod/github.com/koofr/go-koofrclient@v0.0.0-20190724113126-8e5366da203a/client_user_test.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/koofr/go-koofrclient@v0.0.0-20190724113126-8e5366da203a/koofrlib_suite_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/kr/
-dr-x------	root/root	usr/pkg/mod/github.com/kr/fs@v0.1.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/kr/fs@v0.1.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/kr/fs@v0.1.0/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/kr/fs@v0.1.0/Readme
 -r--r--r--	root/root	usr/pkg/mod/github.com/kr/fs@v0.1.0/example_test.go
@@ -12373,7 +12373,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/kr/fs@v0.1.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/kr/fs@v0.1.0/walk.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/kr/fs@v0.1.0/walk_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/mattn/
-dr-x------	root/root	usr/pkg/mod/github.com/mattn/go-colorable@v0.1.8/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/mattn/go-colorable@v0.1.8/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/mattn/go-colorable@v0.1.8/.github/
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-colorable@v0.1.8/.github/FUNDING.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-colorable@v0.1.8/.travis.yml
@@ -12397,7 +12397,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/mattn/go-colorable@v0.1.8/cmd/colora
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-colorable@v0.1.8/go.sum
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-colorable@v0.1.8/go.test.sh
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-colorable@v0.1.8/noncolorable.go
-dr-x------	root/root	usr/pkg/mod/github.com/mattn/go-ieproxy@v0.0.1/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/mattn/go-ieproxy@v0.0.1/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/mattn/go-ieproxy@v0.0.1/.github/
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-ieproxy@v0.0.1/.github/FUNDING.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-ieproxy@v0.0.1/.gitignore
@@ -12426,7 +12426,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/mattn/go-ieproxy@v0.0.1/pacfile_exam
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-ieproxy@v0.0.1/utils_test.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-ieproxy@v0.0.1/windows_test.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-ieproxy@v0.0.1/winhttp_data_windows.go
-dr-x------	root/root	usr/pkg/mod/github.com/mattn/go-isatty@v0.0.12/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/mattn/go-isatty@v0.0.12/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/mattn/go-isatty@v0.0.12/.github/
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-isatty@v0.0.12/.github/FUNDING.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-isatty@v0.0.12/.travis.yml
@@ -12446,7 +12446,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/mattn/go-isatty@v0.0.12/.github/
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-isatty@v0.0.12/isatty_windows.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-isatty@v0.0.12/isatty_windows_test.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-isatty@v0.0.12/renovate.json
-dr-x------	root/root	usr/pkg/mod/github.com/mattn/go-runewidth@v0.0.9/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/mattn/go-runewidth@v0.0.9/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/mattn/go-runewidth@v0.0.9/.github/
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-runewidth@v0.0.9/.github/FUNDING.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-runewidth@v0.0.9/.travis.yml
@@ -12466,7 +12466,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/mattn/go-runewidth@v0.0.9/.github/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/mattn/go-runewidth@v0.0.9/script/
 -r--r--r--	root/root	usr/pkg/mod/github.com/mattn/go-runewidth@v0.0.9/script/generate.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/matttproud/
-dr-x------	root/root	usr/pkg/mod/github.com/matttproud/golang_protobuf_extensions@v1.0.1/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/matttproud/golang_protobuf_extensions@v1.0.1/
 -r--r--r--	root/root	usr/pkg/mod/github.com/matttproud/golang_protobuf_extensions@v1.0.1/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/matttproud/golang_protobuf_extensions@v1.0.1/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/matttproud/golang_protobuf_extensions@v1.0.1/Makefile.TRAVIS
@@ -12490,14 +12490,14 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/matttproud/golang_protobuf_extension
 -r--r--r--	root/root	usr/pkg/mod/github.com/matttproud/golang_protobuf_extensions@v1.0.1/testdata/test.pb.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/matttproud/golang_protobuf_extensions@v1.0.1/testdata/test.proto
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/mitchellh/
-dr-x------	root/root	usr/pkg/mod/github.com/mitchellh/go-homedir@v1.1.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/mitchellh/go-homedir@v1.1.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/mitchellh/go-homedir@v1.1.0/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/mitchellh/go-homedir@v1.1.0/README.md
 -r--r--r--	root/root	usr/pkg/mod/github.com/mitchellh/go-homedir@v1.1.0/go.mod
 -r--r--r--	root/root	usr/pkg/mod/github.com/mitchellh/go-homedir@v1.1.0/homedir.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/mitchellh/go-homedir@v1.1.0/homedir_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/ncw/
-dr-x------	root/root	usr/pkg/mod/github.com/ncw/go-acd@v0.0.0-20201019170801-fe55f33415b1/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/ncw/go-acd@v0.0.0-20201019170801-fe55f33415b1/
 -r--r--r--	root/root	usr/pkg/mod/github.com/ncw/go-acd@v0.0.0-20201019170801-fe55f33415b1/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/ncw/go-acd@v0.0.0-20201019170801-fe55f33415b1/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/ncw/go-acd@v0.0.0-20201019170801-fe55f33415b1/Godeps
@@ -12511,7 +12511,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/ncw/go-acd@v0.0.0-20201019170801-fe5
 -r--r--r--	root/root	usr/pkg/mod/github.com/ncw/go-acd@v0.0.0-20201019170801-fe55f33415b1/client_mock_test.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/ncw/go-acd@v0.0.0-20201019170801-fe55f33415b1/nodes.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/ncw/go-acd@v0.0.0-20201019170801-fe55f33415b1/nodes_test.go
-dr-x------	root/root	usr/pkg/mod/github.com/ncw/swift@v1.0.52/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/ncw/swift@v1.0.52/
 -r--r--r--	root/root	usr/pkg/mod/github.com/ncw/swift@v1.0.52/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/ncw/swift@v1.0.52/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/ncw/swift@v1.0.52/COPYING
@@ -12548,7 +12548,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/ncw/swift@v1.0.52/swifttest/
 -r--r--r--	root/root	usr/pkg/mod/github.com/ncw/swift@v1.0.52/watchdog_reader.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/ncw/swift@v1.0.52/watchdog_reader_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/nsf/
-dr-x------	root/root	usr/pkg/mod/github.com/nsf/termbox-go@v0.0.0-20200418040025-38ba6e5628f1/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/nsf/termbox-go@v0.0.0-20200418040025-38ba6e5628f1/
 -r--r--r--	root/root	usr/pkg/mod/github.com/nsf/termbox-go@v0.0.0-20200418040025-38ba6e5628f1/AUTHORS
 -r--r--r--	root/root	usr/pkg/mod/github.com/nsf/termbox-go@v0.0.0-20200418040025-38ba6e5628f1/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/nsf/termbox-go@v0.0.0-20200418040025-38ba6e5628f1/README.md
@@ -12581,7 +12581,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/nsf/termbox-go@v0.0.0-20200418040025
 -r--r--r--	root/root	usr/pkg/mod/github.com/nsf/termbox-go@v0.0.0-20200418040025-38ba6e5628f1/terminfo.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/nsf/termbox-go@v0.0.0-20200418040025-38ba6e5628f1/terminfo_builtin.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/patrickmn/
-dr-x------	root/root	usr/pkg/mod/github.com/patrickmn/go-cache@v2.1.0+incompatible/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/patrickmn/go-cache@v2.1.0+incompatible/
 -r--r--r--	root/root	usr/pkg/mod/github.com/patrickmn/go-cache@v2.1.0+incompatible/CONTRIBUTORS
 -r--r--r--	root/root	usr/pkg/mod/github.com/patrickmn/go-cache@v2.1.0+incompatible/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/patrickmn/go-cache@v2.1.0+incompatible/README.md
@@ -12590,7 +12590,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/patrickmn/go-cache@v2.1.0+incompatib
 -r--r--r--	root/root	usr/pkg/mod/github.com/patrickmn/go-cache@v2.1.0+incompatible/sharded.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/patrickmn/go-cache@v2.1.0+incompatible/sharded_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/pengsrc/
-dr-x------	root/root	usr/pkg/mod/github.com/pengsrc/go-shared@v0.2.1-0.20190131101655-1999055a4a14/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/pengsrc/go-shared@v0.2.1-0.20190131101655-1999055a4a14/
 -r--r--r--	root/root	usr/pkg/mod/github.com/pengsrc/go-shared@v0.2.1-0.20190131101655-1999055a4a14/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/pengsrc/go-shared@v0.2.1-0.20190131101655-1999055a4a14/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/pengsrc/go-shared@v0.2.1-0.20190131101655-1999055a4a14/LICENSE
@@ -12655,7 +12655,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/pengsrc/go-shared@v0.2.1-0.201901311
 -r--r--r--	root/root	usr/pkg/mod/github.com/pengsrc/go-shared@v0.2.1-0.20190131101655-1999055a4a14/utils/recover.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/pengsrc/go-shared@v0.2.1-0.20190131101655-1999055a4a14/utils/recover_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/pkg/
-dr-x------	root/root	usr/pkg/mod/github.com/pkg/errors@v0.9.1/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/pkg/errors@v0.9.1/
 -r--r--r--	root/root	usr/pkg/mod/github.com/pkg/errors@v0.9.1/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/pkg/errors@v0.9.1/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/pkg/errors@v0.9.1/LICENSE
@@ -12672,7 +12672,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/pkg/errors@v0.9.1/
 -r--r--r--	root/root	usr/pkg/mod/github.com/pkg/errors@v0.9.1/json_test.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/pkg/errors@v0.9.1/stack.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/pkg/errors@v0.9.1/stack_test.go
-dr-x------	root/root	usr/pkg/mod/github.com/pkg/sftp@v1.12.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/pkg/sftp@v1.12.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/pkg/sftp@v1.12.0/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/pkg/sftp@v1.12.0/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/pkg/sftp@v1.12.0/CONTRIBUTORS
@@ -12744,7 +12744,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/pkg/sftp@v1.12.0/server_standalone/
 -r--r--r--	root/root	usr/pkg/mod/github.com/pkg/sftp@v1.12.0/syscall_fixed.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/pkg/sftp@v1.12.0/syscall_good.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/prometheus/
-dr-x------	root/root	usr/pkg/mod/github.com/prometheus/client_golang@v1.8.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/prometheus/client_golang@v1.8.0/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/prometheus/client_golang@v1.8.0/.circleci/
 -r--r--r--	root/root	usr/pkg/mod/github.com/prometheus/client_golang@v1.8.0/.circleci/config.yml
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/prometheus/client_golang@v1.8.0/.github/
@@ -12857,7 +12857,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/prometheus/client_golang@v1.8.0/prom
 -r--r--r--	root/root	usr/pkg/mod/github.com/prometheus/client_golang@v1.8.0/prometheus/vec_test.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/prometheus/client_golang@v1.8.0/prometheus/wrap.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/prometheus/client_golang@v1.8.0/prometheus/wrap_test.go
-dr-x------	root/root	usr/pkg/mod/github.com/prometheus/client_model@v0.2.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/prometheus/client_model@v0.2.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/prometheus/client_model@v0.2.0/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/prometheus/client_model@v0.2.0/CONTRIBUTING.md
 -r--r--r--	root/root	usr/pkg/mod/github.com/prometheus/client_model@v0.2.0/LICENSE
@@ -12870,7 +12870,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/prometheus/client_model@v0.2.0/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/prometheus/client_model@v0.2.0/go/
 -r--r--r--	root/root	usr/pkg/mod/github.com/prometheus/client_model@v0.2.0/go/metrics.pb.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/prometheus/client_model@v0.2.0/metrics.proto
-dr-x------	root/root	usr/pkg/mod/github.com/prometheus/common@v0.14.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/prometheus/common@v0.14.0/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/prometheus/common@v0.14.0/.circleci/
 -r--r--r--	root/root	usr/pkg/mod/github.com/prometheus/common@v0.14.0/.circleci/config.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/prometheus/common@v0.14.0/.gitignore
@@ -13010,7 +13010,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/prometheus/common@v0.14.0/server/
 -r--r--r--	root/root	usr/pkg/mod/github.com/prometheus/common@v0.14.0/server/static_file_server_test.go
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/prometheus/common@v0.14.0/version/
 -r--r--r--	root/root	usr/pkg/mod/github.com/prometheus/common@v0.14.0/version/info.go
-dr-x------	root/root	usr/pkg/mod/github.com/prometheus/procfs@v0.2.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/prometheus/procfs@v0.2.0/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/prometheus/procfs@v0.2.0/.circleci/
 -r--r--r--	root/root	usr/pkg/mod/github.com/prometheus/procfs@v0.2.0/.circleci/config.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/prometheus/procfs@v0.2.0/.gitignore
@@ -13175,7 +13175,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/prometheus/procfs@v0.2.0/xfs/
 -r--r--r--	root/root	usr/pkg/mod/github.com/prometheus/procfs@v0.2.0/zoneinfo_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/putdotio/
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/putdotio/go-putio/
-dr-x------	root/root	usr/pkg/mod/github.com/putdotio/go-putio/putio@v0.0.0-20200123120452-16d982cac2b8/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/putdotio/go-putio/putio@v0.0.0-20200123120452-16d982cac2b8/
 -r--r--r--	root/root	usr/pkg/mod/github.com/putdotio/go-putio/putio@v0.0.0-20200123120452-16d982cac2b8/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/putdotio/go-putio/putio@v0.0.0-20200123120452-16d982cac2b8/account.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/putdotio/go-putio/putio@v0.0.0-20200123120452-16d982cac2b8/account_test.go
@@ -13198,7 +13198,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/putdotio/go-putio/putio@v0.0.0-20200
 -r--r--r--	root/root	usr/pkg/mod/github.com/putdotio/go-putio/putio@v0.0.0-20200123120452-16d982cac2b8/zips.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/putdotio/go-putio/putio@v0.0.0-20200123120452-16d982cac2b8/zips_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/rfjakob/
-dr-x------	root/root	usr/pkg/mod/github.com/rfjakob/eme@v1.1.1/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/rfjakob/eme@v1.1.1/
 -r--r--r--	root/root	usr/pkg/mod/github.com/rfjakob/eme@v1.1.1/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/rfjakob/eme@v1.1.1/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/rfjakob/eme@v1.1.1/README.md
@@ -13210,7 +13210,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/rfjakob/eme@v1.1.1/
 -r--r--r--	root/root	usr/pkg/mod/github.com/rfjakob/eme@v1.1.1/test.bash
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/russross/
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/russross/blackfriday/
-dr-x------	root/root	usr/pkg/mod/github.com/russross/blackfriday/v2@v2.0.1/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/russross/blackfriday/v2@v2.0.1/
 -r--r--r--	root/root	usr/pkg/mod/github.com/russross/blackfriday/v2@v2.0.1/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/russross/blackfriday/v2@v2.0.1/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/russross/blackfriday/v2@v2.0.1/LICENSE.txt
@@ -13278,7 +13278,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/russross/blackfriday/v2@v2.0.1/testd
 -r--r--r--	root/root	usr/pkg/mod/github.com/russross/blackfriday/v2@v2.0.1/testdata/Tidyness.html
 -r--r--r--	root/root	usr/pkg/mod/github.com/russross/blackfriday/v2@v2.0.1/testdata/Tidyness.text
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/sevlyar/
-dr-x------	root/root	usr/pkg/mod/github.com/sevlyar/go-daemon@v0.1.5/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/sevlyar/go-daemon@v0.1.5/
 -r--r--r--	root/root	usr/pkg/mod/github.com/sevlyar/go-daemon@v0.1.5/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/sevlyar/go-daemon@v0.1.5/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/sevlyar/go-daemon@v0.1.5/README.md
@@ -13311,7 +13311,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/sevlyar/go-daemon@v0.1.5/img/
 -r--r--r--	root/root	usr/pkg/mod/github.com/sevlyar/go-daemon@v0.1.5/syscall_dup_arm64.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/sevlyar/go-daemon@v0.1.5/syscall_dup_pre17.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/shurcoo!l/
-dr-x------	root/root	usr/pkg/mod/github.com/shurcoo!l/sanitized_anchor_name@v1.0.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/shurcoo!l/sanitized_anchor_name@v1.0.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/shurcoo!l/sanitized_anchor_name@v1.0.0/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/shurcoo!l/sanitized_anchor_name@v1.0.0/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/shurcoo!l/sanitized_anchor_name@v1.0.0/README.md
@@ -13319,7 +13319,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/shurcoo!l/sanitized_anchor_name@v1.0
 -r--r--r--	root/root	usr/pkg/mod/github.com/shurcoo!l/sanitized_anchor_name@v1.0.0/main.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/shurcoo!l/sanitized_anchor_name@v1.0.0/main_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/sirupsen/
-dr-x------	root/root	usr/pkg/mod/github.com/sirupsen/logrus@v1.7.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/sirupsen/logrus@v1.7.0/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/sirupsen/logrus@v1.7.0/.github/
 -r--r--r--	root/root	usr/pkg/mod/github.com/sirupsen/logrus@v1.7.0/.github/stale.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/sirupsen/logrus@v1.7.0/.gitignore
@@ -13388,7 +13388,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/sirupsen/logrus@v1.7.0/travis/
 -r--r--r--	root/root	usr/pkg/mod/github.com/sirupsen/logrus@v1.7.0/writer.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/sirupsen/logrus@v1.7.0/writer_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/skratchdot/
-dr-x------	root/root	usr/pkg/mod/github.com/skratchdot/open-golang@v0.0.0-20200116055534-eef842397966/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/skratchdot/open-golang@v0.0.0-20200116055534-eef842397966/
 -r--r--r--	root/root	usr/pkg/mod/github.com/skratchdot/open-golang@v0.0.0-20200116055534-eef842397966/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/skratchdot/open-golang@v0.0.0-20200116055534-eef842397966/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/skratchdot/open-golang@v0.0.0-20200116055534-eef842397966/Makefile
@@ -13405,7 +13405,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/skratchdot/open-golang@v0.0.0-202001
 -r--r--r--	root/root	usr/pkg/mod/github.com/skratchdot/open-golang@v0.0.0-20200116055534-eef842397966/vendor/xdg-open
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/spacemonkeygo/
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/spacemonkeygo/monkit/
-dr-x------	root/root	usr/pkg/mod/github.com/spacemonkeygo/monkit/v3@v3.0.7/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/spacemonkeygo/monkit/v3@v3.0.7/
 -r--r--r--	root/root	usr/pkg/mod/github.com/spacemonkeygo/monkit/v3@v3.0.7/AUTHORS
 -r--r--r--	root/root	usr/pkg/mod/github.com/spacemonkeygo/monkit/v3@v3.0.7/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/spacemonkeygo/monkit/v3@v3.0.7/README.md
@@ -13502,7 +13502,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/spacemonkeygo/monkit/v3@v3.0.7/prese
 -r--r--r--	root/root	usr/pkg/mod/github.com/spacemonkeygo/monkit/v3@v3.0.7/trace.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/spacemonkeygo/monkit/v3@v3.0.7/val.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/spf13/
-dr-x------	root/root	usr/pkg/mod/github.com/spf13/cobra@v1.1.1/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/spf13/cobra@v1.1.1/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/spf13/cobra@v1.1.1/.github/
 dr-xr-xr-x	root/root	usr/pkg/mod/github.com/spf13/cobra@v1.1.1/.github/workflows/
 -r--r--r--	root/root	usr/pkg/mod/github.com/spf13/cobra@v1.1.1/.github/workflows/stale.yml
@@ -13587,7 +13587,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/spf13/cobra@v1.1.1/doc/
 -r--r--r--	root/root	usr/pkg/mod/github.com/spf13/cobra@v1.1.1/shell_completions.md
 -r--r--r--	root/root	usr/pkg/mod/github.com/spf13/cobra@v1.1.1/zsh_completions.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/spf13/cobra@v1.1.1/zsh_completions.md
-dr-x------	root/root	usr/pkg/mod/github.com/spf13/pflag@v1.0.5/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/spf13/pflag@v1.0.5/
 -r--r--r--	root/root	usr/pkg/mod/github.com/spf13/pflag@v1.0.5/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/spf13/pflag@v1.0.5/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/spf13/pflag@v1.0.5/LICENSE
@@ -13659,7 +13659,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/spf13/pflag@v1.0.5/verify/
 -r--r--r--	root/root	usr/pkg/mod/github.com/spf13/pflag@v1.0.5/verify/gofmt.sh
 -r--r--r--	root/root	usr/pkg/mod/github.com/spf13/pflag@v1.0.5/verify/golint.sh
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/t3rm1n4l/
-dr-x------	root/root	usr/pkg/mod/github.com/t3rm1n4l/go-mega@v0.0.0-20200416171014-ffad7fcb44b8/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/t3rm1n4l/go-mega@v0.0.0-20200416171014-ffad7fcb44b8/
 -r--r--r--	root/root	usr/pkg/mod/github.com/t3rm1n4l/go-mega@v0.0.0-20200416171014-ffad7fcb44b8/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/t3rm1n4l/go-mega@v0.0.0-20200416171014-ffad7fcb44b8/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/t3rm1n4l/go-mega@v0.0.0-20200416171014-ffad7fcb44b8/Makefile
@@ -13673,7 +13673,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/t3rm1n4l/go-mega@v0.0.0-202004161710
 -r--r--r--	root/root	usr/pkg/mod/github.com/t3rm1n4l/go-mega@v0.0.0-20200416171014-ffad7fcb44b8/utils.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/t3rm1n4l/go-mega@v0.0.0-20200416171014-ffad7fcb44b8/utils_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/vivint/
-dr-x------	root/root	usr/pkg/mod/github.com/vivint/infectious@v0.0.0-20200605153912-25a574ae18a3/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/vivint/infectious@v0.0.0-20200605153912-25a574ae18a3/
 -r--r--r--	root/root	usr/pkg/mod/github.com/vivint/infectious@v0.0.0-20200605153912-25a574ae18a3/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/vivint/infectious@v0.0.0-20200605153912-25a574ae18a3/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/vivint/infectious@v0.0.0-20200605153912-25a574ae18a3/README.md
@@ -13696,7 +13696,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/vivint/infectious@v0.0.0-20200605153
 -r--r--r--	root/root	usr/pkg/mod/github.com/vivint/infectious@v0.0.0-20200605153912-25a574ae18a3/math.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/vivint/infectious@v0.0.0-20200605153912-25a574ae18a3/tables.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/xanzy/
-dr-x------	root/root	usr/pkg/mod/github.com/xanzy/ssh-agent@v0.3.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/xanzy/ssh-agent@v0.3.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/xanzy/ssh-agent@v0.3.0/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/xanzy/ssh-agent@v0.3.0/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/github.com/xanzy/ssh-agent@v0.3.0/README.md
@@ -13706,7 +13706,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/xanzy/ssh-agent@v0.3.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/xanzy/ssh-agent@v0.3.0/sshagent.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/xanzy/ssh-agent@v0.3.0/sshagent_windows.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/youmark/
-dr-x------	root/root	usr/pkg/mod/github.com/youmark/pkcs8@v0.0.0-20201027041543-1326539a0a0a/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/youmark/pkcs8@v0.0.0-20201027041543-1326539a0a0a/
 -r--r--r--	root/root	usr/pkg/mod/github.com/youmark/pkcs8@v0.0.0-20201027041543-1326539a0a0a/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/youmark/pkcs8@v0.0.0-20201027041543-1326539a0a0a/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/github.com/youmark/pkcs8@v0.0.0-20201027041543-1326539a0a0a/LICENSE
@@ -13723,7 +13723,7 @@ dr-x------	root/root	usr/pkg/mod/github.com/youmark/pkcs8@v0.0.0-20201027041543-
 -r--r--r--	root/root	usr/pkg/mod/github.com/youmark/pkcs8@v0.0.0-20201027041543-1326539a0a0a/pkcs8_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/yunify/
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/yunify/qingstor-sdk-go/
-dr-x------	root/root	usr/pkg/mod/github.com/yunify/qingstor-sdk-go/v3@v3.2.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/yunify/qingstor-sdk-go/v3@v3.2.0/
 -r--r--r--	root/root	usr/pkg/mod/github.com/yunify/qingstor-sdk-go/v3@v3.2.0/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/yunify/qingstor-sdk-go/v3@v3.2.0/.gitmodules
 -r--r--r--	root/root	usr/pkg/mod/github.com/yunify/qingstor-sdk-go/v3@v3.2.0/.travis.yml
@@ -13889,7 +13889,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/yunify/qingstor-sdk-go/v3@v3.2.0/uti
 -r--r--r--	root/root	usr/pkg/mod/github.com/yunify/qingstor-sdk-go/v3@v3.2.0/version.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/yunify/qingstor-sdk-go/v3@v3.2.0/version_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/github.com/zeebo/
-dr-x------	root/root	usr/pkg/mod/github.com/zeebo/errs@v1.2.2/
+dr-xr-xr-x	root/root	usr/pkg/mod/github.com/zeebo/errs@v1.2.2/
 -r--r--r--	root/root	usr/pkg/mod/github.com/zeebo/errs@v1.2.2/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/github.com/zeebo/errs@v1.2.2/AUTHORS
 -r--r--r--	root/root	usr/pkg/mod/github.com/zeebo/errs@v1.2.2/LICENSE
@@ -13904,7 +13904,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/github.com/zeebo/errs@v1.2.2/errdata/
 -r--r--r--	root/root	usr/pkg/mod/github.com/zeebo/errs@v1.2.2/group.go
 -r--r--r--	root/root	usr/pkg/mod/github.com/zeebo/errs@v1.2.2/group_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/go.etcd.io/
-dr-x------	root/root	usr/pkg/mod/go.etcd.io/bbolt@v1.3.5/
+dr-xr-xr-x	root/root	usr/pkg/mod/go.etcd.io/bbolt@v1.3.5/
 -r--r--r--	root/root	usr/pkg/mod/go.etcd.io/bbolt@v1.3.5/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/go.etcd.io/bbolt@v1.3.5/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/go.etcd.io/bbolt@v1.3.5/LICENSE
@@ -13957,7 +13957,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/go.etcd.io/bbolt@v1.3.5/cmd/bbolt/
 -r--r--r--	root/root	usr/pkg/mod/go.etcd.io/bbolt@v1.3.5/tx.go
 -r--r--r--	root/root	usr/pkg/mod/go.etcd.io/bbolt@v1.3.5/tx_test.go
 -r--r--r--	root/root	usr/pkg/mod/go.etcd.io/bbolt@v1.3.5/unsafe.go
-dr-x------	root/root	usr/pkg/mod/go.opencensus.io@v0.22.5/
+dr-xr-xr-x	root/root	usr/pkg/mod/go.opencensus.io@v0.22.5/
 dr-xr-xr-x	root/root	usr/pkg/mod/go.opencensus.io@v0.22.5/.github/
 -r--r--r--	root/root	usr/pkg/mod/go.opencensus.io@v0.22.5/.github/CODEOWNERS
 dr-xr-xr-x	root/root	usr/pkg/mod/go.opencensus.io@v0.22.5/.github/ISSUE_TEMPLATE/
@@ -14211,7 +14211,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/go.opencensus.io@v0.22.5/zpages/internal/templa
 -r--r--r--	root/root	usr/pkg/mod/go.opencensus.io@v0.22.5/zpages/zpages.go
 -r--r--r--	root/root	usr/pkg/mod/go.opencensus.io@v0.22.5/zpages/zpages_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/go.uber.org/
-dr-x------	root/root	usr/pkg/mod/go.uber.org/atomic@v1.7.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/go.uber.org/atomic@v1.7.0/
 -r--r--r--	root/root	usr/pkg/mod/go.uber.org/atomic@v1.7.0/.codecov.yml
 dr-xr-xr-x	root/root	usr/pkg/mod/go.uber.org/atomic@v1.7.0/.github/
 -r--r--r--	root/root	usr/pkg/mod/go.uber.org/atomic@v1.7.0/.github/PULL_REQUEST_TEMPLATE.md
@@ -14260,7 +14260,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/go.uber.org/atomic@v1.7.0/internal/gen-atomicwr
 -r--r--r--	root/root	usr/pkg/mod/go.uber.org/atomic@v1.7.0/uint64_test.go
 -r--r--r--	root/root	usr/pkg/mod/go.uber.org/atomic@v1.7.0/value.go
 -r--r--r--	root/root	usr/pkg/mod/go.uber.org/atomic@v1.7.0/value_test.go
-dr-x------	root/root	usr/pkg/mod/go.uber.org/multierr@v1.6.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/go.uber.org/multierr@v1.6.0/
 -r--r--r--	root/root	usr/pkg/mod/go.uber.org/multierr@v1.6.0/.codecov.yml
 -r--r--r--	root/root	usr/pkg/mod/go.uber.org/multierr@v1.6.0/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/go.uber.org/multierr@v1.6.0/.travis.yml
@@ -14277,7 +14277,7 @@ dr-x------	root/root	usr/pkg/mod/go.uber.org/multierr@v1.6.0/
 -r--r--r--	root/root	usr/pkg/mod/go.uber.org/multierr@v1.6.0/go.sum
 -r--r--r--	root/root	usr/pkg/mod/go.uber.org/multierr@v1.6.0/go113.go
 -r--r--r--	root/root	usr/pkg/mod/go.uber.org/multierr@v1.6.0/go113_test.go
-dr-x------	root/root	usr/pkg/mod/go.uber.org/zap@v1.16.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/go.uber.org/zap@v1.16.0/
 -r--r--r--	root/root	usr/pkg/mod/go.uber.org/zap@v1.16.0/.codecov.yml
 -r--r--r--	root/root	usr/pkg/mod/go.uber.org/zap@v1.16.0/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/go.uber.org/zap@v1.16.0/.readme.tmpl
@@ -14411,7 +14411,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/go.uber.org/zap@v1.16.0/zaptest/observer/
 -r--r--r--	root/root	usr/pkg/mod/go.uber.org/zap@v1.16.0/zaptest/writer.go
 -r--r--r--	root/root	usr/pkg/mod/go.uber.org/zap@v1.16.0/zaptest/writer_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/goftp.io/
-dr-x------	root/root	usr/pkg/mod/goftp.io/server@v0.4.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/goftp.io/server@v0.4.0/
 -r--r--r--	root/root	usr/pkg/mod/goftp.io/server@v0.4.0/.drone.yml
 -r--r--r--	root/root	usr/pkg/mod/goftp.io/server@v0.4.0/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/goftp.io/server@v0.4.0/LICENSE
@@ -14445,7 +14445,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/goftp.io/server@v0.4.0/driver/minio/
 -r--r--r--	root/root	usr/pkg/mod/goftp.io/server@v0.4.0/go.sum
 drwxr-xr-x	root/root	usr/pkg/mod/golang.org/
 drwxr-xr-x	root/root	usr/pkg/mod/golang.org/x/
-dr-x------	root/root	usr/pkg/mod/golang.org/x/crypto@v0.0.0-20201112155050-0c6587e931a9/
+dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/crypto@v0.0.0-20201112155050-0c6587e931a9/
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/crypto@v0.0.0-20201112155050-0c6587e931a9/.gitattributes
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/crypto@v0.0.0-20201112155050-0c6587e931a9/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/crypto@v0.0.0-20201112155050-0c6587e931a9/AUTHORS
@@ -14871,7 +14871,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/crypto@v0.0.0-20201112155050-0c658
 dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/crypto@v0.0.0-20201112155050-0c6587e931a9/xts/
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/crypto@v0.0.0-20201112155050-0c6587e931a9/xts/xts.go
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/crypto@v0.0.0-20201112155050-0c6587e931a9/xts/xts_test.go
-dr-x------	root/root	usr/pkg/mod/golang.org/x/net@v0.0.0-20201029055024-942e2f445f3c/
+dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/net@v0.0.0-20201029055024-942e2f445f3c/
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/net@v0.0.0-20201029055024-942e2f445f3c/.gitattributes
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/net@v0.0.0-20201029055024-942e2f445f3c/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/net@v0.0.0-20201029055024-942e2f445f3c/AUTHORS
@@ -15560,7 +15560,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/net@v0.0.0-20201029055024-942e2f44
 dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/net@v0.0.0-20201029055024-942e2f445f3c/xsrftoken/
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/net@v0.0.0-20201029055024-942e2f445f3c/xsrftoken/xsrf.go
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/net@v0.0.0-20201029055024-942e2f445f3c/xsrftoken/xsrf_test.go
-dr-x------	root/root	usr/pkg/mod/golang.org/x/oauth2@v0.0.0-20200902213428-5d25da1a8d43/
+dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/oauth2@v0.0.0-20200902213428-5d25da1a8d43/
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/oauth2@v0.0.0-20200902213428-5d25da1a8d43/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/oauth2@v0.0.0-20200902213428-5d25da1a8d43/AUTHORS
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/oauth2@v0.0.0-20200902213428-5d25da1a8d43/CONTRIBUTING.md
@@ -15672,7 +15672,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/oauth2@v0.0.0-20200902213428-5d25d
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/oauth2@v0.0.0-20200902213428-5d25da1a8d43/yahoo/yahoo.go
 dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/oauth2@v0.0.0-20200902213428-5d25da1a8d43/yandex/
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/oauth2@v0.0.0-20200902213428-5d25da1a8d43/yandex/yandex.go
-dr-x------	root/root	usr/pkg/mod/golang.org/x/sync@v0.0.0-20201020160332-67f06af15bc9/
+dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/sync@v0.0.0-20201020160332-67f06af15bc9/
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/sync@v0.0.0-20201020160332-67f06af15bc9/AUTHORS
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/sync@v0.0.0-20201020160332-67f06af15bc9/CONTRIBUTING.md
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/sync@v0.0.0-20201020160332-67f06af15bc9/CONTRIBUTORS
@@ -15700,7 +15700,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/sync@v0.0.0-20201020160332-67f06af
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/sync@v0.0.0-20201020160332-67f06af15bc9/syncmap/map_reference_test.go
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/sync@v0.0.0-20201020160332-67f06af15bc9/syncmap/map_test.go
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/sync@v0.0.0-20201020160332-67f06af15bc9/syncmap/pre_go19.go
-dr-x------	root/root	usr/pkg/mod/golang.org/x/sys@v0.0.0-20201029080932-201ba4db2418/
+dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/sys@v0.0.0-20201029080932-201ba4db2418/
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/sys@v0.0.0-20201029080932-201ba4db2418/.gitattributes
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/sys@v0.0.0-20201029080932-201ba4db2418/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/sys@v0.0.0-20201029080932-201ba4db2418/AUTHORS
@@ -16190,7 +16190,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/sys@v0.0.0-20201029080932-201ba4db
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/sys@v0.0.0-20201029080932-201ba4db2418/windows/zerrors_windows.go
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/sys@v0.0.0-20201029080932-201ba4db2418/windows/zknownfolderids_windows.go
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/sys@v0.0.0-20201029080932-201ba4db2418/windows/zsyscall_windows.go
-dr-x------	root/root	usr/pkg/mod/golang.org/x/text@v0.3.4/
+dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/text@v0.3.4/
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/text@v0.3.4/.gitattributes
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/text@v0.3.4/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/text@v0.3.4/AUTHORS
@@ -16812,7 +16812,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/text@v0.3.4/width/
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/text@v0.3.4/width/transform_test.go
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/text@v0.3.4/width/trieval.go
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/text@v0.3.4/width/width.go
-dr-x------	root/root	usr/pkg/mod/golang.org/x/time@v0.0.0-20200630173020-3af7569d3a1e/
+dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/time@v0.0.0-20200630173020-3af7569d3a1e/
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/time@v0.0.0-20200630173020-3af7569d3a1e/AUTHORS
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/time@v0.0.0-20200630173020-3af7569d3a1e/CONTRIBUTING.md
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/time@v0.0.0-20200630173020-3af7569d3a1e/CONTRIBUTORS
@@ -16824,7 +16824,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/golang.org/x/time@v0.0.0-20200630173020-3af7569
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/time@v0.0.0-20200630173020-3af7569d3a1e/rate/rate.go
 -r--r--r--	root/root	usr/pkg/mod/golang.org/x/time@v0.0.0-20200630173020-3af7569d3a1e/rate/rate_test.go
 drwxr-xr-x	root/root	usr/pkg/mod/google.golang.org/
-dr-x------	root/root	usr/pkg/mod/google.golang.org/api@v0.34.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/google.golang.org/api@v0.34.0/
 dr-xr-xr-x	root/root	usr/pkg/mod/google.golang.org/api@v0.34.0/.github/
 -r--r--r--	root/root	usr/pkg/mod/google.golang.org/api@v0.34.0/.github/CODEOWNERS
 -r--r--r--	root/root	usr/pkg/mod/google.golang.org/api@v0.34.0/.github/blunderbuss.yml
@@ -18362,7 +18362,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/google.golang.org/api@v0.34.0/youtubereporting/
 dr-xr-xr-x	root/root	usr/pkg/mod/google.golang.org/api@v0.34.0/youtubereporting/v1/
 -r--r--r--	root/root	usr/pkg/mod/google.golang.org/api@v0.34.0/youtubereporting/v1/youtubereporting-api.json
 -r--r--r--	root/root	usr/pkg/mod/google.golang.org/api@v0.34.0/youtubereporting/v1/youtubereporting-gen.go
-dr-x------	root/root	usr/pkg/mod/google.golang.org/genproto@v0.0.0-20201028140639-c77dae4b0522/
+dr-xr-xr-x	root/root	usr/pkg/mod/google.golang.org/genproto@v0.0.0-20201028140639-c77dae4b0522/
 dr-xr-xr-x	root/root	usr/pkg/mod/google.golang.org/genproto@v0.0.0-20201028140639-c77dae4b0522/.github/
 -r--r--r--	root/root	usr/pkg/mod/google.golang.org/genproto@v0.0.0-20201028140639-c77dae4b0522/.github/CODEOWNERS
 -r--r--r--	root/root	usr/pkg/mod/google.golang.org/genproto@v0.0.0-20201028140639-c77dae4b0522/CONTRIBUTING.md
@@ -22565,7 +22565,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/google.golang.org/genproto@v0.0.0-2020102814063
 -r--r--r--	root/root	usr/pkg/mod/google.golang.org/genproto@v0.0.0-20201028140639-c77dae4b0522/protobuf/source_context/source_context.go
 -r--r--r--	root/root	usr/pkg/mod/google.golang.org/genproto@v0.0.0-20201028140639-c77dae4b0522/regen.txt
 -r--r--r--	root/root	usr/pkg/mod/google.golang.org/genproto@v0.0.0-20201028140639-c77dae4b0522/tools.go
-dr-x------	root/root	usr/pkg/mod/google.golang.org/grpc@v1.33.1/
+dr-xr-xr-x	root/root	usr/pkg/mod/google.golang.org/grpc@v1.33.1/
 dr-xr-xr-x	root/root	usr/pkg/mod/google.golang.org/grpc@v1.33.1/.github/
 dr-xr-xr-x	root/root	usr/pkg/mod/google.golang.org/grpc@v1.33.1/.github/ISSUE_TEMPLATE/
 -r--r--r--	root/root	usr/pkg/mod/google.golang.org/grpc@v1.33.1/.github/ISSUE_TEMPLATE/bug.md
@@ -23278,7 +23278,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/google.golang.org/grpc@v1.33.1/xds/internal/tes
 dr-xr-xr-x	root/root	usr/pkg/mod/google.golang.org/grpc@v1.33.1/xds/internal/version/
 -r--r--r--	root/root	usr/pkg/mod/google.golang.org/grpc@v1.33.1/xds/internal/version/version.go
 -r--r--r--	root/root	usr/pkg/mod/google.golang.org/grpc@v1.33.1/xds/xds.go
-dr-x------	root/root	usr/pkg/mod/google.golang.org/protobuf@v1.25.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/google.golang.org/protobuf@v1.25.0/
 -r--r--r--	root/root	usr/pkg/mod/google.golang.org/protobuf@v1.25.0/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/google.golang.org/protobuf@v1.25.0/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/google.golang.org/protobuf@v1.25.0/AUTHORS
@@ -23845,7 +23845,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/google.golang.org/protobuf@v1.25.0/types/known/
 dr-xr-xr-x	root/root	usr/pkg/mod/google.golang.org/protobuf@v1.25.0/types/pluginpb/
 -r--r--r--	root/root	usr/pkg/mod/google.golang.org/protobuf@v1.25.0/types/pluginpb/plugin.pb.go
 drwxr-xr-x	root/root	usr/pkg/mod/gopkg.in/
-dr-x------	root/root	usr/pkg/mod/gopkg.in/yaml.v2@v2.3.0/
+dr-xr-xr-x	root/root	usr/pkg/mod/gopkg.in/yaml.v2@v2.3.0/
 -r--r--r--	root/root	usr/pkg/mod/gopkg.in/yaml.v2@v2.3.0/.travis.yml
 -r--r--r--	root/root	usr/pkg/mod/gopkg.in/yaml.v2@v2.3.0/LICENSE
 -r--r--r--	root/root	usr/pkg/mod/gopkg.in/yaml.v2@v2.3.0/LICENSE.libyaml
@@ -23871,7 +23871,7 @@ dr-x------	root/root	usr/pkg/mod/gopkg.in/yaml.v2@v2.3.0/
 -r--r--r--	root/root	usr/pkg/mod/gopkg.in/yaml.v2@v2.3.0/yamlh.go
 -r--r--r--	root/root	usr/pkg/mod/gopkg.in/yaml.v2@v2.3.0/yamlprivateh.go
 drwxr-xr-x	root/root	usr/pkg/mod/storj.io/
-dr-x------	root/root	usr/pkg/mod/storj.io/common@v0.0.0-20201204143755-a03c37168cb1/
+dr-xr-xr-x	root/root	usr/pkg/mod/storj.io/common@v0.0.0-20201204143755-a03c37168cb1/
 -r--r--r--	root/root	usr/pkg/mod/storj.io/common@v0.0.0-20201204143755-a03c37168cb1/.clabot
 -r--r--r--	root/root	usr/pkg/mod/storj.io/common@v0.0.0-20201204143755-a03c37168cb1/.dockerignore
 dr-xr-xr-x	root/root	usr/pkg/mod/storj.io/common@v0.0.0-20201204143755-a03c37168cb1/.github/
@@ -24219,7 +24219,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/storj.io/common@v0.0.0-20201204143755-a03c37168
 -r--r--r--	root/root	usr/pkg/mod/storj.io/common@v0.0.0-20201204143755-a03c37168cb1/uuid/fuzz.go
 -r--r--r--	root/root	usr/pkg/mod/storj.io/common@v0.0.0-20201204143755-a03c37168cb1/uuid/uuid.go
 -r--r--r--	root/root	usr/pkg/mod/storj.io/common@v0.0.0-20201204143755-a03c37168cb1/uuid/uuid_test.go
-dr-x------	root/root	usr/pkg/mod/storj.io/drpc@v0.0.16/
+dr-xr-xr-x	root/root	usr/pkg/mod/storj.io/drpc@v0.0.16/
 -r--r--r--	root/root	usr/pkg/mod/storj.io/drpc@v0.0.16/.gitignore
 -r--r--r--	root/root	usr/pkg/mod/storj.io/drpc@v0.0.16/.golangci.yml
 -r--r--r--	root/root	usr/pkg/mod/storj.io/drpc@v0.0.16/Dockerfile.jenkins
@@ -24328,7 +24328,7 @@ dr-xr-xr-x	root/root	usr/pkg/mod/storj.io/drpc@v0.0.16/internal/integration/
 -r--r--r--	root/root	usr/pkg/mod/storj.io/drpc@v0.0.16/internal/integration/transport_test.go
 -r--r--r--	root/root	usr/pkg/mod/storj.io/drpc@v0.0.16/logo.png
 -r--r--r--	root/root	usr/pkg/mod/storj.io/drpc@v0.0.16/staticcheck.conf
-dr-x------	root/root	usr/pkg/mod/storj.io/uplink@v1.4.1/
+dr-xr-xr-x	root/root	usr/pkg/mod/storj.io/uplink@v1.4.1/
 -r--r--r--	root/root	usr/pkg/mod/storj.io/uplink@v1.4.1/.clabot
 dr-xr-xr-x	root/root	usr/pkg/mod/storj.io/uplink@v1.4.1/.github/
 -r--r--r--	root/root	usr/pkg/mod/storj.io/uplink@v1.4.1/.github/CODEOWNERS
