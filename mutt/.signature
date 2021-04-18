@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/opt.pub
+RWSE3ohX2g5d/YtUcEtGwrfCpeQZGbJCN/cfW4Uj102mCjMoSWAzMXc0zrJO/qj5aeFJVQE2C7dvvCGI6MSJ7l783t+fd0HB/ws=
+SHA256 (Pkgfile) = d3cc500376a0e8aad5753800356f856540342100f1e5eecb136b079892b0b8ab
+SHA256 (.footprint) = 16a4cbc53d0d6b7d01be8b598ad20486e3081237707bd214a678fb9a59ab629b
+SHA256 (mutt-2.0.6.tar.gz) = 81e31c45895fd624747f19106aa2697d2aa135049ff2e9e9db0a6ed876bcb598

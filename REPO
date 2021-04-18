@@ -16,6 +16,7 @@ d:p5-text-format
 d:liblrdf
 d:ranger
 d:lilypond
+d:mutt
 d:nama
 d:dblatex
 d:p5-text-template
@@ -129,6 +130,10 @@ f:6fcc05cd943ddc8750b41e86f4303e8e:ranger/Pkgfile
 f:dfbb826ec6c5bc1fc857cacb7629ecc6:lilypond/.md5sum
 f:dd186c1e1fbc5984fe09c1a773fb7f06:lilypond/.footprint
 f:acdd90eba18f741c92e75558f2d95925:lilypond/Pkgfile
+f:cdf2be90b6f285fa4446f572d878a499:mutt/.signature
+f:c9c1bf5617ead182ce6a707b8e16d16a:mutt/.md5sum
+f:d8d2c0d6fe30bbdb39303f3b80c2028b:mutt/.footprint
+f:70aa6e9ce541b911ee87ecbf13d9c2bb:mutt/Pkgfile
 f:f568193bac75f92bb58404d85ba48284:nama/.md5sum
 f:3c6ada367b1f34d9a465e9e93ffe419b:nama/.footprint
 f:758e7bc038777e8862667b4b1d5fff5e:nama/Pkgfile
