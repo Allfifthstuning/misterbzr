@@ -5,7 +5,7 @@
 # Depends on: 	go
 
 name=rclone
-version=1.55.0
+version=1.55.1
 release=1
 source=(https://github.com/${name}/${name}/archive/v${version}.tar.gz)
 

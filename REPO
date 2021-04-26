@@ -127,9 +127,9 @@ f:7924c4ec8fa73b0b9e181c6fa1078b8e:liblrdf/Pkgfile
 f:4756849f40efa23414bbe3a45699d6b7:ranger/.md5sum
 f:ad9a1782d932aee4ab3e0e992b620ee4:ranger/.footprint
 f:6fcc05cd943ddc8750b41e86f4303e8e:ranger/Pkgfile
-f:dfbb826ec6c5bc1fc857cacb7629ecc6:lilypond/.md5sum
-f:dd186c1e1fbc5984fe09c1a773fb7f06:lilypond/.footprint
-f:acdd90eba18f741c92e75558f2d95925:lilypond/Pkgfile
+f:bbe0f09efd7bfa5435a39712cb4a3c9b:lilypond/.md5sum
+f:2a21ff34c8667f05bf5160c268500d88:lilypond/.footprint
+f:99e2e9bd42dbde09399289a0dc743c48:lilypond/Pkgfile
 f:c9c1bf5617ead182ce6a707b8e16d16a:mutt/.md5sum
 f:d8d2c0d6fe30bbdb39303f3b80c2028b:mutt/.footprint
 f:70aa6e9ce541b911ee87ecbf13d9c2bb:mutt/Pkgfile
@@ -215,9 +215,9 @@ f:5c6c799dec800d14c6378046cbd971f5:libgsf/Pkgfile
 f:e27a294610feb880a1ada10d3874fa6f:minetest/.md5sum
 f:9d0b5de3d037d05a86078c240940832e:minetest/.footprint
 f:24a92cd41a79535f20a63a802310b947:minetest/Pkgfile
-f:582ed6dcbd396e97b2ae2b9cb4e390f4:rclone/.md5sum
-f:7baffeb9be11caef8fde65ef40195539:rclone/.footprint
-f:31146ac149577e2759f1cd54a5495759:rclone/Pkgfile
+f:f17e036dae87fcbfd76d98da41916db3:rclone/.md5sum
+f:549a855f4c1e53e162e1f9b740483c53:rclone/.footprint
+f:482a83b995a2e4858b4e1076a9157394:rclone/Pkgfile
 f:3666289065bd7b6e554d84af85587ac4:umoria/umoria.patch
 f:6eed8e97143c2a60247f5cc8643747bf:umoria/.md5sum
 f:fb5043c9cb8c944162fd52a71983fbc8:umoria/post-install
