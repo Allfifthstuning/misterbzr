@@ -243,9 +243,9 @@ f:bbd1867aee0b072f95bc162cbf4e5e14:p5-git-repository/Pkgfile
 f:9b24d2340a2cad6fc4666a333c53e3cc:p5-super/.md5sum
 f:4c3b796656c05922843b51380be0915d:p5-super/.footprint
 f:98812f5dd3c8b1e6e3faad44a06c2666:p5-super/Pkgfile
-f:7672bf041763a5f0d1eff6cf09ed1b3a:gnunet/.md5sum
-f:784e6b01618c681e6f4e0bdcc1d870b6:gnunet/.footprint
-f:bc1f7b789059401f1aa5f8a5435d7265:gnunet/Pkgfile
+f:5e5cd24c498e08a43393fd472a0d5c62:gnunet/.md5sum
+f:4848b55193b73e608aad5d925e4d88b6:gnunet/.footprint
+f:d252adba07d368bee6cc70e0bc48d1fa:gnunet/Pkgfile
 f:788713a259a659fb62b465a622071250:t1utils/.md5sum
 f:aa199c7343abd40c5b6b4fad96efd2fb:t1utils/.footprint
 f:0807a662c0f4d2299a0cf899ed078fc3:t1utils/Pkgfile

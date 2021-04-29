@@ -2,7 +2,11 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/gnunet-arm
 -rwxr-xr-x	root/root	usr/bin/gnunet-ats
+-rwxr-xr-x	root/root	usr/bin/gnunet-auction-create
+-rwxr-xr-x	root/root	usr/bin/gnunet-auction-info
+-rwxr-xr-x	root/root	usr/bin/gnunet-auction-join
 -rwxr-xr-x	root/root	usr/bin/gnunet-auto-share
+-rwxr-xr-x	root/root	usr/bin/gnunet-base32
 -rwxr-xr-x	root/root	usr/bin/gnunet-bcd
 -rwxr-xr-x	root/root	usr/bin/gnunet-bugreport
 -rwxr-xr-x	root/root	usr/bin/gnunet-cadet
@@ -24,6 +28,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/gnunet-gns-proxy-setup-ca
 -rwxr-xr-x	root/root	usr/bin/gnunet-gnsrecord-tvg
 -rwxr-xr-x	root/root	usr/bin/gnunet-identity
+-rwxr-xr-x	root/root	usr/bin/gnunet-messenger
 -rwxr-xr-x	root/root	usr/bin/gnunet-namecache
 -rwxr-xr-x	root/root	usr/bin/gnunet-namestore
 -rwxr-xr-x	root/root	usr/bin/gnunet-nat
@@ -37,7 +42,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/gnunet-resolver
 -rwxr-xr-x	root/root	usr/bin/gnunet-revocation
 -rwxr-xr-x	root/root	usr/bin/gnunet-revocation-tvg
--rwxr-xr-x	root/root	usr/bin/gnunet-scalarproduct
+-rwxr-xr-x	root/root	usr/bin/gnunet-rps
 -rwxr-xr-x	root/root	usr/bin/gnunet-scrypt
 -rwxr-xr-x	root/root	usr/bin/gnunet-search
 -rwxr-xr-x	root/root	usr/bin/gnunet-secretsharing-profiler
@@ -58,6 +63,7 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/gnunet/
 -rw-r--r--	root/root	usr/include/gnunet/compat.h
 -rw-r--r--	root/root	usr/include/gnunet/gettext.h
+-rw-r--r--	root/root	usr/include/gnunet/gnu_name_system_record_types.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_abd_service.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_abe_lib.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_applications.h
@@ -158,8 +164,10 @@ drwxr-xr-x	root/root	usr/include/gnunet/
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_statistics_service.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_strings_lib.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_testbed_logger_service.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_testbed_ng_service.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_testbed_service.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_testing_lib.h
+-rw-r--r--	root/root	usr/include/gnunet/gnunet_testing_ng_lib.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_time_lib.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_transport_application_service.h
 -rw-r--r--	root/root	usr/include/gnunet/gnunet_transport_communication_service.h
@@ -198,11 +206,15 @@ drwxr-xr-x	root/root	usr/lib/gnunet/libexec/
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-helper-nat-client
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-helper-nat-server
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-helper-testbed
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-helper-transport-bluetooth
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-helper-transport-wlan
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-helper-transport-wlan-dummy
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-helper-vpn
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-namestore-fcfsd
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-rest-server
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-arm
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-ats
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-auction
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-cadet
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-consensus
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-conversation
@@ -214,6 +226,7 @@ drwxr-xr-x	root/root	usr/lib/gnunet/libexec/
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-fs
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-gns
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-identity
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-messenger
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-namecache
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-namestore
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-nat
@@ -225,10 +238,7 @@ drwxr-xr-x	root/root	usr/lib/gnunet/libexec/
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-regex
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-resolver
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-revocation
--rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-scalarproduct-alice
--rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-scalarproduct-bob
--rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-scalarproduct-ecc-alice
--rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-scalarproduct-ecc-bob
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-rps
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-secretsharing
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-set
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-seti
@@ -236,6 +246,7 @@ drwxr-xr-x	root/root	usr/lib/gnunet/libexec/
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-statistics
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-testbed
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-testbed-logger
+-rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-tng
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-transport
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-vpn
 -rwxr-xr-x	root/root	usr/lib/gnunet/libexec/gnunet-service-zonemaster
@@ -283,12 +294,16 @@ drwxr-xr-x	root/root	usr/lib/gnunet/libexec/
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_gnsrecord_gns.so
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_gnsrecord_reclaim.la
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_gnsrecord_reclaim.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_namecache_flat.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_namecache_flat.so
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_namecache_sqlite.la
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_namecache_sqlite.so
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_namestore_flat.la
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_namestore_flat.so
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_namestore_sqlite.la
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_namestore_sqlite.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_peerstore_flat.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_peerstore_flat.so
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_peerstore_sqlite.la
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_peerstore_sqlite.so
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_reclaim_attribute_basic.la
@@ -313,6 +328,8 @@ drwxr-xr-x	root/root	usr/lib/gnunet/libexec/
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_rest_reclaim.so
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_test.la
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_test.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_bluetooth.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_bluetooth.so
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_http_client.la
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_http_client.so
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_http_server.la
@@ -323,15 +340,12 @@ drwxr-xr-x	root/root	usr/lib/gnunet/libexec/
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_https_server.so
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_tcp.la
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_tcp.so
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_udp.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_udp.so
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_unix.la
 -rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_unix.so
-drwxr-xr-x	root/root	usr/lib/gnunet/nss/
--rwxr-xr-x	root/root	usr/lib/gnunet/nss/libnss_gns.la
--rwxr-xr-x	root/root	usr/lib/gnunet/nss/libnss_gns.so.2
--rwxr-xr-x	root/root	usr/lib/gnunet/nss/libnss_gns4.la
--rwxr-xr-x	root/root	usr/lib/gnunet/nss/libnss_gns4.so.2
--rwxr-xr-x	root/root	usr/lib/gnunet/nss/libnss_gns6.la
--rwxr-xr-x	root/root	usr/lib/gnunet/nss/libnss_gns6.so.2
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_wlan.la
+-rwxr-xr-x	root/root	usr/lib/gnunet/libgnunet_plugin_transport_wlan.so
 -rwxr-xr-x	root/root	usr/lib/libgnunetarm.la
 lrwxrwxrwx	root/root	usr/lib/libgnunetarm.so -> libgnunetarm.so.2.0.0
 lrwxrwxrwx	root/root	usr/lib/libgnunetarm.so.2 -> libgnunetarm.so.2.0.0
@@ -424,6 +438,10 @@ lrwxrwxrwx	root/root	usr/lib/libgnunetidentity.so.1 -> libgnunetidentity.so.1.0.
 lrwxrwxrwx	root/root	usr/lib/libgnunetjson.so -> libgnunetjson.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libgnunetjson.so.0 -> libgnunetjson.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libgnunetjson.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetmessenger.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetmessenger.so -> libgnunetmessenger.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetmessenger.so.0 -> libgnunetmessenger.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetmessenger.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libgnunetmicrophone.la
 lrwxrwxrwx	root/root	usr/lib/libgnunetmicrophone.so -> libgnunetmicrophone.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libgnunetmicrophone.so.0 -> libgnunetmicrophone.so.0.0.0
@@ -488,10 +506,10 @@ lrwxrwxrwx	root/root	usr/lib/libgnunetrest.so.0 -> libgnunetrest.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libgnunetrevocation.so -> libgnunetrevocation.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libgnunetrevocation.so.0 -> libgnunetrevocation.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libgnunetrevocation.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnunetscalarproduct.la
-lrwxrwxrwx	root/root	usr/lib/libgnunetscalarproduct.so -> libgnunetscalarproduct.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgnunetscalarproduct.so.0 -> libgnunetscalarproduct.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgnunetscalarproduct.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetrps.la
+lrwxrwxrwx	root/root	usr/lib/libgnunetrps.so -> libgnunetrps.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetrps.so.0 -> libgnunetrps.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetrps.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libgnunetsecretsharing.la
 lrwxrwxrwx	root/root	usr/lib/libgnunetsecretsharing.so -> libgnunetsecretsharing.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libgnunetsecretsharing.so.0 -> libgnunetsecretsharing.so.0.0.0
@@ -561,13 +579,19 @@ lrwxrwxrwx	root/root	usr/lib/libgnunettransporttesting2.so -> libgnunettransport
 lrwxrwxrwx	root/root	usr/lib/libgnunettransporttesting2.so.0 -> libgnunettransporttesting2.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libgnunettransporttesting2.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libgnunetutil.la
-lrwxrwxrwx	root/root	usr/lib/libgnunetutil.so -> libgnunetutil.so.13.0.2
-lrwxrwxrwx	root/root	usr/lib/libgnunetutil.so.13 -> libgnunetutil.so.13.0.2
--rwxr-xr-x	root/root	usr/lib/libgnunetutil.so.13.0.2
+lrwxrwxrwx	root/root	usr/lib/libgnunetutil.so -> libgnunetutil.so.14.0.0
+lrwxrwxrwx	root/root	usr/lib/libgnunetutil.so.14 -> libgnunetutil.so.14.0.0
+-rwxr-xr-x	root/root	usr/lib/libgnunetutil.so.14.0.0
 -rwxr-xr-x	root/root	usr/lib/libgnunetvpn.la
 lrwxrwxrwx	root/root	usr/lib/libgnunetvpn.so -> libgnunetvpn.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libgnunetvpn.so.0 -> libgnunetvpn.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libgnunetvpn.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libnss_gns.la
+-rwxr-xr-x	root/root	usr/lib/libnss_gns.so.2
+-rwxr-xr-x	root/root	usr/lib/libnss_gns4.la
+-rwxr-xr-x	root/root	usr/lib/libnss_gns4.so.2
+-rwxr-xr-x	root/root	usr/lib/libnss_gns6.la
+-rwxr-xr-x	root/root	usr/lib/libnss_gns6.so.2
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/gnunetarm.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gnunetats.pc
@@ -610,6 +634,7 @@ drwxr-xr-x	root/root	usr/share/gnunet/
 drwxr-xr-x	root/root	usr/share/gnunet/config.d/
 -rw-r--r--	root/root	usr/share/gnunet/config.d/arm.conf
 -rw-r--r--	root/root	usr/share/gnunet/config.d/ats.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/auction.conf
 -rw-r--r--	root/root	usr/share/gnunet/config.d/cadet.conf
 -rw-r--r--	root/root	usr/share/gnunet/config.d/communicator-unix.conf
 -rw-r--r--	root/root	usr/share/gnunet/config.d/consensus.conf
@@ -624,6 +649,7 @@ drwxr-xr-x	root/root	usr/share/gnunet/config.d/
 -rw-r--r--	root/root	usr/share/gnunet/config.d/gns.conf
 -rw-r--r--	root/root	usr/share/gnunet/config.d/hostlist.conf
 -rw-r--r--	root/root	usr/share/gnunet/config.d/identity.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/messenger.conf
 -rw-r--r--	root/root	usr/share/gnunet/config.d/namecache.conf
 -rw-r--r--	root/root	usr/share/gnunet/config.d/namestore.conf
 -rw-r--r--	root/root	usr/share/gnunet/config.d/nat-auto.conf
@@ -637,7 +663,7 @@ drwxr-xr-x	root/root	usr/share/gnunet/config.d/
 -rw-r--r--	root/root	usr/share/gnunet/config.d/resolver.conf
 -rw-r--r--	root/root	usr/share/gnunet/config.d/rest.conf
 -rw-r--r--	root/root	usr/share/gnunet/config.d/revocation.conf
--rw-r--r--	root/root	usr/share/gnunet/config.d/scalarproduct.conf
+-rw-r--r--	root/root	usr/share/gnunet/config.d/rps.conf
 -rw-r--r--	root/root	usr/share/gnunet/config.d/secretsharing.conf
 -rw-r--r--	root/root	usr/share/gnunet/config.d/set.conf
 -rw-r--r--	root/root	usr/share/gnunet/config.d/seti.conf
@@ -680,6 +706,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gnunet-arm.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gnunet-ats.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gnunet-auto-share.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gnunet-base32.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gnunet-bcd.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gnunet-bugreport.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gnunet-cadet.1.gz
