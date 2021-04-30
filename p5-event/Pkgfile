@@ -4,7 +4,7 @@
 # Depends on:
 
 name=p5-event
-version=1.27
+version=1.28
 release=1
 source=(https://cpan.metacpan.org/authors/id/E/ET/ETJ/Event-${version}.tar.gz)
 

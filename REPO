@@ -98,9 +98,9 @@ f:800314fa1000d02e27171c07d99d490c:p5-modern-perl/Pkgfile
 f:961d14eb8a9af7273bf4215d53f3fae9:foo2zjs/.md5sum
 f:f92832f6407146b9b921c11b67728772:foo2zjs/.footprint
 f:683b2617316db2b5e7717b3c089b4db8:foo2zjs/Pkgfile
-f:7a1f0ceeaf29c2c9f54864e844050c9a:p5-event/.md5sum
+f:0a24d5831126416e01433fa54de8cabd:p5-event/.md5sum
 f:c36d18cb1d44ca93680be1bee0212110:p5-event/.footprint
-f:f35da4af2943bfa6ab4555fa55d0894b:p5-event/Pkgfile
+f:711fb85bdd3343fcd41883203337c8dd:p5-event/Pkgfile
 f:3a37ba3497769e98c0777fb2f604ca61:p5-file-copy-link/.md5sum
 f:3ee88bf3fd55a0ddb8f673fbd79560a7:p5-file-copy-link/.footprint
 f:9fae9a047d68713c94e155f26220ad36:p5-file-copy-link/Pkgfile
