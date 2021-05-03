@@ -1,5 +1,6 @@
 d:sword-modules
 d:p5-alien-libtermkey
+d:expect
 d:p5-term-readline-gnu
 d:p5-graph
 d:guile1
@@ -78,6 +79,9 @@ f:37cc036df97610f317e23ec050c0cca6:sword-modules/Pkgfile
 f:8ae45db0b2b147968eb6be2015b8329d:p5-alien-libtermkey/.md5sum
 f:dbf002aa97f0deeb63d50b167c3a70b8:p5-alien-libtermkey/.footprint
 f:f9c08c01bf71edb49f91ab8cd698cbd0:p5-alien-libtermkey/Pkgfile
+f:2b4aa26e64d4c7202a2b40b8f387d9e7:expect/.md5sum
+f:62f593d56703145cc33585767db641b1:expect/.footprint
+f:71d5fb2ae002e3579928df4f23ae1877:expect/Pkgfile
 f:17f02cd19f1a8954c163a404f119005d:p5-term-readline-gnu/.md5sum
 f:cc3f2f1d096616c199b3bdc5e86efd86:p5-term-readline-gnu/.footprint
 f:58374e6becacff8ac2c50ded59380836:p5-term-readline-gnu/Pkgfile
