@@ -6,11 +6,12 @@
 
 name=ecasound
 version=2.9.3
-release=4
+release=5
 source=(http://nosignal.fi/download/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
+	patch ./libecasound/eca-iamode-parser.cpp < ../../../KeybindingsPatch
 	# lv2core is deprecated in favor of lv2:
 	# https://sourceforge.net/p/ecasound/bugs/52/
 	sed -e 's/lv2core/lv2/g' -i configure.ac
