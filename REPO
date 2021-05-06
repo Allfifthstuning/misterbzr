@@ -53,6 +53,7 @@ d:libextractor
 d:p5-file-homedir
 d:st
 d:p5-git-repository
+d:chemiscripts
 d:p5-super
 d:gnunet
 d:t1utils
@@ -252,6 +253,9 @@ f:2ef0ed8a50f9b60fdb0687a6795d5ecc:st/Pkgfile
 f:497efc2e32703e99f3e1b841f69dabba:p5-git-repository/.md5sum
 f:9bcc799d26fe1c5727ee80a5d391f21e:p5-git-repository/.footprint
 f:bbd1867aee0b072f95bc162cbf4e5e14:p5-git-repository/Pkgfile
+f:9257b7ee59e5aba8c3e31d3171c73fdb:chemiscripts/.md5sum
+f:bb2696b6c73fe5b0bdbd64bbd445da4f:chemiscripts/.footprint
+f:467aa6be05c71f647267b726040235a2:chemiscripts/Pkgfile
 f:9b24d2340a2cad6fc4666a333c53e3cc:p5-super/.md5sum
 f:4c3b796656c05922843b51380be0915d:p5-super/.footprint
 f:98812f5dd3c8b1e6e3faad44a06c2666:p5-super/Pkgfile
