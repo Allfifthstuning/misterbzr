@@ -42,6 +42,7 @@ d:swh-plugins
 d:tex-gyre-fonts
 d:booty
 d:p5-file-spec-link
+d:mdp
 d:pkg-clean
 d:libgsf
 d:minetest
@@ -140,7 +141,7 @@ f:2a21ff34c8667f05bf5160c268500d88:lilypond/.footprint
 f:99e2e9bd42dbde09399289a0dc743c48:lilypond/Pkgfile
 f:c9c1bf5617ead182ce6a707b8e16d16a:mutt/.md5sum
 f:d8d2c0d6fe30bbdb39303f3b80c2028b:mutt/.footprint
-f:70aa6e9ce541b911ee87ecbf13d9c2bb:mutt/Pkgfile
+f:c7c53d5f31604936d7f71f9d49136e88:mutt/Pkgfile
 f:f568193bac75f92bb58404d85ba48284:nama/.md5sum
 f:3c6ada367b1f34d9a465e9e93ffe419b:nama/.footprint
 f:758e7bc038777e8862667b4b1d5fff5e:nama/Pkgfile
@@ -212,6 +213,9 @@ f:225fc4989dc02540403036996f220b57:booty/Pkgfile
 f:3a37ba3497769e98c0777fb2f604ca61:p5-file-spec-link/.md5sum
 f:3ee88bf3fd55a0ddb8f673fbd79560a7:p5-file-spec-link/.footprint
 f:04edcde5f9c25de383d3bec8470b1cd5:p5-file-spec-link/Pkgfile
+f:a72009f33c144bd42266ff3702ab9686:mdp/.md5sum
+f:d3359f4c016bd51f31702375fb21138b:mdp/.footprint
+f:4ac623822a8d6694255e50dd1e3e4335:mdp/Pkgfile
 f:01702c78133337cff041f154fb1c2a22:pkg-clean/pkg-clean.conf
 f:51f9660e80e4ba9c220d5cc72f13d736:pkg-clean/.md5sum
 f:de3b03a0d3eac94992c038c547718e2c:pkg-clean/pkg-clean
