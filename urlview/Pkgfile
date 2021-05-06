@@ -1,0 +1,18 @@
+# Description:	`urlview' is a curses program for extracting URLs from text files and displaying a menu from which you can select a specific URL to view using your favorite browser program.
+# URL:		https://salsa.debian.org/debian/urlview/-/tree/master 
+# Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:	  
+
+name=urlview
+version=master
+release=1
+source=(https://salsa.debian.org/debian/${name}/-/archive/${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+	./configure --prefix=/usr/
+	make
+	make DESTDIR=$PKG install
+	}
+

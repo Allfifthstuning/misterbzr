@@ -75,6 +75,7 @@ d:tuneit
 d:netpbm
 d:p5-anyevent-termkey
 d:dwmstatus
+d:urlview
 d:aircrack-ng
 f:1d70e500d63713cd891da09c3df7d0ea:sword-modules/.md5sum
 f:e016aad7c71e13a5c063c18739ae2b0a:sword-modules/post-install
@@ -328,6 +329,9 @@ f:d41d8cd98f00b204e9800998ecf8427e:dwmstatus/.md5sum
 f:8f49fa60644742b3d6b2c28a03e5f1d0:dwmstatus/README
 f:5204bcc3acd4d2bd2285744e8ed7f19d:dwmstatus/.footprint
 f:d18d5a1848f47df9131cf47d5623108e:dwmstatus/Pkgfile
+f:5dd160239df02a714de0ac5ffac4015e:urlview/.md5sum
+f:acd5935efe7c54748a0c9cfc60ae24cc:urlview/.footprint
+f:d0696c096e32e19a769968501805e2e3:urlview/Pkgfile
 f:22ea9f01453e9bd3021118d14a0a94b6:aircrack-ng/.md5sum
 f:be5c64860019f2312902f6f9ef5da38b:aircrack-ng/.footprint
 f:7054974d20d00079babaf26aad399704:aircrack-ng/Pkgfile
