@@ -1,0 +1,19 @@
+# Description: 	A small utility for converting JPG images to ASCII
+# URL: 		https://github.com/Talinx/jp2a/
+# Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: 	libpng, 
+
+name=jp2a
+version=1.1.0
+release=1
+source=(https://github.com/Talinx/${name}/releases/download/v${version}/${name}-${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+	autoreconf -vi
+	./configure --prefix='/usr/'
+	make check
+	make DESTDIR=$PKG install
+	}
+
