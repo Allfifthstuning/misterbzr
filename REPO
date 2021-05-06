@@ -100,7 +100,7 @@ f:50ed308e6cf8c9b45c6007767c532bfd:guile1/.md5sum
 f:d997ad5425d8f0b1aec1f5762e92371d:guile1/.footprint
 f:3267ccd874b936ebd4a3832d31705b8f:guile1/Pkgfile
 f:f75942c4c4911c7f00afc9bfa978cdf3:dwm/.md5sum
-f:d955c48f92cf9e1285dcd2fe504b6458:dwm/config.h
+f:3d62c5cdf073969c0c084895b94c29cb:dwm/config.h
 f:6fad530f81a7658a10ad62de8946f6ae:dwm/README
 f:741c1a116e5019e71222386c940489a8:dwm/.footprint
 f:0873edab1a5944156163df12ce204f9e:dwm/Pkgfile
