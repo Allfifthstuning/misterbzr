@@ -37,7 +37,6 @@ d:girara
 d:zita-resampler
 d:supertuxkart
 d:sword
-d:urlscan
 d:ntk
 d:faust
 d:swh-plugins
@@ -201,9 +200,6 @@ f:3d6beb855cd89664fd1562068bb97cdf:supertuxkart/Pkgfile
 f:4bcb3eb9359cad6ef4ca1f6d31bdcc44:sword/.md5sum
 f:08ed35bfa900c540a12c8f21c807e0c0:sword/.footprint
 f:9c96caa270c210f963d62efb8fcc72a9:sword/Pkgfile
-f:d767fd4f11b24506ffcf957796b67dde:urlscan/.md5sum
-f:571bba257d2c0966420af03664cb4eda:urlscan/.footprint
-f:aeaf87d96d7b2f2a8e56c96b72ea4dc3:urlscan/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:ntk/.md5sum
 f:f1b4b81d29ed6e8c0b3a1676917bd2b1:ntk/.footprint
 f:492a75f3f5dfbbf1a9dd5fdacb5b6e2c:ntk/Pkgfile
