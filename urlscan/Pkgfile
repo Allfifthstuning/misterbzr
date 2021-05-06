@@ -1,0 +1,17 @@
+# Description: 	Mutt and terminal url selector
+# URL: 		https://github.com/firecat53/urlscan
+# Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: 	python3-urwid, python-setuptools
+
+name=urlscan
+version=0.9.6
+release=1
+source=(https://github.com/firecat53/${name}/archive/${version}.tar.gz)
+
+build() {
+	cd ${name}-${version}
+	python setup.py build
+	python setup.py install --root="$PKG" --optimize=1 --skip-build
+	}
+
