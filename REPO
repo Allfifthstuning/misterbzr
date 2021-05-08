@@ -22,7 +22,6 @@ d:mutt
 d:nama
 d:dblatex
 d:p5-text-template
-d:guitarix
 d:p5-data-dumper-concise
 d:p5-inc-module-install
 d:obs-v4l2sink
@@ -38,7 +37,6 @@ d:zita-resampler
 d:supertuxkart
 d:sword
 d:ntk
-d:faust
 d:swh-plugins
 d:tex-gyre-fonts
 d:booty
@@ -154,9 +152,6 @@ f:92f94e319202f41402e285a07f2d7f50:dblatex/Pkgfile
 f:15eada57ed2ad8f5a5eb1ba71df84ba6:p5-text-template/.md5sum
 f:48f43b2bf66a8240ad7879b93917a966:p5-text-template/.footprint
 f:3a68e12e66b83dd945b57fd0551a4648:p5-text-template/Pkgfile
-f:dee7dc4c03d94c4459e28fa8f0b61a59:guitarix/.md5sum
-f:dd441c1d97accfe6e5b0f40eadf186a1:guitarix/.footprint
-f:bf4893b4c960b7fa11fbb77ef86cf3f5:guitarix/Pkgfile
 f:b05a2b06e3b959933c76868826433910:p5-data-dumper-concise/.md5sum
 f:7bf2289069b4bc5e9134c26c8c04a739:p5-data-dumper-concise/.footprint
 f:1c0eaf739fb6224d38a41cf7866e0efa:p5-data-dumper-concise/Pkgfile
@@ -204,9 +199,6 @@ f:9c96caa270c210f963d62efb8fcc72a9:sword/Pkgfile
 f:d41d8cd98f00b204e9800998ecf8427e:ntk/.md5sum
 f:f1b4b81d29ed6e8c0b3a1676917bd2b1:ntk/.footprint
 f:492a75f3f5dfbbf1a9dd5fdacb5b6e2c:ntk/Pkgfile
-f:204489f82cab570b85b28cd80f5de267:faust/.md5sum
-f:9af5ec70ba8ba8539ef5407706c52c30:faust/.footprint
-f:6528d5d1a916dbb1f46215d58ec2f28d:faust/Pkgfile
 f:2f399b265469f0ead10379e529935537:swh-plugins/.md5sum
 f:b3cd60e334d2435ab7522dc73f957923:swh-plugins/.footprint
 f:44b0cb0f1909f60b5e1dd7150b2d9162:swh-plugins/Pkgfile
