@@ -4,9 +4,8 @@
 # Packager:
  
 name=faust
-#version=2.27.2
 version=2.30.5
-release=1
+release=2
 source=(https://github.com/grame-cncm/${name}/releases/download/${version}/${name}-${version}.tar.gz)
 #        faust-2.20.2-fix_c-api.patch  faust-2.20.2-llvm10.patch)
  
@@ -17,7 +16,7 @@ build() {
 #  patch -Np1 -i "../${name}-${version}-fix_c-api.patch"
 #  patch -Np1 -i "../${name}-${version}-llvm10.patch"
 
-  export JOBS=""
+  export JOBS="1"
 
   make PREFIX=/usr VERBOSE=1 world 
   make install PREFIX=/usr DESTDIR=${PKG}
