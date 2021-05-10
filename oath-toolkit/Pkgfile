@@ -3,8 +3,7 @@
 # Maintainer:  Hans Bezemer, hbezemer at kliksafe dot nl
 # Depends on:  xmlsec help2man gengetopt
 name=oath-toolkit
-#version=2.6.2
-version=2.6.6
+version=2.6.7
 release=1
 source=(https://download.savannah.gnu.org/releases/${name}/${name}-${version}.tar.gz
 	)

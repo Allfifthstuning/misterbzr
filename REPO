@@ -114,9 +114,9 @@ f:711fb85bdd3343fcd41883203337c8dd:p5-event/Pkgfile
 f:3a37ba3497769e98c0777fb2f604ca61:p5-file-copy-link/.md5sum
 f:3ee88bf3fd55a0ddb8f673fbd79560a7:p5-file-copy-link/.footprint
 f:9fae9a047d68713c94e155f26220ad36:p5-file-copy-link/Pkgfile
-f:d96f47db2d65213911f11fd217415292:oath-toolkit/.md5sum
+f:db7fd67769c5cbe1fab6a2831864a28e:oath-toolkit/.md5sum
 f:4262fb3b2acb053a4892a087d3663be7:oath-toolkit/.footprint
-f:c6af713b044ae51536942e8b302a7cb7:oath-toolkit/Pkgfile
+f:06d6f0bfb5e434c4c6a3a08ce872eadd:oath-toolkit/Pkgfile
 f:d9f144e4a8e47b65a103b9fb752d1679:oath-toolkit/2fffce2a471f74a585939c84cce16ef3015e5d3d.diff
 f:9c0d53e0fdc0a27cb0cb9faadc0bff64:oath-toolkit/fseeko.patch
 f:aa56e9a1d5e0d3cd41e0176473444ed3:p5-term-termkey/.md5sum
