@@ -4,8 +4,8 @@
 # Depends on:  ncurses acl
 
 name=vim
-version=8.2.1632
-release=2
+version=8.2.2847
+release=1
 source=(https://github.com/vim/vim/archive/v${version}/$name-$version.tar.gz)
 
 build () {
@@ -41,7 +41,7 @@ build () {
     ./configure --prefix=/ \
                 --datarootdir=/usr/share \
                 --with-vim-name=vi \
-                --without-x \
+                --with-x \
                 --disable-gui \
                 --enable-multibyte \
                 --disable-gpm \

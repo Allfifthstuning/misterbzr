@@ -161,9 +161,9 @@ f:9b249f389d62c5e899503f212cbfd433:p5-inc-module-install/Pkgfile
 f:a6e3cc60e5b8bbc1be9d341c694ffe67:obs-v4l2sink/.md5sum
 f:1eec3ecd20562b8c69fb0f497acf7157:obs-v4l2sink/.footprint
 f:71ce07f784d417171adcd4ac0fc1fca1:obs-v4l2sink/Pkgfile
-f:d84bea663e4ae128394f5fe240e0ad4c:vim/.md5sum
-f:ad688d3fa5dae16c2126e7122abefadb:vim/.footprint
-f:fd9c2ac4ea53cca904853e86a191d3c4:vim/Pkgfile
+f:a8c438b631570f49d3de512813d180da:vim/.md5sum
+f:cff1806ad6d6f2c9b3a18b17b059f043:vim/.footprint
+f:21ede6bdc9f90b52615d363a4b278fe3:vim/Pkgfile
 f:a39141f47d3afd3447e88c8db0de4798:jp2a/.md5sum
 f:47a6f18d58c1e22030e951e5ce466f99:jp2a/.footprint
 f:ff9b46c88098e3521affecb79a19abb4:jp2a/Pkgfile
