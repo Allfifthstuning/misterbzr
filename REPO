@@ -16,7 +16,6 @@ d:p5-yaml-tiny
 d:irrlicht
 d:p5-text-format
 d:liblrdf
-d:ranger
 d:lilypond
 d:mutt
 d:nama
@@ -28,7 +27,6 @@ d:obs-v4l2sink
 d:vim
 d:jp2a
 d:rtaudio
-d:cruxstrap
 d:klick
 d:jacktrip
 d:p5-system-command
@@ -47,12 +45,10 @@ d:libgsf
 d:minetest
 d:rclone
 d:umoria
-d:xboxdrv
 d:libextractor
 d:p5-file-homedir
 d:st
 d:p5-git-repository
-d:chemiscripts
 d:p5-super
 d:gnunet
 d:t1utils
@@ -97,6 +93,7 @@ f:c2e227e1d45bfd1b8239015422bc6f86:p5-graph/Pkgfile
 f:50ed308e6cf8c9b45c6007767c532bfd:guile1/.md5sum
 f:d997ad5425d8f0b1aec1f5762e92371d:guile1/.footprint
 f:3267ccd874b936ebd4a3832d31705b8f:guile1/Pkgfile
+f:d41d8cd98f00b204e9800998ecf8427e:dwm/sudo
 f:f75942c4c4911c7f00afc9bfa978cdf3:dwm/.md5sum
 f:ff1522232eb3680cc91bdb5b1e2943a0:dwm/config.h
 f:6fad530f81a7658a10ad62de8946f6ae:dwm/README
@@ -134,9 +131,6 @@ f:30dcbf19d3d7f53849be02a92a38de13:p5-text-format/Pkgfile
 f:0e46e8947f9487d504274b561928846a:liblrdf/.md5sum
 f:1748d61bb76acb497645d895db7f1a00:liblrdf/.footprint
 f:7924c4ec8fa73b0b9e181c6fa1078b8e:liblrdf/Pkgfile
-f:4756849f40efa23414bbe3a45699d6b7:ranger/.md5sum
-f:ad9a1782d932aee4ab3e0e992b620ee4:ranger/.footprint
-f:6fcc05cd943ddc8750b41e86f4303e8e:ranger/Pkgfile
 f:bbe0f09efd7bfa5435a39712cb4a3c9b:lilypond/.md5sum
 f:2a21ff34c8667f05bf5160c268500d88:lilypond/.footprint
 f:99e2e9bd42dbde09399289a0dc743c48:lilypond/Pkgfile
@@ -170,9 +164,6 @@ f:ff9b46c88098e3521affecb79a19abb4:jp2a/Pkgfile
 f:935e752d31ec55d4729c9a0ec1850b2a:rtaudio/.md5sum
 f:9bd28e266271d48653d9414576ca6c49:rtaudio/.footprint
 f:5cfddbce37793efd0d634ae371589200:rtaudio/Pkgfile
-f:bc915eaf3d420028665dd21ead17854a:cruxstrap/.md5sum
-f:f934a013a63984738f5d7c5eecb93f7d:cruxstrap/.footprint
-f:d721b36bd1beda6960134c6a39a58ccb:cruxstrap/Pkgfile
 f:1022e3f34ff03d04304d184c84ea4755:misterbzr.httpup
 f:f00657651d78e0d3eb10906db8dbf77a:klick/.md5sum
 f:c18aeb3014c92c9d192ef06d2f5348a0:klick/.footprint
@@ -233,9 +224,6 @@ f:6eed8e97143c2a60247f5cc8643747bf:umoria/.md5sum
 f:fb5043c9cb8c944162fd52a71983fbc8:umoria/post-install
 f:55b5c937afd01b4c07902d50526cc301:umoria/.footprint
 f:19fa73446a4e8abbadbb46846a1ffb88:umoria/Pkgfile
-f:cd8c0bbce3b841c2f1d4deaa8416d805:xboxdrv/.md5sum
-f:f69926e98824143ed5be74cd26650f74:xboxdrv/.footprint
-f:9250a8dc8bfd1ff288ff3975e10e6149:xboxdrv/Pkgfile
 f:db1c37f5a5fc1e6f613b4ede2b776384:libextractor/.md5sum
 f:4b9095d31ec4dfb9c711ddcbe8fbd8dc:libextractor/.footprint
 f:6f329d94773ce5e02b840089069f9b7c:libextractor/Pkgfile
@@ -250,9 +238,6 @@ f:2ef0ed8a50f9b60fdb0687a6795d5ecc:st/Pkgfile
 f:497efc2e32703e99f3e1b841f69dabba:p5-git-repository/.md5sum
 f:9bcc799d26fe1c5727ee80a5d391f21e:p5-git-repository/.footprint
 f:bbd1867aee0b072f95bc162cbf4e5e14:p5-git-repository/Pkgfile
-f:9257b7ee59e5aba8c3e31d3171c73fdb:chemiscripts/.md5sum
-f:bb2696b6c73fe5b0bdbd64bbd445da4f:chemiscripts/.footprint
-f:467aa6be05c71f647267b726040235a2:chemiscripts/Pkgfile
 f:9b24d2340a2cad6fc4666a333c53e3cc:p5-super/.md5sum
 f:4c3b796656c05922843b51380be0915d:p5-super/.footprint
 f:98812f5dd3c8b1e6e3faad44a06c2666:p5-super/Pkgfile
