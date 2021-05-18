@@ -1,7 +1,7 @@
 # Description:	GNOME Structured File Library
 # URL:		http://www.gnome.org
 # Maintainer:	Hans Bezemer, hbezemer at kliksafe dot nl
-# Depends on:	libxml2, intltool, gtk-doc, gdk-pixbuf2, gobject-introspection 
+# Depends on:	libxml2, gtk-doc, gdk-pixbuf2, gobject-introspection 
 
 name=libgsf
 version=1.14.47
