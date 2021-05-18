@@ -1,0 +1,20 @@
+# Description: Simple X display locker.
+# URL:         https://tools.suckless.org/slock/
+# Maintainer:  Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on:  
+
+name=slock
+version=1.4
+release=1
+source=(https://dl.suckless.org/tools/${name}-${version}.tar.gz)
+
+build () {
+	cd "$name-$version"
+
+	if [ -f $PKGMK_ROOT/config.h ]; then
+		cp $PKGMK_ROOT/config.h .
+	fi
+
+	make CC=gcc
+	make DESTDIR=$PKG PREFIX=/usr install
+}
