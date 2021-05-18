@@ -201,7 +201,7 @@ f:f17e036dae87fcbfd76d98da41916db3:rclone/.md5sum
 f:549a855f4c1e53e162e1f9b740483c53:rclone/.footprint
 f:482a83b995a2e4858b4e1076a9157394:rclone/Pkgfile
 f:bc9127710629cc21e41e27ef22bab571:slock/.md5sum
-f:602bb0c574adef52643659d219956e12:slock/config.h
+f:a698fe36cfffbf7bf90a311afc75a54a:slock/config.h
 f:84f82db5b19e3e1649e1154db63cce5c:slock/.footprint
 f:7b4cb7f1f713208ffce296118c6979b6:slock/Pkgfile
 f:3666289065bd7b6e554d84af85587ac4:umoria/umoria.patch
