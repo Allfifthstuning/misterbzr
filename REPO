@@ -12,6 +12,7 @@ d:p5-event
 d:p5-file-copy-link
 d:oath-toolkit
 d:p5-term-termkey
+d:compton
 d:p5-yaml-tiny
 d:irrlicht
 d:p5-text-format
@@ -113,6 +114,9 @@ f:9c0d53e0fdc0a27cb0cb9faadc0bff64:oath-toolkit/fseeko.patch
 f:aa56e9a1d5e0d3cd41e0176473444ed3:p5-term-termkey/.md5sum
 f:be01fd42ad985117767b181de1c9f7fd:p5-term-termkey/.footprint
 f:98d1db4e752fa970c19564a4d2abceaa:p5-term-termkey/Pkgfile
+f:334c640ddc47aa2ea41fbcd771ba6a47:compton/.md5sum
+f:3990422ee9bd8619853a28ddcf6fc79f:compton/.footprint
+f:00fb6b3711e8382f3003e6876927ab21:compton/Pkgfile
 f:d4c6237d02e235ab91400943a16ccddd:p5-yaml-tiny/.md5sum
 f:51370fc12302ba2dd56c4c7028dcf049:p5-yaml-tiny/.footprint
 f:cff58334e588e548ad0ee4e4f76d3c6e:p5-yaml-tiny/Pkgfile
