@@ -5,15 +5,16 @@
 # Depends on: 	cairo gtk3 gdk-pixbuf glib gsl libgsf libxml xdg-utils intltool
 
 name=ardesia
-version=master
+version=1.1
 release=1
-source=(https://github.com/tommccallum/ardesia/archive/refs/heads/master.zip)
+source=(https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/ardesia/ardesia-1.1.tar.gz
+010-ardesia-gcc10-fix.patch
+)
 
 build() {
 	cd ${name}-${version}
-	#patch -p1 <  ../010-ardesia-gcc10-fix.patch
-	#autoreconf --force --install
-	./autogen.sh
+	patch -p1 <  ../010-ardesia-gcc10-fix.patch
+	autoreconf --force --install
 	./configure --prefix=/usr/
 	make DESTDIR=$PKG install
 	}
