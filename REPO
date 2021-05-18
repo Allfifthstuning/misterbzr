@@ -1,5 +1,6 @@
 d:sword-modules
 d:p5-alien-libtermkey
+d:xournalpp
 d:expect
 d:p5-term-readline-gnu
 d:tpp
@@ -73,6 +74,9 @@ f:37cc036df97610f317e23ec050c0cca6:sword-modules/Pkgfile
 f:8ae45db0b2b147968eb6be2015b8329d:p5-alien-libtermkey/.md5sum
 f:dbf002aa97f0deeb63d50b167c3a70b8:p5-alien-libtermkey/.footprint
 f:f9c08c01bf71edb49f91ab8cd698cbd0:p5-alien-libtermkey/Pkgfile
+f:f05399f0c2273f1b24c4c6566b8cc4f5:xournalpp/.md5sum
+f:cb21d00e50921d7a94db79dbffcaa493:xournalpp/.footprint
+f:ab2882a9c732f6801c76c8beeb5da3cc:xournalpp/Pkgfile
 f:2b4aa26e64d4c7202a2b40b8f387d9e7:expect/.md5sum
 f:62f593d56703145cc33585767db641b1:expect/.footprint
 f:71d5fb2ae002e3579928df4f23ae1877:expect/Pkgfile
@@ -217,10 +221,11 @@ f:19fa73446a4e8abbadbb46846a1ffb88:umoria/Pkgfile
 f:db1c37f5a5fc1e6f613b4ede2b776384:libextractor/.md5sum
 f:4b9095d31ec4dfb9c711ddcbe8fbd8dc:libextractor/.footprint
 f:6f329d94773ce5e02b840089069f9b7c:libextractor/Pkgfile
-f:eec0bc71f973c71d2b5e391ff59478e5:ardesia/.md5sum
+f:1ab18ac4292b1b985b20f1e48ad16d62:ardesia/Pkgfile.bak
+f:541754baacc22a6691a38c706109a24a:ardesia/.md5sum
 f:3206b115f518b15d9cb0c32563a4c911:ardesia/010-ardesia-gcc10-fix.patch
 f:8d2f82cceaaca48c88ba1ae21a5fe705:ardesia/.footprint
-f:1ab18ac4292b1b985b20f1e48ad16d62:ardesia/Pkgfile
+f:9b35c8202950aeef56741716f9652eec:ardesia/Pkgfile
 f:d332ef467d29ffc53139782acd355914:p5-file-homedir/.md5sum
 f:e6dfbd7d142ce519496238850c354e1e:p5-file-homedir/.footprint
 f:c2a73c4487e45595503785c0f08ad186:p5-file-homedir/Pkgfile
