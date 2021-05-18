@@ -43,6 +43,7 @@ d:rclone
 d:slock
 d:umoria
 d:libextractor
+d:ardesia
 d:p5-file-homedir
 d:st
 d:p5-git-repository
@@ -193,7 +194,7 @@ f:94e6152faea3da16c41cb5aaee049b0f:pkg-clean/.footprint
 f:997224fd5e7d391bab1d5b8ff4e950a0:pkg-clean/Pkgfile
 f:448d8dc780e6ac92f6820e6ecb003b60:libgsf/.md5sum
 f:76ce4835de40df20c9f3db0f1349cd90:libgsf/.footprint
-f:67d0cbc89df92eb032a595b9381063f6:libgsf/Pkgfile
+f:8e730737c0ed8ceb996e523b347abd09:libgsf/Pkgfile
 f:e27a294610feb880a1ada10d3874fa6f:minetest/.md5sum
 f:9d0b5de3d037d05a86078c240940832e:minetest/.footprint
 f:24a92cd41a79535f20a63a802310b947:minetest/Pkgfile
@@ -212,6 +213,10 @@ f:19fa73446a4e8abbadbb46846a1ffb88:umoria/Pkgfile
 f:db1c37f5a5fc1e6f613b4ede2b776384:libextractor/.md5sum
 f:4b9095d31ec4dfb9c711ddcbe8fbd8dc:libextractor/.footprint
 f:6f329d94773ce5e02b840089069f9b7c:libextractor/Pkgfile
+f:eec0bc71f973c71d2b5e391ff59478e5:ardesia/.md5sum
+f:3206b115f518b15d9cb0c32563a4c911:ardesia/010-ardesia-gcc10-fix.patch
+f:8d2f82cceaaca48c88ba1ae21a5fe705:ardesia/.footprint
+f:1ab18ac4292b1b985b20f1e48ad16d62:ardesia/Pkgfile
 f:d332ef467d29ffc53139782acd355914:p5-file-homedir/.md5sum
 f:e6dfbd7d142ce519496238850c354e1e:p5-file-homedir/.footprint
 f:c2a73c4487e45595503785c0f08ad186:p5-file-homedir/Pkgfile
