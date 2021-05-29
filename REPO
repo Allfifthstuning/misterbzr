@@ -13,7 +13,6 @@ d:p5-event
 d:p5-file-copy-link
 d:oath-toolkit
 d:p5-term-termkey
-d:compton
 d:p5-yaml-tiny
 d:irrlicht
 d:p5-text-format
@@ -45,7 +44,6 @@ d:rclone
 d:slock
 d:umoria
 d:libextractor
-d:ardesia
 d:p5-file-homedir
 d:st
 d:p5-git-repository
@@ -76,7 +74,7 @@ f:dbf002aa97f0deeb63d50b167c3a70b8:p5-alien-libtermkey/.footprint
 f:f9c08c01bf71edb49f91ab8cd698cbd0:p5-alien-libtermkey/Pkgfile
 f:f05399f0c2273f1b24c4c6566b8cc4f5:xournalpp/.md5sum
 f:cb21d00e50921d7a94db79dbffcaa493:xournalpp/.footprint
-f:ab2882a9c732f6801c76c8beeb5da3cc:xournalpp/Pkgfile
+f:6325f8b9dc5a9da86be6c930ebb049a2:xournalpp/Pkgfile
 f:2b4aa26e64d4c7202a2b40b8f387d9e7:expect/.md5sum
 f:62f593d56703145cc33585767db641b1:expect/.footprint
 f:71d5fb2ae002e3579928df4f23ae1877:expect/Pkgfile
@@ -118,9 +116,6 @@ f:9c0d53e0fdc0a27cb0cb9faadc0bff64:oath-toolkit/fseeko.patch
 f:aa56e9a1d5e0d3cd41e0176473444ed3:p5-term-termkey/.md5sum
 f:be01fd42ad985117767b181de1c9f7fd:p5-term-termkey/.footprint
 f:98d1db4e752fa970c19564a4d2abceaa:p5-term-termkey/Pkgfile
-f:334c640ddc47aa2ea41fbcd771ba6a47:compton/.md5sum
-f:3990422ee9bd8619853a28ddcf6fc79f:compton/.footprint
-f:00fb6b3711e8382f3003e6876927ab21:compton/Pkgfile
 f:d4c6237d02e235ab91400943a16ccddd:p5-yaml-tiny/.md5sum
 f:51370fc12302ba2dd56c4c7028dcf049:p5-yaml-tiny/.footprint
 f:cff58334e588e548ad0ee4e4f76d3c6e:p5-yaml-tiny/Pkgfile
@@ -221,15 +216,11 @@ f:19fa73446a4e8abbadbb46846a1ffb88:umoria/Pkgfile
 f:db1c37f5a5fc1e6f613b4ede2b776384:libextractor/.md5sum
 f:4b9095d31ec4dfb9c711ddcbe8fbd8dc:libextractor/.footprint
 f:6f329d94773ce5e02b840089069f9b7c:libextractor/Pkgfile
-f:eec0bc71f973c71d2b5e391ff59478e5:ardesia/.md5sum
-f:3206b115f518b15d9cb0c32563a4c911:ardesia/010-ardesia-gcc10-fix.patch
-f:8d2f82cceaaca48c88ba1ae21a5fe705:ardesia/.footprint
-f:74da48116e456add1b2b041f4052fb5a:ardesia/Pkgfile
 f:d332ef467d29ffc53139782acd355914:p5-file-homedir/.md5sum
 f:e6dfbd7d142ce519496238850c354e1e:p5-file-homedir/.footprint
 f:c2a73c4487e45595503785c0f08ad186:p5-file-homedir/Pkgfile
-f:5c6472c9e82e0576490b8455539deff1:st/.signature
-f:18ac985744d30ed864a2226ac38dca72:st/config.h
+f:f476fb5f8178a5436e2cf2f10e5a2bac:st/.md5sum
+f:072acaeacfcb114ed1c64c5c4deb5417:st/config.h
 f:20f08c5f31e9a85c101e0a2c43b6ab36:st/README
 f:d76bb9d9216d9488d8c584a4b615df4f:st/.footprint
 f:2ef0ed8a50f9b60fdb0687a6795d5ecc:st/Pkgfile

@@ -1,5 +1,6 @@
 # Description: notetaking and PDF annotation software
 # URL: https://github.com/xournalpp/xournalpp
+# Maintainer: Hans Bezemer, hbezemer at kliksafe dot nl
 # Depends on: gtk3 poppler-glib libxml2 portaudio libsndfile lua53 libzip cppunit adwaita-icon-theme
 # Nice to have: libungif
 
