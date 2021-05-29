@@ -24,6 +24,7 @@ d:dblatex
 d:p5-text-template
 d:p5-data-dumper-concise
 d:p5-inc-module-install
+d:dash
 d:vim
 d:jp2a
 d:rtaudio
@@ -149,6 +150,9 @@ f:1c0eaf739fb6224d38a41cf7866e0efa:p5-data-dumper-concise/Pkgfile
 f:4aef68261780b8e617119aab6cb17451:p5-inc-module-install/.md5sum
 f:08fa09d143b3604c3423f30b6393e361:p5-inc-module-install/.footprint
 f:9b249f389d62c5e899503f212cbfd433:p5-inc-module-install/Pkgfile
+f:22a419cf6ff28d12246599f05b91ed49:dash/.md5sum
+f:28c289b83ba669b8ca3f7a6c02dcd838:dash/.footprint
+f:a5f43e29e092f8fc2946c4c995007873:dash/Pkgfile
 f:7898fc435beda8ee9714699ed901d551:vim/.md5sum
 f:cff1806ad6d6f2c9b3a18b17b059f043:vim/.footprint
 f:e2b38f1fae1e34314aafb542c81ebfb3:vim/Pkgfile
