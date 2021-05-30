@@ -1,0 +1,16 @@
+# Description: BusyBox combines tiny versions of many common UNIX utilities into a single small executable 
+# URL:         https://www.busybox.net
+# Maintainer:  Hans Bezemer , hbezemer at kliksafe dot nl
+# Depends on:  
+
+name=busybox
+version=1.33.1
+release=1
+source=(https://www.busybox.net/downloads/${name}-${version}.tar.bz2)
+
+build() {
+	cd ${name}-${version}
+	make defconfig
+	make
+	install -m 0755 -D busybox $PKG/usr/sbin/busybox
+}

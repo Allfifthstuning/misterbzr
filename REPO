@@ -59,6 +59,7 @@ d:jbigkit
 d:p5-module-build-using-pkgconfig
 d:calcurse
 d:p5-git-version-compare
+d:busybox
 d:peertube-viewer-rs
 d:libtermkey
 d:p5-data-section-simple
@@ -265,6 +266,9 @@ f:7632f645f4727a741580c39ea13690cb:calcurse/Pkgfile
 f:6f4652bedd5f19621d4ada05791f11e2:p5-git-version-compare/.md5sum
 f:49daf12fa0f196367dd95b06b37588e8:p5-git-version-compare/.footprint
 f:30e5b7b314a1ff1deb809ca1b3868036:p5-git-version-compare/Pkgfile
+f:4b4f624d29ba9b25d7cb0dd1909da022:busybox/.md5sum
+f:4ce31a04084c9c176680533ec774ab15:busybox/.footprint
+f:d537964e232f84d56601cda7e9682229:busybox/Pkgfile
 f:d45e5f2f01d45f4bfe7e53cd8fe3bbc6:peertube-viewer-rs/.md5sum
 f:1db931f72cb56e00b37690770335574c:peertube-viewer-rs/.footprint
 f:424208dfca9b9ffec7d6f7be9670ecf8:peertube-viewer-rs/Pkgfile
