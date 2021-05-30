@@ -1,0 +1,25 @@
+# Description:	NVI, old school VI 
+# URL: 		https://repo.or.cz/nvi.git/shortlog/refs/heads/master
+# Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: 
+
+name=nvi
+version=864873d3f353ab3e54040817ec562bd3b346b55f
+release=1
+source=(https://repo.or.cz/nvi.git/snapshot/${version}.tar.gz)
+
+build() {
+	cd ${name}-${version:0:7}
+	cd dist
+	./distrib
+	cd ../build.unix
+
+	../dist/configure \
+		--prefix=/usr \
+	     	--program-prefix=n \
+		--enable-widechar
+	make
+	make DESTDIR=$PKG install 
+	}
+
