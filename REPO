@@ -224,12 +224,12 @@ f:4b9095d31ec4dfb9c711ddcbe8fbd8dc:libextractor/.footprint
 f:6f329d94773ce5e02b840089069f9b7c:libextractor/Pkgfile
 f:ea8ab8b84d2987a8a29f74319c9edab8:nvi/.md5sum
 f:23f8c26d957daa089b287b1b64b41638:nvi/.footprint
-f:d0a44885cf375f1e0e374b253560ebcd:nvi/Pkgfile
+f:c604b3b9fbd4f204b61113aefb6afefa:nvi/Pkgfile
 f:d332ef467d29ffc53139782acd355914:p5-file-homedir/.md5sum
 f:e6dfbd7d142ce519496238850c354e1e:p5-file-homedir/.footprint
 f:c2a73c4487e45595503785c0f08ad186:p5-file-homedir/Pkgfile
 f:f476fb5f8178a5436e2cf2f10e5a2bac:st/.md5sum
-f:072acaeacfcb114ed1c64c5c4deb5417:st/config.h
+f:432c846e1e7ff24b6ab02e811b78d593:st/config.h
 f:20f08c5f31e9a85c101e0a2c43b6ab36:st/README
 f:d76bb9d9216d9488d8c584a4b615df4f:st/.footprint
 f:2ef0ed8a50f9b60fdb0687a6795d5ecc:st/Pkgfile
