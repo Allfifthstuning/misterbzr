@@ -1,0 +1,4 @@
+#!/bin/sh
+#Script to let tex know there's a new packages
+texhash /usr/share/texmf/tex/latex/extsizes
+#End of file

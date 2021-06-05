@@ -1,0 +1,17 @@
+# Description:	The extsizes classes provide support for sizes eight, nine, ten, eleven, twelve, fourteen, seventeen and twenty.
+# URL: 		https://www.ctan.org/pkg/extsizes
+# Maintainer: 	Hans Bezemer, hbezemer at kliksafe dot nl
+# Packager:	Hans Bezemer, hbezemer at kliksafe dot nl
+# Depends on: 	texlive
+
+name=tex-extsizes
+version=1.4a
+release=1
+source=(https://mirrors.ctan.org/macros/latex/contrib/extsizes.zip)
+
+build() {
+	mkdir -pv $PKG/usr/share/texmf/tex/latex/
+	cp -r extsizes $PKG/usr/share/texmf/tex/latex/ 
+
+	}
+
