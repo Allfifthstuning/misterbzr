@@ -1,0 +1,16 @@
+# Description: A universal typing tutor
+# URL:         http://www.gnu.org/software/gtypist/
+# Maintainer:  Hans Bezemer, hbezemer at kliksafe dot nl
+
+name=gtypist
+version=2.8.5
+release=1
+source=(ftp://ftp.gnu.org/gnu/$name/$name-$version.tar.bz2)
+
+build () {
+    cd $name-$version
+    ./configure --prefix=/usr --disable-nls
+    make
+    make DESTDIR=$PKG install
+    rm -rf $PKG/usr/share/info
+}
