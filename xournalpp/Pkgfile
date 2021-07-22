@@ -5,7 +5,8 @@
 # Nice to have: libungif
 
 name=xournalpp
-version=1.0.20-hotfix
+#version=1.0.20-hotfix
+version=1.1.0
 release=1
 source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz)
 

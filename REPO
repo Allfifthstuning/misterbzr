@@ -80,9 +80,9 @@ f:f9c08c01bf71edb49f91ab8cd698cbd0:p5-alien-libtermkey/Pkgfile
 f:d4928a46465ec48b618bf2f6d0be28d5:gtypist/.md5sum
 f:df80cb96900219c6ab80d2e224871eb0:gtypist/.footprint
 f:4b9902229459cae49dd26a075a03e42a:gtypist/Pkgfile
-f:f05399f0c2273f1b24c4c6566b8cc4f5:xournalpp/.md5sum
-f:cb21d00e50921d7a94db79dbffcaa493:xournalpp/.footprint
-f:6325f8b9dc5a9da86be6c930ebb049a2:xournalpp/Pkgfile
+f:cee5891a1db4b677c26d820fae187092:xournalpp/.md5sum
+f:4fdefd021513e4a374b720f281bc9079:xournalpp/.footprint
+f:bc56acaebb6041aad109815f96558795:xournalpp/Pkgfile
 f:2b4aa26e64d4c7202a2b40b8f387d9e7:expect/.md5sum
 f:62f593d56703145cc33585767db641b1:expect/.footprint
 f:71d5fb2ae002e3579928df4f23ae1877:expect/Pkgfile
@@ -212,9 +212,9 @@ f:8e730737c0ed8ceb996e523b347abd09:libgsf/Pkgfile
 f:e27a294610feb880a1ada10d3874fa6f:minetest/.md5sum
 f:9d0b5de3d037d05a86078c240940832e:minetest/.footprint
 f:24a92cd41a79535f20a63a802310b947:minetest/Pkgfile
-f:f17e036dae87fcbfd76d98da41916db3:rclone/.md5sum
+f:ab9670ff66646c5a22cd80c61be18a42:rclone/.md5sum
 f:549a855f4c1e53e162e1f9b740483c53:rclone/.footprint
-f:482a83b995a2e4858b4e1076a9157394:rclone/Pkgfile
+f:10b9827138f83a1d49d8d34b316c281f:rclone/Pkgfile
 f:bc9127710629cc21e41e27ef22bab571:slock/.md5sum
 f:a698fe36cfffbf7bf90a311afc75a54a:slock/config.h
 f:84f82db5b19e3e1649e1154db63cce5c:slock/.footprint
